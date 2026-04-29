@@ -131,7 +131,6 @@ export default function LeaderboardTable({ type, top10, full }: Props) {
                       <TeamPill team={row.team} />
                     </div>
                   </td>
-                  <td className="stat">{row.innings}</td>
                   <td className="stat">{row.totalOvers.toFixed(1)}</td>
                   <td className="stat">{row.totalRuns}</td>
                   <td className="stat">{row.totalWickets}</td>
