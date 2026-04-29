@@ -1,0 +1,393 @@
+{
+  "2007": [
+    {
+      "rank": 1,
+      "name": "RP Singh",
+      "team": "Deccan Chargers",
+      "runs": 59,
+      "overs": 4
+    },
+    {
+      "rank": 2,
+      "name": "P Amarnath",
+      "team": "Chennai Super Kings",
+      "runs": 57,
+      "overs": 4
+    },
+    {
+      "rank": 3,
+      "name": "VRV Singh",
+      "team": "Kings XI Punjab",
+      "runs": 56,
+      "overs": 4
+    }
+  ],
+  "2009": [
+    {
+      "rank": 1,
+      "name": "Mashrafe Mortaza",
+      "team": "Kolkata Knight Riders",
+      "runs": 58,
+      "overs": 4
+    },
+    {
+      "rank": 2,
+      "name": "JA Morkel",
+      "team": "Chennai Super Kings",
+      "runs": 56,
+      "overs": 4
+    },
+    {
+      "rank": 3,
+      "name": "Pankaj Singh",
+      "team": "Royal Challengers Bangalore",
+      "runs": 54,
+      "overs": 4
+    }
+  ],
+  "2011": [
+    {
+      "rank": 1,
+      "name": "SK Trivedi",
+      "team": "Rajasthan Royals",
+      "runs": 59,
+      "overs": 4
+    },
+    {
+      "rank": 2,
+      "name": "AN Ahmed",
+      "team": "Mumbai Indians",
+      "runs": 56,
+      "overs": 4
+    },
+    {
+      "rank": 3,
+      "name": "Z Khan",
+      "team": "Royal Challengers Bangalore",
+      "runs": 53,
+      "overs": 4
+    }
+  ],
+  "2012": [
+    {
+      "rank": 1,
+      "name": "VR Aaron",
+      "team": "Delhi Daredevils",
+      "runs": 63,
+      "overs": 4
+    },
+    {
+      "rank": 2,
+      "name": "A Singh",
+      "team": "Rajasthan Royals",
+      "runs": 55,
+      "overs": 4
+    },
+    {
+      "rank": 3,
+      "name": "MS Gony",
+      "team": "Deccan Chargers",
+      "runs": 54,
+      "overs": 4
+    }
+  ],
+  "2013": [
+    {
+      "rank": 1,
+      "name": "I Sharma",
+      "team": "Sunrisers Hyderabad",
+      "runs": 66,
+      "overs": 4
+    },
+    {
+      "rank": 2,
+      "name": "UT Yadav",
+      "team": "Delhi Daredevils",
+      "runs": 65,
+      "overs": 4
+    },
+    {
+      "rank": 3,
+      "name": "AB Dinda",
+      "team": "Pune Warriors",
+      "runs": 63,
+      "overs": 4
+    }
+  ],
+  "2014": [
+    {
+      "rank": 1,
+      "name": "Sandeep Sharma",
+      "team": "Kings XI Punjab",
+      "runs": 65,
+      "overs": 4
+    },
+    {
+      "rank": 2,
+      "name": "P Awana",
+      "team": "Kings XI Punjab",
+      "runs": 59,
+      "overs": 4
+    },
+    {
+      "rank": 3,
+      "name": "BE Hendricks",
+      "team": "Kings XI Punjab",
+      "runs": 57,
+      "overs": 4
+    }
+  ],
+  "2015": [
+    {
+      "rank": 1,
+      "name": "AN Ahmed",
+      "team": "Royal Challengers Bangalore",
+      "runs": 59,
+      "overs": 4
+    },
+    {
+      "rank": 2,
+      "name": "MM Sharma",
+      "team": "Chennai Super Kings",
+      "runs": 58,
+      "overs": 4
+    },
+    {
+      "rank": 3,
+      "name": "Anureet Singh",
+      "team": "Kings XI Punjab",
+      "runs": 56,
+      "overs": 3.5
+    }
+  ],
+  "2016": [
+    {
+      "rank": 1,
+      "name": "SR Watson",
+      "team": "Royal Challengers Bangalore",
+      "runs": 61,
+      "overs": 4
+    },
+    {
+      "rank": 2,
+      "name": "Imran Tahir",
+      "team": "Delhi Daredevils",
+      "runs": 59,
+      "overs": 4
+    },
+    {
+      "rank": 3,
+      "name": "KV Sharma",
+      "team": "Sunrisers Hyderabad",
+      "runs": 57,
+      "overs": 4
+    }
+  ],
+  "2017": [
+    {
+      "rank": 1,
+      "name": "K Rabada",
+      "team": "Delhi Daredevils",
+      "runs": 59,
+      "overs": 4
+    },
+    {
+      "rank": 2,
+      "name": "PJ Cummins",
+      "team": "Delhi Daredevils",
+      "runs": 59,
+      "overs": 4
+    },
+    {
+      "rank": 3,
+      "name": "SL Malinga",
+      "team": "Mumbai Indians",
+      "runs": 58,
+      "overs": 4
+    }
+  ],
+  "2018": [
+    {
+      "rank": 1,
+      "name": "Basil Thampi",
+      "team": "Sunrisers Hyderabad",
+      "runs": 70,
+      "overs": 4
+    },
+    {
+      "rank": 2,
+      "name": "UT Yadav",
+      "team": "Royal Challengers Bangalore",
+      "runs": 59,
+      "overs": 4
+    },
+    {
+      "rank": 3,
+      "name": "CJ Anderson",
+      "team": "Royal Challengers Bangalore",
+      "runs": 58,
+      "overs": 3.4
+    }
+  ],
+  "2019": [
+    {
+      "rank": 1,
+      "name": "Mujeeb Ur Rahman",
+      "team": "Kings XI Punjab",
+      "runs": 66,
+      "overs": 4
+    },
+    {
+      "rank": 2,
+      "name": "TG Southee",
+      "team": "Royal Challengers Bangalore",
+      "runs": 61,
+      "overs": 4
+    },
+    {
+      "rank": 3,
+      "name": "Kuldeep Yadav",
+      "team": "Kolkata Knight Riders",
+      "runs": 59,
+      "overs": 4
+    }
+  ],
+  "2020": [
+    {
+      "rank": 1,
+      "name": "S Kaul",
+      "team": "Sunrisers Hyderabad",
+      "runs": 64,
+      "overs": 4
+    },
+    {
+      "rank": 2,
+      "name": "TA Boult",
+      "team": "Mumbai Indians",
+      "runs": 63,
+      "overs": 4.4
+    },
+    {
+      "rank": 3,
+      "name": "AS Rajpoot",
+      "team": "Rajasthan Royals",
+      "runs": 60,
+      "overs": 4
+    }
+  ],
+  "2021": [
+    {
+      "rank": 1,
+      "name": "L Ngidi",
+      "team": "Chennai Super Kings",
+      "runs": 62,
+      "overs": 4
+    },
+    {
+      "rank": 2,
+      "name": "PJ Cummins",
+      "team": "Kolkata Knight Riders",
+      "runs": 58,
+      "overs": 4
+    },
+    {
+      "rank": 3,
+      "name": "SM Curran",
+      "team": "Chennai Super Kings",
+      "runs": 58,
+      "overs": 4
+    }
+  ],
+  "2022": [
+    {
+      "rank": 1,
+      "name": "JR Hazlewood",
+      "team": "Royal Challengers Bangalore",
+      "runs": 64,
+      "overs": 4
+    },
+    {
+      "rank": 2,
+      "name": "M Jansen",
+      "team": "Sunrisers Hyderabad",
+      "runs": 63,
+      "overs": 4
+    },
+    {
+      "rank": 3,
+      "name": "T Natarajan",
+      "team": "Sunrisers Hyderabad",
+      "runs": 60,
+      "overs": 4
+    }
+  ],
+  "2023": [
+    {
+      "rank": 1,
+      "name": "Yash Dayal",
+      "team": "Gujarat Titans",
+      "runs": 69,
+      "overs": 4
+    },
+    {
+      "rank": 2,
+      "name": "Arshdeep Singh",
+      "team": "Punjab Kings",
+      "runs": 66,
+      "overs": 3.5
+    },
+    {
+      "rank": 3,
+      "name": "Vijaykumar Vyshak",
+      "team": "Royal Challengers Bangalore",
+      "runs": 62,
+      "overs": 4
+    }
+  ],
+  "2024": [
+    {
+      "rank": 1,
+      "name": "MM Sharma",
+      "team": "Gujarat Titans",
+      "runs": 73,
+      "overs": 4
+    },
+    {
+      "rank": 2,
+      "name": "RJW Topley",
+      "team": "Royal Challengers Bengaluru",
+      "runs": 68,
+      "overs": 4
+    },
+    {
+      "rank": 3,
+      "name": "L Wood",
+      "team": "Mumbai Indians",
+      "runs": 68,
+      "overs": 4
+    }
+  ],
+  "2025": [
+    {
+      "rank": 1,
+      "name": "JC Archer",
+      "team": "Rajasthan Royals",
+      "runs": 76,
+      "overs": 4
+    },
+    {
+      "rank": 2,
+      "name": "Mohammed Shami",
+      "team": "Sunrisers Hyderabad",
+      "runs": 75,
+      "overs": 4
+    },
+    {
+      "rank": 3,
+      "name": "W O'Rourke",
+      "team": "Lucknow Super Giants",
+      "runs": 74,
+      "overs": 4
+    }
+  ]
+}

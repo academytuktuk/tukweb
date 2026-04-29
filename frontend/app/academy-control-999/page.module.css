@@ -1,0 +1,306 @@
+/* Fonts loaded via layout.tsx */
+
+.adminPage {
+  padding: 40px;
+  background: var(--bg-primary);
+  min-height: 100vh;
+  color: var(--text-primary);
+}
+
+.adminPage h1 {
+  font-family: var(--font-display);
+  margin-bottom: 20px;
+}
+
+.modeToggle {
+  margin-bottom: 30px;
+}
+
+.modeToggle button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background: var(--bg-secondary);
+  color: var(--text-muted);
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.modeToggle button.active {
+  background: var(--text-primary);
+  color: var(--bg-primary);
+}
+
+.mainContainer {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.controls {
+  flex: 0 0 400px;
+  background: var(--bg-secondary);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.inputGroup input,
+.inputGroup select,
+.inputGroup textarea {
+  width: 100%;
+  padding: 8px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  border-radius: 4px;
+}
+
+.flexRow {
+  display: flex;
+  gap: 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btnSecondary {
+  flex: 1;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid var(--text-primary);
+  color: var(--text-primary);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btnPrimary {
+  flex: 1;
+  padding: 10px;
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.statusMsg {
+  margin-top: 10px;
+  color: #2ed573;
+  text-align: center;
+}
+
+/* Card Styling (copied largely from the HTML) */
+.previewWrap {
+  flex: 1;
+  pointer-events: none; /* Only the controls are clickable */
+}
+
+.scaler {
+  transform: scale(0.7);
+  transform-origin: top left;
+}
+
+.cardPreview {
+  width: 1200px;
+  min-width: 1200px;
+  height: 675px;
+  min-height: 675px;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 40px 100px rgba(0,0,0,0.8);
+  transition: background 0.5s ease;
+}
+
+.glowSpot {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  filter: blur(150px);
+  opacity: 0.15;
+  border-radius: 50%;
+}
+.gs1 { top: -200px; left: -200px; }
+.gs2 { bottom: -200px; right: 200px; }
+
+.playerPhoto {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 75%;
+  background-size: cover;
+  background-position: center top;
+  z-index: 3;
+  mask-image: linear-gradient(to right, transparent 5%, black 45%);
+  -webkit-mask-image: linear-gradient(to right, transparent 5%, black 45%);
+}
+
+.cardFade {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+}
+
+.visualOverlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+.cardBody {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.awardTitle {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.8rem;
+  color: white;
+  padding: 6px 24px;
+  display: inline-block;
+  margin-bottom: 25px;
+  box-shadow: 10px 10px 0px rgba(0,0,0,0.3);
+}
+
+.cardHeader {
+  border-left: 8px solid;
+  padding-left: 28px;
+  transition: border 0.3s;
+}
+
+.teamText {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 3px;
+  transition: color 0.3s;
+  opacity: 0.9;
+}
+
+.playerName {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 7rem;
+  line-height: 0.85;
+  margin: 8px 0;
+  color: white;
+  text-transform: uppercase;
+  max-width: 650px;
+  text-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.matchText {
+  font-size: 1.2rem;
+  color: rgba(255,255,255,0.4);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 800;
+}
+
+.statsMain {
+  margin: 40px 0;
+}
+
+.scoreRow {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 12.5rem;
+  line-height: 0.8;
+  letter-spacing: -2px;
+  color: white;
+}
+.scoreBalls {
+  font-size: 3.5rem;
+  color: rgba(255,255,255,0.15);
+  margin-left: 10px;
+  vertical-align: bottom;
+}
+.bowlerSpell {
+  font-size: 10.5rem;
+  letter-spacing: -4px;
+}
+
+.roastBadge {
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(15px);
+  padding: 20px 30px;
+  border-radius: 2px;
+  border-left: 5px solid;
+  max-width: 550px;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-top: 30px;
+  line-height: 1.3;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+  position: relative;
+}
+
+.statSidebar {
+  position: absolute;
+  bottom: 60px;
+  right: 80px;
+  z-index: 15;
+  text-align: center;
+}
+
+.statLabel {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.statValue {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 8.5rem;
+  color: #fff;
+  margin-top: 10px;
+  line-height: 0.8;
+}
+
+.footerText {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.4);
+  letter-spacing: 4px;
+  font-weight: 800;
+}
+
+.progressContainer {
+  width: 100%;
+  height: 8px;
+  background: rgba(255,255,255,0.1);
+  margin-top: 15px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  transition: 1s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 0 20px var(--team-color);
+}

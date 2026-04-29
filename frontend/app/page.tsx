@@ -1,0 +1,155 @@
+'use client';
+import { useEffect, useState } from 'react';
+import Link from 'next/link';
+import Header from './components/Header';
+import TreeMeter from './components/TreeMeter';
+import Footer from './components/Footer';
+import styles from './page.module.css';
+
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+
+interface TopPlayer { name: string; team: string; }
+
+export default function HomePage() {
+  const [topTuk, setTopTuk] = useState<TopPlayer | null>(null);
+  const [topDin, setTopDin] = useState<TopPlayer | null>(null);
+
+  useEffect(() => {
+    Promise.all([
+      fetch(`${API_BASE}/api/leaderboard/tuktuk`).then(r => r.json()).catch(() => null),
+      fetch(`${API_BASE}/api/leaderboard/run-machine`).then(r => r.json()).catch(() => null),
+    ]).then(([tukData, dinData]) => {
+      if (tukData?.top10?.[0]) setTopTuk(tukData.top10[0]);
+      if (dinData?.top10?.[0]) setTopDin(dinData.top10[0]);
+    });
+  }, []);
+
+  return (
+    <>
+      <Header />
+      <div className="page-wrapper">
+        <main className="main-content">
+
+          {/* ── 1. HERO ─────────────────────────────────────────────── */}
+          <section className={styles.hero}>
+            <div className={styles.heroInner}>
+
+              {/* LEFT COLUMN */}
+              <div className={styles.heroLeft}>
+                <div className={styles.heroEyebrow}>
+                  <span className={styles.eyebrowLine} />
+                  IPL 2026 - The Pavilion of Patience
+                </div>
+
+                {/* FIX 2 — title restructure */}
+                <div className={styles.heroTitleBlock}>
+                  <div className={styles.heroMainLine}>
+                    <span className={styles.textYellow}>TUKTUK</span>
+                    <span className={styles.amp}> & </span>
+                    <span className={styles.textPurple}>RUN MACHINE</span>
+                  </div>
+                  <div className={styles.heroSubLine}><span className={styles.white}>ACADEMY</span></div>
+                </div>
+
+                <p className={styles.heroDesc}>
+                  Real data! Zero mercy!! Pure satire!!! <br/>
+                  Celebrating cricket's slowest batters and most expensive bowlers.
+                </p>
+
+                {/* FIX 4 — single ghost CTA */}
+                <a href="#features" className={styles.heroScrollCta}>
+                  EXPLORE THE ACADEMY ↓
+                </a>
+              </div>
+
+              {/* FIX 3 — RIGHT COLUMN: stat preview cards */}
+              <div className={styles.heroRight}>
+                <div className={`${styles.heroStatCard} ${styles.heroStatCardTuk}`}>
+                  <p className={styles.heroStatLabel}>SLOWEST BATTERS</p>
+                  <p className={styles.heroStatPlayer}>
+                    #1 THIS WEEK:&nbsp;
+                    <span>{topTuk ? topTuk.name : '—'}</span>
+                  </p>
+                  <Link href="/tuktuk" className={`${styles.heroStatLink} ${styles.heroStatLinkTuk}`}>
+                    VIEW RANKINGS →
+                  </Link>
+                </div>
+
+                <div className={`${styles.heroStatCard} ${styles.heroStatCardDin}`}>
+                  <p className={styles.heroStatLabel}>MOST EXPENSIVE</p>
+                  <p className={styles.heroStatPlayer}>
+                    #1 THIS WEEK:&nbsp;
+                    <span>{topDin ? topDin.name : '—'}</span>
+                  </p>
+                  <Link href="/run-machine" className={`${styles.heroStatLink} ${styles.heroStatLinkDin}`}>
+                    VIEW RANKINGS →
+                  </Link>
+                </div>
+              </div>
+
+            </div>
+
+            {/* FIX 1 & 8 — scroll indicator: right side, vertical, z-index 0 */}
+            <div className={styles.scrollHint} aria-hidden="true">
+              <span>SCROLL</span>
+              <div className={styles.scrollLine} />
+            </div>
+          </section>
+
+          {/* DIVIDER */}
+          <div className="section-divider" />
+
+          {/* ── 2. SPLIT FEATURE CARDS ──────────────────────────────── */}
+          {/* FIX 4 — id="features" for scroll target */}
+          <div className={styles.featureRow} id="features">
+
+            <div className={`${styles.featureCard} ${styles.featureCardTuk}`}>
+              <p className={styles.featureLabel}>TUKTUK ACADEMY</p>
+              <h2 className={styles.featureHeadline}><span className={styles.textCyan}>The Pavilion of Patience</span></h2>
+              <p className={styles.featureDesc}>
+                The slowest batters in IPL 2026, ranked by dot ball consumption and strike rate damage.
+              </p>
+              <div className={styles.statPillsRow}>
+                <span className={`${styles.statPill} ${styles.statPillTuk}`}>SR &lt; 140</span>
+                <span className={`${styles.statPill} ${styles.statPillTuk}`}>4+ INNINGS</span>
+                <span className={`${styles.statPill} ${styles.statPillTuk}`}>POS 1–7</span>
+              </div>
+              <Link href="/tuktuk" className={`${styles.featureCta} ${styles.featureCtaTuk}`}>
+                VIEW TUKTUK RANKINGS →
+              </Link>
+            </div>
+
+            <div className={styles.featureDivider} />
+
+            <div className={`${styles.featureCard} ${styles.featureCardDin}`}>
+              <p className={styles.featureLabel}>RUN MACHINE ACADEMY</p>
+              <h2 className={styles.featureHeadline}><span className={styles.textPurple}>The Leaky End</span></h2>
+              <p className={styles.featureDesc}>
+                The most expensive bowlers in IPL 2026, ranked by economy damage and wicket drought.
+              </p>
+              <div className={styles.statPillsRow}>
+                <span className={`${styles.statPill} ${styles.statPillDin}`}>ECON &gt; 8.5</span>
+                <span className={`${styles.statPill} ${styles.statPillDin}`}>0.25 WKTS/OVER</span>
+                <span className={`${styles.statPill} ${styles.statPillDin}`}>ALL OVERS</span>
+              </div>
+              <Link href="/run-machine" className={`${styles.featureCta} ${styles.featureCtaDin}`}>
+                VIEW RUN MACHINE RANKINGS →
+              </Link>
+            </div>
+
+          </div>
+
+          {/* DIVIDER */}
+          <div className="section-divider" />
+
+          {/* ── 3. TREE METER ───────────────────────────────────────── */}
+          <TreeMeter />
+
+          {/* ── 4. FOOTER ───────────────────────────────────────────── */}
+          <Footer />
+
+        </main>
+      </div>
+    </>
+  );
+}

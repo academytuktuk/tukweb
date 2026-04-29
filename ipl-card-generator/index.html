@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Shame & Fame Card Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --neon-blue: #00d4ff;
+            --danger: #ff4757;
+            --warning: #ffa502;
+            --success: #2ed573;
+            --dark-bg: #0d0e17;
+            --card-width: 1200px;
+            --card-height: 675px;
+            --team-color: #00d4ff;
+            --team-glow: rgba(0, 212, 255, 0.2);
+            
+            --ipl-pink: #ff00ff;
+            --ipl-yellow: #ffff00;
+            --ipl-orange: #ff8c00;
+            --ipl-green: #39ff14;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #05060a;
+            color: white;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            min-height: 100vh;
+            overflow-y: auto;
+        }
+
+        h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.9);
+            text-align: center;
+        }
+
+        .mode-toggle {
+            display: flex;
+            background: #1a1b2b;
+            padding: 4px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            position: relative;
+            z-index: 100;
+        }
+
+        .mode-btn {
+            padding: 10px 24px;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.1rem;
+            transition: 0.3s;
+            background: transparent;
+            color: rgba(255,255,255,0.5);
+            letter-spacing: 1px;
+        }
+
+        .mode-btn.active {
+            background: white;
+            color: black;
+        }
+
+        .main-container {
+            display: flex;
+            gap: 40px;
+            max-width: 1600px;
+            width: 100%;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .controls {
+            flex: 0 0 360px;
+            background: #12131f;
+            padding: 24px;
+            border-radius: 12px;
+            height: fit-content;
+            border: 1px solid rgba(255,255,255,0.05);
+            position: relative;
+            z-index: 50;
+        }
+
+        .input-group { margin-bottom: 16px; }
+        label { display: block; font-size: 0.7rem; text-transform: uppercase; color: #888; margin-bottom: 6px; letter-spacing: 1px; font-weight: 600; }
+        input, select, textarea { 
+            width: 100%; 
+            padding: 10px; 
+            background: #080911; 
+            border: 1px solid #2a2c3d; 
+            border-radius: 6px; 
+            color: white; 
+            outline: none;
+        }
+        textarea { height: 80px; resize: none; font-family: inherit; font-size: 0.9rem; }
+        
+        .drop-zone {
+            width: 100%;
+            height: 80px;
+            border: 2px dashed #2a2c3d;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: 0.2s;
+            background: rgba(0,0,0,0.2);
+        }
+        .drop-zone:hover { border-color: var(--neon-blue); background: rgba(0, 212, 255, 0.02); }
+
+        .export-btn {
+            width: 100%;
+            padding: 14px;
+            margin-top: 10px;
+            border-radius: 8px;
+            border: none;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.4rem;
+            cursor: pointer;
+            background: white;
+            color: black;
+            transition: 0.2s;
+        }
+
+        #preview-wrap { 
+            flex: 1; 
+            display: flex; 
+            justify-content: center; 
+            min-width: 400px;
+            pointer-events: none;
+        }
+        
+        .scaler { 
+            transform-origin: top center; 
+            transform: scale(0.6); 
+            width: var(--card-width); 
+            height: var(--card-height);
+            pointer-events: auto;
+        }
+
+        #card-preview {
+            width: var(--card-width);
+            height: var(--card-height);
+            background: radial-gradient(circle at 20% 20%, var(--team-glow) 0%, var(--dark-bg) 100%);
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.1);
+            box-shadow: 0 40px 100px rgba(0,0,0,0.8);
+            transition: background 0.5s ease;
+        }
+
+        .glow-spot {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            background: var(--team-color);
+            filter: blur(150px);
+            opacity: 0.08;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 1;
+        }
+        .gs-1 { top: -200px; left: -200px; }
+        .gs-2 { bottom: -200px; right: 200px; }
+
+        .visual-overlay {
+            position: absolute;
+            inset: 0;
+            z-index: 2;
+            opacity: 0.25;
+            pointer-events: none;
+        }
+
+        .player-photo {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 75%;
+            background-size: cover;
+            background-position: center top;
+            z-index: 3;
+            mask-image: linear-gradient(to right, transparent 5%, black 45%);
+            -webkit-mask-image: linear-gradient(to right, transparent 5%, black 45%);
+        }
+
+        .card-fade {
+            position: absolute;
+            inset: 0;
+            background: 
+                linear-gradient(to right, var(--dark-bg) 35%, rgba(var(--dark-bg-rgb), 0.9) 50%, rgba(var(--dark-bg-rgb), 0) 100%);
+            z-index: 4;
+        }
+
+        .card-body {
+            position: relative;
+            z-index: 10;
+            height: 100%;
+            padding: 60px 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .award-title {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.8rem;
+            background: var(--danger);
+            color: white;
+            padding: 6px 24px;
+            display: inline-block;
+            margin-bottom: 25px;
+            letter-spacing: 2px;
+            box-shadow: 10px 10px 0px rgba(0,0,0,0.3);
+        }
+
+        .card-header { border-left: 8px solid var(--team-color); padding-left: 28px; transition: border 0.3s; }
+        .team-text { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; color: var(--team-color); letter-spacing: 3px; transition: color 0.3s; opacity: 0.9; }
+        .player-name-display { font-family: 'Bebas Neue', sans-serif; font-size: 7rem; line-height: 0.85; margin: 8px 0; text-transform: uppercase; max-width: 650px; color: white; text-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        .match-text { font-size: 1.2rem; color: rgba(255,255,255,0.4); text-transform: uppercase; letter-spacing: 3px; font-weight: 800; }
+
+        .stats-main { margin: 40px 0; }
+        .score-row { font-family: 'Bebas Neue', sans-serif; font-size: 12.5rem; line-height: 0.8; letter-spacing: -2px; }
+        .score-row.bowler-spell { font-size: 10.5rem; letter-spacing: -4px; }
+        .score-balls { font-size: 3.5rem; color: rgba(255,255,255,0.15); margin-left: 10px; vertical-align: bottom; }
+
+        .roast-badge {
+            background: rgba(255,255,255,0.03);
+            backdrop-filter: blur(15px);
+            padding: 20px 30px;
+            border-radius: 2px;
+            border-left: 5px solid var(--warning);
+            max-width: 550px;
+            font-size: 1.5rem;
+            font-style: italic;
+            color: var(--warning);
+            margin-top: 30px;
+            line-height: 1.3;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+            position: relative;
+        }
+
+        .stat-sidebar {
+            position: absolute;
+            bottom: 60px;
+            right: 80px;
+            z-index: 15;
+            text-align: center;
+            width: 340px;
+            background: transparent;
+            padding: 20px;
+            border: none;
+        }
+
+        .stat-label { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; color: #fff; letter-spacing: 2px; opacity: 0.6; }
+        .stat-value { font-family: 'Bebas Neue', sans-serif; font-size: 8.5rem; line-height: 0.8; color: #fff; margin: 15px 0; }
+        
+        .progress-container { width: 100%; height: 8px; background: rgba(255,255,255,0.1); margin-top: 15px; border-radius: 4px; overflow: hidden; }
+        .progress-fill { height: 100%; transition: 1s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 0 20px var(--team-color); }
+
+        .footer-text {
+            position: absolute;
+            bottom: 8px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.4);
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-weight: 800;
+            z-index: 120;
+            pointer-events: none;
+        }
+
+        @media (max-width: 800px) {
+            .scaler { transform: scale(0.35); }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>IPL Card Generator</h1>
+
+    <div class="mode-toggle">
+        <button class="mode-btn active" id="btn-batter" onclick="setMode('batter')">TUKTUK PLAYER</button>
+        <button class="mode-btn" id="btn-bowler" onclick="setMode('bowler')">DINDA PLAYER</button>
+    </div>
+
+    <div class="main-container">
+        <div class="controls">
+            <div class="input-group">
+                <label>Player Name</label>
+                <input type="text" id="in-name" placeholder="Shikhar Dhawan" oninput="updateCard()" autocomplete="off">
+            </div>
+            <div class="input-group">
+                <label>Team</label>
+                <select id="in-team" onchange="updateTeamColor()">
+                    <option value="#00d4ff" data-name="MI">Mumbai Indians</option>
+                    <option value="#ffff00" data-name="CSK">Chennai Super Kings</option>
+                    <option value="#ec1c24" data-name="RCB">Royal Challengers Bengaluru</option>
+                    <option value="#622b82" data-name="KKR">Kolkata Knight Riders</option>
+                    <option value="#1c2d5e" data-name="GT">Gujarat Titans</option>
+                    <option value="#fe5217" data-name="SRH">Sunrisers Hyderabad</option>
+                    <option value="#ef4123" data-name="DC">Delhi Capitals</option>
+                    <option value="#005ea8" data-name="LSG">Lucknow Super Giants</option>
+                    <option value="#d11a2a" data-name="PBKS">Punjab Kings</option>
+                    <option value="#004ba0" data-name="RR">Rajasthan Royals</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label>Match Context</label>
+                <input type="text" id="in-match" placeholder="vs CSK" oninput="updateCard()" autocomplete="off">
+            </div>
+
+            <div id="batter-fields">
+                <div style="display:flex; gap:10px">
+                    <div class="input-group" style="flex:1">
+                        <label>Runs</label>
+                        <input type="number" id="in-runs" value="30" oninput="updateCard()">
+                    </div>
+                    <div class="input-group" style="flex:1">
+                        <label>Balls</label>
+                        <input type="number" id="in-balls" value="40" oninput="updateCard()">
+                    </div>
+                </div>
+            </div>
+
+            <div id="bowler-fields" style="display:none">
+                <div style="display:flex; gap:10px">
+                    <div class="input-group" style="flex:1">
+                        <label>Overs</label>
+                        <input type="number" step="0.1" id="in-overs" value="4" oninput="updateCard()">
+                    </div>
+                    <div class="input-group" style="flex:1">
+                        <label>Maidens</label>
+                        <input type="number" id="in-maidens" value="0" oninput="updateCard()">
+                    </div>
+                </div>
+                <div style="display:flex; gap:10px">
+                    <div class="input-group" style="flex:1">
+                        <label>Runs Leaked</label>
+                        <input type="number" id="in-runs-leaked" value="55" oninput="updateCard()">
+                    </div>
+                    <div class="input-group" style="flex:1">
+                        <label>Wickets</label>
+                        <input type="number" id="in-wickets" value="0" oninput="updateCard()">
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>Custom Roast (Optional)</label>
+                <textarea id="in-custom-roast" placeholder="Type your own roast here..." oninput="updateCard()"></textarea>
+            </div>
+
+            <div class="input-group">
+                <label>Player Photo</label>
+                <div class="drop-zone" id="drop-zone" onclick="document.getElementById('file-input').click()">
+                    <b>Upload Image</b>
+                    <p>Drag, Paste, or Click</p>
+                    <input type="file" id="file-input" style="display:none" accept="image/*">
+                </div>
+            </div>
+
+            <button class="export-btn" id="export-trigger" onclick="exportCard()">EXPORT PNG</button>
+        </div>
+
+        <div id="preview-wrap">
+            <div class="scaler" id="scaler">
+                <div id="card-preview">
+                    <div class="glow-spot gs-1"></div>
+                    <div class="glow-spot gs-2"></div>
+                    
+                    <div class="visual-overlay">
+                        <svg width="100%" height="100%" viewBox="0 0 1200 675" preserveAspectRatio="none">
+                            <defs>
+                                <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                                    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="0.5" opacity="0.1"/>
+                                </pattern>
+                            </defs>
+                            <rect width="100%" height="100%" fill="url(#grid)" />
+                            
+                            <path d="M-100,200 L400,-50 L350,150 Z" fill="var(--team-color)" opacity="0.15" />
+                            <path d="M800,700 L1300,400 L1100,800 Z" fill="var(--team-color)" opacity="0.1" />
+                            <path d="M1000,-100 L1250,200 L1100,50 Z" fill="white" opacity="0.05" />
+                            
+                            <circle cx="1100" cy="550" r="300" stroke="var(--team-color)" stroke-width="1" fill="none" opacity="0.1" />
+                            <circle cx="1100" cy="550" r="250" stroke="var(--team-color)" stroke-width="3" stroke-dasharray="20 40" fill="none" opacity="0.2" />
+                        </svg>
+                    </div>
+
+                    <div class="player-photo" id="card-photo" style="background-image:url('https://via.placeholder.com/800x800?text=Player+Photo')"></div>
+                    <div class="card-fade"></div>
+                    
+                    <div class="card-body">
+                        <div>
+                            <div class="award-title" id="card-award-type">TUKTUK PLAYER OF THE DAY</div>
+                            <div class="card-header">
+                                <div class="team-text" id="card-team">MUMBAI INDIANS</div>
+                                <div class="player-name-display" id="card-name">PLAYER NAME</div>
+                                <div class="match-text" id="card-match">MATCH CONTEXT</div>
+                            </div>
+                        </div>
+
+                        <div class="stats-main">
+                            <div class="score-row" id="card-score">00 <span class="score-balls">(00)</span></div>
+                            <div class="roast-badge" id="card-roast">Generating roast...</div>
+                        </div>
+                    </div>
+
+                    <div class="stat-sidebar">
+                        <span class="stat-label" id="side-stat-label">STRIKE RATE</span>
+                        <div class="stat-value" id="side-stat-val">0.0</div>
+                        <div class="progress-container">
+                            <div class="progress-fill" id="side-progress"></div>
+                        </div>
+                    </div>
+
+                    <div class="footer-text">IPL 2026</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentMode = 'batter';
+        const fileInput = document.getElementById('file-input');
+        const dropZone = document.getElementById('drop-zone');
+
+        const roastDb = {
+            batter: {
+                "0-50": ["Legendary commitment to the dot ball strategy.", "Gavaskar is crying tears of joy at this masterpiece.", "Saving the test match spirit in a T20 game.", "Absolute wall. No runs, no risks, just pure meditation."],
+                "50-55": ["Exhibiting the movement speed of a majestic statue.", "Respecting the red ball in a white ball world.", "Mastering the art of making the crowd fall asleep."],
+                "55-60": ["The TukTuk academy's valedictorian has arrived.", "A performance so slow, it’s legally considered art.", "Blocking like his life depends on the zero boundary count."],
+                "60-65": ["Solid contribution to the opposition's winning chances.", "Modern day wall, though cement seems to be missing.", "Wait, is this a highlight reel in 0.25x speed?"],
+                "65-70": ["Elite concentration on strictly avoiding any risk.", "Classical era 1975 cricket is back, thanks to you.", "Perfectly preserving the pitch for the next generation."],
+                "70-75": ["A bit too aggressive for a burial ground, isn't it?", "Taking 'Playing for the draw' to a whole new level.", "The bowlers are thanking you for the extra rest."],
+                "75-80": ["Playing for the draw in a format where draws don't exist.", "Masterclass in how to stay till the end without scoring.", "Solid defense. If only we were playing Test cricket."],
+                "80-85": ["Too fast for a turtle, too slow for a fan.", "Almost reached the speed of a brisk walk.", "Generously letting the fielders stay in their positions."],
+                "85-90": ["A truly selfless innings for the opposition economy.", "Nearly visible to the naked eye. Impressive pace.", "The king of the single and the master of peace."],
+                "90-95": ["Consistent 0.9 runs per ball. Thanos loves this balance.", "Calculated approach to keep the scorecard boring.", "Almost looking like a T20 player... almost."],
+                "95-100": ["Perfectly balanced strike rate, as all things should be.", "One run per ball: The ultimate peace treaty with bowlers.", "Masterclass in the 'Better Safe than Sorry' philosophy."],
+                "100-105": ["Daring to hit a boundary every 12 balls. Bold choice.", "Slightly above the legal speed limit for a TukTuk.", "Wait, did he just try to hit a six? We are worried."],
+                "105-110": ["A high-speed TukTuk on the highway. Dangerous pace.", "Calculated risks that only bother the fielders slightly.", "Mastering the art of the 'Aggressive Single'."],
+                "110-115": ["Almost hitting at the rate of a normal human.", "Breaking the core values of the TukTuk Academy.", "An innings so decent, it's actually hard to roast."],
+                "115-120": ["Aggressive enough to wake up the 3rd row crowd.", "Is this a glitch in the defensive matrix?", "Decent, but where is the commitment to blocking?"],
+                "120-125": ["Borderline useful innings. We are highly confused.", "Masterclass in 'Accidental Hitting'. Please focus.", "Almost reached a strike rate that matters. Almost."],
+                "125-130": ["Disappointing the Academy with this much intent.", "Actually hitting boundaries? Who allowed this?", "A very unsafe way to play a safe game."],
+                "130-135": ["Almost reached the 140 mark. You're losing your touch.", "A suspiciously good innings. Check his bat for energy.", "Wait, is he actually trying to win the game?"],
+                "135-140": ["Are you actually a T20 player? Get out of the Academy.", "Mastering the art of 'Accidentally Winning'.", "Is this a masterclass or just a very lucky day?"],
+                "140+": ["Accidental aggression. Return to blocking immediately.", "You have failed the TukTuk Academy. This is too fast.", "Hitting boundaries is for amateurs. Pros stick to 100 SR."]
+            },
+            bowler: {
+                "danger": ["Dinda Academy Platinum Membership Unlocked.", "Generously donating runs to the needy opposition.", "Breaking the speed limit... of runs conceded per over."],
+                "warning": ["Providing a very comfortable batting experience.", "The batsmen are considering you their best friend.", "Almost a decent spell, just missing the 'wickets' part."],
+                "success": ["Wait, why are you actually bowling well?", "Unfair to the batsmen. Where is the charity?", "A spell so good it doesn't belong on this card."]
+            }
+        };
+
+        function hexToRgb(hex) {
+            const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+            return result ? {
+                r: parseInt(result[1], 16),
+                g: parseInt(result[2], 16),
+                b: parseInt(result[3], 16)
+            } : null;
+        }
+
+        function updateTeamColor() {
+            const select = document.getElementById('in-team');
+            const color = select.value;
+            const teamName = select.options[select.selectedIndex].innerText;
+            
+            document.documentElement.style.setProperty('--team-color', color);
+            
+            const rgb = hexToRgb(color);
+            if (rgb) {
+                const dr = Math.round(rgb.r * 0.05);
+                const dg = Math.round(rgb.g * 0.05);
+                const db = Math.round(rgb.b * 0.05);
+                const finalBg = `rgb(${Math.max(dr, 5)}, ${Math.max(dg, 6)}, ${Math.max(db, 10)})`;
+                document.documentElement.style.setProperty('--dark-bg', finalBg);
+                document.documentElement.style.setProperty('--dark-bg-rgb', `${Math.max(dr, 5)}, ${Math.max(dg, 6)}, ${Math.max(db, 10)}`);
+                document.documentElement.style.setProperty('--team-glow', `rgba(${rgb.r}, ${rgb.g}, ${rgb.b}, 0.2)`);
+                document.documentElement.style.setProperty('--team-color-rgb', `${rgb.r}, ${rgb.g}, ${rgb.b}`);
+            }
+
+            document.getElementById('card-team').innerText = teamName;
+            updateCard();
+        }
+
+        function getRoast(mode, value) {
+            if (mode === 'bowler') {
+                const eco = parseFloat(value);
+                const category = eco > 12 ? 'danger' : eco > 9 ? 'warning' : 'success';
+                const options = roastDb.bowler[category];
+                return options[Math.floor(Math.random() * options.length)];
+            }
+            const sr = parseFloat(value);
+            let key = "140+";
+            if (sr <= 50) key = "0-50";
+            else if (sr <= 140) {
+                const step = 5;
+                const lower = Math.floor(sr / step) * step;
+                key = `${lower}-${lower + step}`;
+            }
+            const options = roastDb.batter[key] || roastDb.batter["140+"];
+            return options[Math.floor(Math.random() * options.length)];
+        }
+
+        function updateCard() {
+            document.getElementById('card-name').innerText = document.getElementById('in-name').value || "PLAYER NAME";
+            document.getElementById('card-match').innerText = document.getElementById('in-match').value || "MATCH CONTEXT";
+            const roastBox = document.getElementById('card-roast');
+            const prog = document.getElementById('side-progress');
+            const customRoast = document.getElementById('in-custom-roast').value;
+
+            if (currentMode === 'batter') {
+                const runs = parseInt(document.getElementById('in-runs').value) || 0;
+                const balls = parseInt(document.getElementById('in-balls').value) || 0;
+                const sr = balls > 0 ? ((runs / balls) * 100).toFixed(1) : "0.0";
+                document.getElementById('card-score').innerHTML = `${runs} <span class="score-balls">(${balls})</span>`;
+                document.getElementById('side-stat-label').innerText = "STRIKE RATE";
+                document.getElementById('side-stat-val').innerText = sr;
+                
+                const roast = getRoast('batter', sr);
+                let color = sr < 80 ? "var(--danger)" : sr < 110 ? "var(--warning)" : "var(--success)";
+                
+                roastBox.innerText = customRoast.trim() !== "" ? customRoast : roast;
+                roastBox.style.color = color;
+                roastBox.style.borderLeftColor = color;
+                prog.style.width = Math.min(sr/2, 100) + "%";
+                prog.style.backgroundColor = color;
+            } else {
+                const overs = document.getElementById('in-overs').value || 0;
+                const maidens = parseInt(document.getElementById('in-maidens').value) || 0;
+                const runs = parseInt(document.getElementById('in-runs-leaked').value) || 0;
+                const wickets = parseInt(document.getElementById('in-wickets').value) || 0;
+                document.getElementById('card-score').innerHTML = `${overs}-${maidens}-${runs}-${wickets}`;
+                const eco = parseFloat(overs) > 0 ? (runs / parseFloat(overs)).toFixed(1) : "0.0";
+                document.getElementById('side-stat-label').innerText = "ECONOMY";
+                document.getElementById('side-stat-val').innerText = eco;
+                
+                const roast = getRoast('bowler', eco);
+                let color = eco > 12 ? "var(--danger)" : eco > 9 ? "var(--warning)" : "var(--success)";
+                
+                roastBox.innerText = customRoast.trim() !== "" ? customRoast : roast;
+                roastBox.style.color = color;
+                roastBox.style.borderLeftColor = color;
+                prog.style.width = Math.min(eco * 6, 100) + "%";
+                prog.style.backgroundColor = color;
+            }
+        }
+
+        function setMode(mode) {
+            currentMode = mode;
+            document.getElementById('btn-batter').classList.toggle('active', mode === 'batter');
+            document.getElementById('btn-bowler').classList.toggle('active', mode === 'bowler');
+            document.getElementById('batter-fields').style.display = mode === 'batter' ? 'block' : 'none';
+            document.getElementById('bowler-fields').style.display = mode === 'bowler' ? 'block' : 'none';
+            const award = document.getElementById('card-award-type');
+            const scoreRow = document.getElementById('card-score');
+            award.innerText = mode === 'batter' ? "TUKTUK PLAYER OF THE DAY" : "DINDA PLAYER OF THE DAY";
+            award.style.background = mode === 'batter' ? "var(--danger)" : "#6a1b9a";
+            scoreRow.classList.toggle('bowler-spell', mode === 'bowler');
+            updateCard();
+        }
+
+        function processFile(file) {
+            if (!file || !file.type.startsWith('image/')) return;
+            const reader = new FileReader();
+            reader.onload = (e) => document.getElementById('card-photo').style.backgroundImage = `url(${e.target.result})`;
+            reader.readAsDataURL(file);
+        }
+
+        fileInput.addEventListener('change', (e) => processFile(e.target.files[0]));
+        dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.style.borderColor = "var(--neon-blue)"; });
+        dropZone.addEventListener('dragleave', () => { dropZone.style.borderColor = "#2a2c3d"; });
+        dropZone.addEventListener('drop', (e) => { e.preventDefault(); processFile(e.dataTransfer.files[0]); });
+
+        async function exportCard() {
+            const btn = document.getElementById('export-trigger');
+            btn.innerText = "CAPTURING..."; btn.disabled = true;
+            const card = document.getElementById('card-preview');
+            const scaler = document.getElementById('scaler');
+            const originalTransform = scaler.style.transform;
+            scaler.style.transform = "none";
+            try {
+                const canvas = await html2canvas(card, { width: 1200, height: 675, scale: 2, useCORS: true, backgroundColor: null });
+                const link = document.createElement('a');
+                link.download = `IPL_ROAST_${Date.now()}.png`;
+                link.href = canvas.toDataURL('image/png');
+                link.click();
+            } catch (err) { console.error(err); } 
+            finally {
+                scaler.style.transform = originalTransform;
+                btn.innerText = "EXPORT PNG"; btn.disabled = false;
+            }
+        }
+
+        updateTeamColor();
+    </script>
+</body>
+</html>

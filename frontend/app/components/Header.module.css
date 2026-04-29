@@ -1,0 +1,299 @@
+/* ── HEADER BAR ─────────────────────────────────────────────────────────── */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--header-h);
+  background: var(--bg-header);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+  z-index: 1000;
+  transition: background var(--transition);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 24px;
+  gap: 16px;
+}
+
+/* ── HAMBURGER ──────────────────────────────────────────────────────────── */
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20px;
+  height: 14px;
+  cursor: pointer;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+}
+
+.hamburger span {
+  display: block;
+  width: 100%;
+  height: 1.5px;
+  background: var(--text-secondary);
+  border-radius: 1px;
+  transition: transform 0.25s ease, opacity 0.25s ease, background 0.25s ease;
+}
+
+.hamburger:hover span { background: var(--text-primary); }
+
+.hamburger.open span:nth-child(1) { transform: translateY(6.25px) rotate(45deg); }
+.hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+.hamburger.open span:nth-child(3) { transform: translateY(-6.25px) rotate(-45deg); }
+
+/* ── LOGO ───────────────────────────────────────────────────────────────── */
+.logo {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+  font-family: var(--font-display);
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.logoTuk     { color: #F5C518; }
+.logoTuk2    { color: var(--tuk-accent); }
+.logoDivider {
+  color: var(--text-muted);
+  font-family: var(--font-body);
+  font-size: 12px;
+  margin: 0 5px;
+  font-weight: 300;
+}
+.logoDinda   { color: var(--din-accent); }
+.logoAcademy {
+  color: var(--text-muted);
+  font-size: 11px;
+  margin-left: 5px;
+  letter-spacing: 0.14em;
+  font-family: var(--font-body);
+  font-weight: 500;
+}
+
+/* ── NAV ────────────────────────────────────────────────────────────────── */
+.nav {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 2px;
+}
+
+.navLink {
+  position: relative;
+  padding: 6px 14px;
+  height: var(--header-h);
+  display: flex;
+  align-items: center;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color var(--transition);
+  white-space: nowrap;
+}
+
+.navLink::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 14px;
+  right: 14px;
+  height: 1px;
+  background: var(--text-primary);
+  transform: scaleX(0);
+  transition: transform 0.2s ease;
+  transform-origin: left;
+}
+
+.navLink:hover { color: var(--text-primary); }
+.navLink:hover::after { transform: scaleX(0.5); }
+.navLink.active { color: var(--text-primary); }
+.navLink.active::after { transform: scaleX(1); }
+
+/* ── RIGHT SLOT ─────────────────────────────────────────────────────────── */
+.rightSlot {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+/* ── IPL BADGE ──────────────────────────────────────────────────────────── */
+.iplBadge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: 20px;
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.badgeDot {
+  width: 5px;
+  height: 5px;
+  background: var(--success);
+  border-radius: 50%;
+  animation: badgePulse 2.5s ease-in-out infinite;
+}
+
+@keyframes badgePulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
+
+/* ── OVERLAY ────────────────────────────────────────────────────────────── */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 998;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+.overlayOpen { opacity: 1; pointer-events: all; }
+
+/* ── SIDE PANEL ─────────────────────────────────────────────────────────── */
+.sidePanel {
+  position: fixed;
+  top: var(--header-h);
+  left: -280px;
+  width: 280px;
+  height: calc(100vh - var(--header-h));
+  background: var(--bg-card);
+  border-right: 1px solid var(--border);
+  z-index: 999;
+  transition: left 0.28s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              background var(--transition);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.sidePanelOpen { left: 0; }
+
+.sidePanelHeader {
+  padding: 20px 24px 14px;
+  border-bottom: 1px solid var(--border);
+}
+.sidePanelTitle {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.sidePanelItems {
+  flex: 1;
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sideItem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 24px;
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color var(--transition), background var(--transition);
+}
+.sideItem:hover {
+  color: var(--text-primary);
+  background: var(--bg-hover);
+}
+
+.sideItemActive { color: var(--text-primary); font-weight: 600; }
+
+.activeIndicator {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--tuk-accent);
+  flex-shrink: 0;
+}
+
+/* ── THEME TOGGLE IN FOOTER ─────────────────────────────────────────────── */
+.sidePanelFooter {
+  padding: 16px 24px 20px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.themeLabel {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.themeToggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition);
+  width: 100%;
+  text-align: left;
+}
+.themeToggle:hover {
+  background: var(--bg-hover);
+  border-color: var(--text-muted);
+}
+
+.themeIcon {
+  font-size: 16px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.themeText {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+/* ── RESPONSIVE ─────────────────────────────────────────────────────────── */
+@media (max-width: 900px) {
+  .logoAcademy, .logoDivider { display: none; }
+  .navLink { padding: 6px 10px; font-size: 12px; }
+}
+
+@media (max-width: 640px) {
+  .iplBadge { display: none; }
+  .nav { display: none; }
+}

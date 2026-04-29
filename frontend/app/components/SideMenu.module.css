@@ -1,0 +1,111 @@
+.sidebar {
+  position: fixed;
+  top: var(--header-h);
+  left: 0;
+  width: var(--sidebar-w);
+  height: calc(100vh - var(--header-h));
+  background: rgba(17, 31, 48, 0.98);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  z-index: 900;
+  overflow: hidden;
+}
+
+.nav {
+  flex: 1;
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-family: var(--font-heading);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: all 0.15s ease;
+  border-left: 3px solid transparent;
+  position: relative;
+}
+
+.item:hover {
+  color: var(--text-primary);
+  background: var(--bg-elevated);
+}
+
+.item.active {
+  color: var(--text-primary);
+  background: var(--bg-elevated);
+}
+
+.item.active.cyan {
+  color: var(--tuk-cyan);
+  border-left-color: var(--tuk-cyan);
+  background: rgba(0, 229, 255, 0.05);
+}
+
+.item.active.purple {
+  color: var(--din-light);
+  border-left-color: var(--din-purple);
+  background: rgba(155, 93, 229, 0.05);
+}
+
+.item:not(.cyan):not(.purple).active {
+  border-left-color: var(--text-secondary);
+}
+
+.icon {
+  font-size: 18px;
+  width: 24px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.label {
+  flex: 1;
+}
+
+.activeLine {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 20px;
+  background: var(--tuk-cyan);
+  border-radius: 2px;
+}
+
+/* Bottom nature section */
+.bottom {
+  padding: 16px 20px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nature { font-size: 18px; }
+
+.natureLabel {
+  font-family: var(--font-heading);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--success);
+  text-transform: uppercase;
+}
+
+/* Mobile: hide sidebar */
+@media (max-width: 768px) {
+  .sidebar { display: none; }
+}

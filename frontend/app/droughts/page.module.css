@@ -1,0 +1,121 @@
+.page {
+  min-height: 100vh;
+  padding: 120px 24px 60px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 48px;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  font-size: 18px;
+  max-width: 600px;
+  margin-bottom: 48px;
+  line-height: 1.6;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.listItem {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.listItem:hover {
+  transform: translateX(4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  border-color: var(--border-strong);
+}
+
+.teamInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.teamName {
+  font-family: var(--font-display);
+  font-size: 28px;
+  color: var(--text-primary);
+  letter-spacing: 0.05em;
+  margin: 0;
+  line-height: 1;
+}
+
+.trophyCount {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.timer {
+  display: flex;
+  gap: 16px;
+  background: var(--bg-elevated);
+  padding: 12px 20px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-light);
+}
+
+.timeBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 44px;
+}
+
+.value {
+  font-family: var(--font-mono);
+  color: #ff2a2a;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.label {
+  color: var(--text-muted);
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  font-family: var(--font-body);
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .title { font-size: 36px; }
+  
+  .listItem {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .timer {
+    width: 100%;
+    justify-content: space-between;
+    gap: 8px;
+  }
+}
