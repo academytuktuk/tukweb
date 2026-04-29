@@ -1,0 +1,103 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Player {
+  id              Int               @id @default(autoincrement())
+  name            String            @unique
+  team            String
+  role            String            // batter | bowler | allrounder
+  battingInnings  BattingInnings[]
+  bowlingSpells   BowlingSpell[]
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+}
+
+model BattingInnings {
+  id                     Int      @id @default(autoincrement())
+  playerId               Int
+  matchId                String
+  position               Int      // 1–7 only
+  runs                   Int
+  balls                  Int
+  strikeRate             Float
+  dotBalls               Int
+  fours                  Int      @default(0)
+  sixes                  Int      @default(0)
+  currentBoundaryDrought Int      @default(0)
+  maxBoundaryDrought     Int      @default(0)
+  lastBallsFaced         Int      @default(0)
+  lastBoundaries         Int      @default(0)
+  isQualified            Boolean  @default(false)
+  player                 Player   @relation(fields: [playerId], references: [id])
+  createdAt              DateTime @default(now())
+
+  @@unique([playerId, matchId])
+}
+
+model BowlingSpell {
+  id            Int      @id @default(autoincrement())
+  playerId      Int
+  matchId       String
+  overs         Float
+  runsConceded  Int
+  wickets       Int
+  economy       Float
+  player        Player   @relation(fields: [playerId], references: [id])
+  createdAt     DateTime @default(now())
+
+  @@unique([playerId, matchId])
+}
+
+model TeamMatch {
+  id             Int      @id @default(autoincrement())
+  team           String
+  matchId        String
+  // Batting side (for TukTuk table)
+  ballsFaced     Int      @default(0)
+  runsBatted     Int      @default(0)
+  dotBallsFaced  Int      @default(0)
+  // Bowling side (for Dinda table)
+  oversBowled    Float    @default(0)
+  runsConceded   Int      @default(0)
+  wicketsTaken   Int      @default(0)
+  // Match result
+  result         String   @default("unknown") // win | loss | no_result
+  createdAt      DateTime @default(now())
+
+  @@unique([team, matchId])
+}
+
+model PlayerOfDay {
+  id          Int      @id @default(autoincrement())
+  type        String   // tuktuk | dinda
+  imageUrl    String
+  playerName  String
+  stats       String   // JSON string
+  date        DateTime @default(now())
+}
+
+model ProcessedMatch {
+  matchId                 String   @id
+  lastCommentaryTimestamp BigInt?
+  processedAt             DateTime @default(now())
+}
+
+model TreeTracker {
+  id               Int @id @default(1)
+  totalDotBalls    Int @default(0)
+  matchesProcessed Int @default(0)
+}
+
+model Suggestion {
+  id        Int      @id @default(autoincrement())
+  username  String
+  message   String
+  createdAt DateTime @default(now())
+}
