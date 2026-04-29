@@ -16,7 +16,7 @@ interface TukTukRow {
   tuktukScore: number;
 }
 
-interface DindaRow {
+interface RunMachineRow {
   rank: number;
   playerId: number;
   name: string;
@@ -31,8 +31,8 @@ interface DindaRow {
 
 interface Props {
   type: 'tuktuk' | 'run-machine';
-  top10: TukTukRow[] | DindaRow[];
-  full: TukTukRow[] | DindaRow[];
+  top10: TukTukRow[] | RunMachineRow[];
+  full: TukTukRow[] | RunMachineRow[];
 }
 
 // IPL team colors
@@ -122,7 +122,7 @@ export default function LeaderboardTable({ type, top10, full }: Props) {
                 </tr>
               ))
             ) : (
-              (rows as DindaRow[]).map((row) => (
+              (rows as RunMachineRow[]).map((row) => (
                 <tr key={row.playerId} className={row.rank === 1 ? 'rank-one' : ''}>
                   <td><RankBadge rank={row.rank} /></td>
                   <td>

@@ -62,7 +62,7 @@ export default function HallOfFamePage() {
   const [searchResults, setSearchResults] = useState<any[]>([]);
 
   // Run Machine State
-  const [dindaHistory, setDindaHistory] = useState<any>(null);
+  const [runMachineHistory, setRunMachineHistory] = useState<any>(null);
   const [selectedSeason, setSelectedSeason] = useState<string>('2025');
 
   // Duck Masters State
@@ -76,7 +76,7 @@ export default function HallOfFamePage() {
       fetch('/data/tuktuk_hall_of_fame.json').then(r => r.json()),
       fetch('/data/duck_masters.json').then(r => r.json()),
     ]).then(([runMachineData, tuktukData, duckData]) => {
-      setDindaHistory(runMachineData);
+      setRunMachineHistory(runMachineData);
       const years = Object.keys(runMachineData).sort((a, b) => parseInt(b) - parseInt(a));
       if (years.length > 0) setSelectedSeason(years[0]);
       setTuktukFullData(tuktukData);
@@ -121,8 +121,8 @@ export default function HallOfFamePage() {
     setSearchResults([]);
   };
 
-  const dindaYears = dindaHistory ? Object.keys(dindaHistory).sort((a, b) => parseInt(b) - parseInt(a)) : [];
-  const currentDindaData = dindaHistory?.[selectedSeason] || [];
+  const runMachineYears = runMachineHistory ? Object.keys(runMachineHistory).sort((a, b) => parseInt(b) - parseInt(a)) : [];
+  const currentRunMachineData = runMachineHistory?.[selectedSeason] || [];
 
   // Memoize expensive key computations so they don't re-run on every render
   const runKeys = useMemo(
@@ -220,7 +220,7 @@ export default function HallOfFamePage() {
                 value={selectedSeason}
                 onChange={e => setSelectedSeason(e.target.value)}
               >
-                {dindaYears.map(y => (
+                {runMachineYears.map(y => (
                   <option key={y} value={y}>IPL {y}</option>
                 ))}
               </select>
@@ -230,7 +230,7 @@ export default function HallOfFamePage() {
             <div style={{ maxWidth: '800px' }}>
               <MiniTable 
                 title={`Top 3 Most Expensive Spells - IPL ${selectedSeason}`} 
-                data={currentDindaData} 
+                data={currentRunMachineData} 
                 type="run-machine" 
               />
             </div>
