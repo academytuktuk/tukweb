@@ -79,21 +79,21 @@ export default function LeaderboardTable({ type, top10, full }: Props) {
             <tr>
               <th>Rank</th>
               <th>Player</th>
-              <th className="text-right">Inn</th>
+              <th className="text-right hide-mobile">Inn</th>
               {isTuktuk ? (
                 <>
                   <th className="text-right">Runs(Balls)</th>
                   <th className="text-right">SR</th>
-                  <th className={`text-right ${styles.scoreHead}`}>TukTuk/Inn ↓</th>
+                  <th className={`text-right ${styles.scoreHead}`}>TukTuk ↓</th>
                 </>
               ) : (
                 <>
                   <th className="text-right">Overs</th>
                   <th className="text-right">Runs</th>
                   <th className="text-right">Wkts</th>
-                  <th className="text-right">Econ</th>
-                  <th className="text-right">Wicket Drought</th>
-                  <th className={`text-right ${styles.scoreHead}`}>Run Machine/Over ↓</th>
+                  <th className="text-right hide-mobile">Econ</th>
+                  <th className="text-right hide-mobile">W.Drought</th>
+                  <th className={`text-right ${styles.scoreHead}`}>Score ↓</th>
                 </>
               )}
             </tr>
@@ -115,7 +115,7 @@ export default function LeaderboardTable({ type, top10, full }: Props) {
                       <TeamPill team={row.team} />
                     </div>
                   </td>
-                  <td className="stat">{row.innings}</td>
+                  <td className="stat hide-mobile">{row.innings}</td>
                   <td className="stat">{row.totalRuns}<span style={{color:'var(--text-muted)',fontWeight:400}}>({row.totalBalls})</span></td>
                   <td className="stat">{row.avgSR.toFixed(1)}</td>
                   <td className="score-col text-right">{row.tuktukScore.toFixed(2)}</td>
@@ -134,8 +134,8 @@ export default function LeaderboardTable({ type, top10, full }: Props) {
                   <td className="stat">{row.totalOvers.toFixed(1)}</td>
                   <td className="stat">{row.totalRuns}</td>
                   <td className="stat">{row.totalWickets}</td>
-                  <td className="stat">{row.economy.toFixed(2)}</td>
-                  <td className="stat">{row.wktsPerOver.toFixed(2)}</td>
+                  <td className="stat hide-mobile">{row.economy.toFixed(2)}</td>
+                  <td className="stat hide-mobile">{row.wktsPerOver.toFixed(2)}</td>
                   <td className="score-col text-right">{row.runMachineScore.toFixed(2)}</td>
                 </tr>
               ))

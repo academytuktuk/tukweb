@@ -417,8 +417,13 @@ h1, h2, h3, h4, h5, h6 {
   .section-title { font-size: 32px; }
 }
 
-/* Mobile leaderboard table — compact to fit all columns in one screenshot */
+/* ── Responsive breakpoints — all devices ─────────────────────────────────── */
+
+/* All mobile — base: hide columns marked hide-mobile */
 @media (max-width: 600px) {
+  .hide-mobile { display: none !important; }
+
+  /* Tables: compact and no forced overflow */
   .lb-table,
   .lb-table.dinda-table { min-width: 100%; }
 
@@ -428,17 +433,34 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 10px;
     white-space: nowrap;
   }
-  /* Hide Inn column — Runs(Balls) gives enough context */
-  .lb-table thead th:nth-child(3),
-  .lb-table tbody td:nth-child(3) {
-    display: none;
-  }
   .lb-table .score-col { font-size: 11px; }
 
+  /* Points table */
   .pts-table thead th,
-  .pts-table tbody td {
-    padding: 9px 10px;
-    font-size: 12px;
-  }
-  .pts-table { min-width: 400px; }
+  .pts-table tbody td { padding: 9px 8px; font-size: 11px; }
+  .pts-table { min-width: 340px; }
 }
+
+/* iPhone mini / small Android (≤375px) */
+@media (max-width: 375px) {
+  .lb-table thead th,
+  .lb-table tbody td { padding: 6px 3px; font-size: 9px; }
+  .section { padding: 32px 12px; }
+  .section-title { font-size: 28px; }
+}
+
+/* iPhone SE / standard (376px–430px) — already handled by 600px block */
+
+/* Tablet (601px–900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .lb-table thead th,
+  .lb-table tbody td { padding: 10px 8px; font-size: 12px; }
+}
+
+/* Laptop / small desktop (901px–1279px) */
+@media (min-width: 901px) and (max-width: 1279px) {
+  .lb-table thead th,
+  .lb-table tbody td { padding: 12px 10px; }
+}
+
+/* Large desktop (≥1280px) — default styles apply, nothing to override */
