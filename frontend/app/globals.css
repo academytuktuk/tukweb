@@ -435,15 +435,6 @@ h1, h2, h3, h4, h5, h6 {
   }
   .lb-table .score-col { font-size: 11px; }
 
-  /* Put team badge inline beside name instead of stacked below */
-  .lb-table [class*="playerCell"] {
-    flex-direction: row !important;
-    align-items: center !important;
-    gap: 4px !important;
-  }
-  .lb-table [class*="playerName"] { font-size: 10px !important; }
-  .lb-table [class*="teamPill"]   { font-size: 8px !important; padding: 1px 4px !important; }
-
   .pts-table thead th,
   .pts-table tbody td {
     padding: 9px 10px;
