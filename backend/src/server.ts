@@ -15,17 +15,16 @@ import liveDroughtsRouter from './routes/liveDroughts';
 const app = express();
 const PORT = process.env.PORT || 4000;
 
-// Middleware
-const allowedOrigins = [
-  'http://localhost:3000',
-  process.env.FRONTEND_URL, // set this to your Vercel URL in Railway env vars
-].filter(Boolean);
-
 app.use(cors({ 
   origin: (origin, callback) => {
-    // Allow requests with no origin (e.g. mobile apps, curl)
+    // Allow requests with no origin (mobile apps, curl, server-side)
     if (!origin) return callback(null, true);
-    if (allowedOrigins.includes(origin)) return callback(null, true);
+    // Allow localhost (dev)
+    if (origin.startsWith('http://localhost') || origin.startsWith('http://127.0.0.1')) return callback(null, true);
+    // Allow any Vercel deployment (preview + production)
+    if (origin.endsWith('.vercel.app')) return callback(null, true);
+    // Allow custom FRONTEND_URL set in Railway env vars
+    if (process.env.FRONTEND_URL && origin === process.env.FRONTEND_URL) return callback(null, true);
     callback(new Error('Not allowed by CORS'));
   },
   credentials: true,
