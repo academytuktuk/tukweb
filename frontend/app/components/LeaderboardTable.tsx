@@ -88,10 +88,10 @@ export default function LeaderboardTable({ type, top10, full }: Props) {
                 </>
               ) : (
                 <>
-                  <th className="text-right">Overs</th>
+                  <th className="text-right hide-mobile">Overs</th>
                   <th className="text-right">Runs</th>
                   <th className="text-right">Wkts</th>
-                  <th className="text-right hide-mobile">Econ</th>
+                  <th className="text-right">Econ</th>
                   <th className="text-right hide-mobile">W.Drought</th>
                   <th className={`text-right ${styles.scoreHead}`}>Score ↓</th>
                 </>
@@ -131,10 +131,10 @@ export default function LeaderboardTable({ type, top10, full }: Props) {
                       <TeamPill team={row.team} />
                     </div>
                   </td>
-                  <td className="stat">{row.totalOvers.toFixed(1)}</td>
+                  <td className="stat hide-mobile">{row.totalOvers.toFixed(1)}</td>
                   <td className="stat">{row.totalRuns}</td>
                   <td className="stat">{row.totalWickets}</td>
-                  <td className="stat hide-mobile">{row.economy.toFixed(2)}</td>
+                  <td className="stat">{row.economy.toFixed(2)}</td>
                   <td className="stat hide-mobile">{row.wktsPerOver.toFixed(2)}</td>
                   <td className="score-col text-right">{row.runMachineScore.toFixed(2)}</td>
                 </tr>
