@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Header from './components/Header';
 import TreeMeter from './components/TreeMeter';
+import HallOfFameSection from './components/HallOfFameSection';
 import Footer from './components/Footer';
 import styles from './page.module.css';
 
@@ -145,7 +146,13 @@ export default function HomePage() {
           {/* ── 3. TREE METER ───────────────────────────────────────── */}
           <TreeMeter />
 
-          {/* ── 4. FOOTER ───────────────────────────────────────────── */}
+          {/* DIVIDER */}
+          <div className="section-divider" style={{ margin: '40px 0' }} />
+
+          {/* ── 4. HALL OF FAME ─────────────────────────────────────── */}
+          <HallOfFameSection />
+
+          {/* ── 5. FOOTER ───────────────────────────────────────────── */}
           <Footer />
 
         </main>
