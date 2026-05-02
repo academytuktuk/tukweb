@@ -178,6 +178,54 @@
   background: linear-gradient(180deg, var(--text-muted), transparent);
 }
 
+/* ── HALL OF FAME BANNER ───────────────────────── */
+.hofBanner {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 48px 64px;
+  margin: 0 64px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: border-color var(--transition);
+}
+.hofBanner:hover {
+  border-color: var(--text-muted);
+}
+.hofTitle {
+  font-family: var(--font-display);
+  font-size: 42px;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+  letter-spacing: 0.05em;
+}
+.hofDesc {
+  color: var(--text-secondary);
+  font-size: 15px;
+  max-width: 500px;
+  margin-bottom: 32px;
+}
+.hofCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 32px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000;
+  background: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+.hofCta:hover {
+  opacity: 0.8;
+}
+
 /* ── FEATURE CARDS ──────────────────────────────── */
 .featureRow {
   display: flex;
@@ -305,6 +353,7 @@
   .featureRow  { flex-direction: column; }
   .featureDivider { width: auto; height: 1px; }
   .featureCard { padding: 48px 32px; }
+  .hofBanner   { margin: 0 32px; padding: 40px 32px; }
 }
 
 @media (max-width: 560px) {
@@ -313,4 +362,6 @@
   .amp          { font-size: 32px !important; }
   .featureCard { padding: 40px 24px; }
   .featureHeadline { font-size: 42px; }
+  .hofBanner   { margin: 0 24px; padding: 32px 24px; }
+  .hofTitle    { font-size: 32px; }
 }

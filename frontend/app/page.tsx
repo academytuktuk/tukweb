@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Header from './components/Header';
 import TreeMeter from './components/TreeMeter';
-import HallOfFameSection from './components/HallOfFameSection';
 import Footer from './components/Footer';
 import styles from './page.module.css';
 
@@ -149,8 +148,20 @@ export default function HomePage() {
           {/* DIVIDER */}
           <div className="section-divider" style={{ margin: '40px 0' }} />
 
-          {/* ── 4. HALL OF FAME ─────────────────────────────────────── */}
-          <HallOfFameSection />
+          {/* ── 4. HALL OF FAME BANNER ──────────────────────────────── */}
+          <div className={styles.hofBanner}>
+            <div className="section-label">LEGENDS NEVER DIE</div>
+            <h2 className={styles.hofTitle}>HALL OF FAME</h2>
+            <p className={styles.hofDesc}>
+              Explore the absolute slowest innings, the most outrageously expensive bowling spells, the golden duck masters, and the bowlers who consistently leaked 50+ runs.
+            </p>
+            <Link href="/hall-of-fame" className={styles.hofCta}>
+              ENTER THE HALL OF FAME →
+            </Link>
+          </div>
+
+          {/* DIVIDER */}
+          <div className="section-divider" style={{ margin: '40px 0' }} />
 
           {/* ── 5. FOOTER ───────────────────────────────────────────── */}
           <Footer />
