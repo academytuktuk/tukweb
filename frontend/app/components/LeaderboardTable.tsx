@@ -21,6 +21,7 @@ interface RunMachineRow {
   playerId: number;
   name: string;
   team: string;
+  innings: number;
   totalOvers: number;
   totalRuns: number;
   totalWickets: number;
@@ -79,15 +80,16 @@ export default function LeaderboardTable({ type, top10, full }: Props) {
             <tr>
               <th>Rank</th>
               <th>Player</th>
-              <th className="text-right hide-mobile">Inn</th>
               {isTuktuk ? (
                 <>
+                  <th className="text-right hide-mobile">Inn</th>
                   <th className="text-right">Runs(Balls)</th>
                   <th className="text-right">SR</th>
                   <th className={`text-right ${styles.scoreHead}`}>TukTuk ↓</th>
                 </>
               ) : (
                 <>
+                  <th className="text-right hide-mobile">Inn</th>
                   <th className="text-right hide-mobile">Overs</th>
                   <th className="text-right">Runs</th>
                   <th className="text-right">Wkts</th>
@@ -131,6 +133,7 @@ export default function LeaderboardTable({ type, top10, full }: Props) {
                       <TeamPill team={row.team} />
                     </div>
                   </td>
+                  <td className="stat hide-mobile">{row.innings}</td>
                   <td className="stat hide-mobile">{row.totalOvers.toFixed(1)}</td>
                   <td className="stat">{row.totalRuns}</td>
                   <td className="stat">{row.totalWickets}</td>
