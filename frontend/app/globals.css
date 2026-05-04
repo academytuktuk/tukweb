@@ -448,9 +448,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 600px) {
   .hide-mobile { display: none !important; }
 
-  /* Tables: compact and no forced overflow */
-  .lb-table,
-  .lb-table.dinda-table { min-width: 100%; }
+  /* Tables: compact without overriding min-width to allow horizontal scrolling */
 
   .lb-table thead th,
   .lb-table tbody td {
