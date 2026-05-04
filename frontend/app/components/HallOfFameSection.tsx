@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect, useMemo } from 'react';
 import styles from '../hall-of-fame/page.module.css';
+import { formatPlayerName } from './LeaderboardTable';
 
 function MiniTable({ title, data, type }: { title: string, data: any[], type: 'tuktuk' | 'run-machine' }) {
   if (!data || data.length === 0) return null;
@@ -18,12 +19,12 @@ function MiniTable({ title, data, type }: { title: string, data: any[], type: 't
       }}>
         {title}
       </h3>
-      <div style={{ overflowX: 'auto', width: '100%' }}>
+      <div className="table-wrapper">
         <table className={`lb-table ${type === 'run-machine' ? 'dinda-table' : ''}`} style={{ minWidth: '320px' }}>
           <thead>
             <tr>
-              <th>Rank</th>
-              <th>Player</th>
+              <th className="sticky-col rank-col">Rank</th>
+              <th className="sticky-col player-col" style={{ minWidth: '120px' }}>Player</th>
               <th className="text-right">{type === 'tuktuk' ? 'Runs' : 'Overs'}</th>
               <th className="text-right">{type === 'tuktuk' ? 'Balls' : 'Runs Conceded'}</th>
             </tr>
@@ -31,10 +32,10 @@ function MiniTable({ title, data, type }: { title: string, data: any[], type: 't
           <tbody>
             {data.map((row: any, i: number) => (
               <tr key={i} className={i === 0 ? 'rank-one' : ''}>
-                <td><span style={{ fontFamily: 'var(--font-mono)', fontWeight: 'bold', color: 'var(--text-muted)' }}>#{row.rank || i + 1}</span></td>
-                <td>
+                <td className="sticky-col rank-col"><span style={{ fontFamily: 'var(--font-mono)', fontWeight: 'bold', color: 'var(--text-muted)' }}>#{row.rank || i + 1}</span></td>
+                <td className="sticky-col player-col">
                   <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
-                    <span style={{ fontWeight: 600 }}>{row.name}</span>
+                    <span style={{ fontWeight: 600 }}>{formatPlayerName(row.name)}</span>
                     <span className="team-pill" style={{ background: 'var(--bg-elevated)', color: 'var(--text-secondary)' }}>{row.fixture || row.team}</span>
                     {row.season && <span style={{ fontSize: '12px', color: 'var(--text-muted)' }}>{row.matchNumber ? `M${row.matchNumber}, ` : ''}{row.season}</span>}
                   </div>
@@ -283,7 +284,7 @@ export default function HallOfFameSection() {
                 style={{ width: '100%', display: 'flex', alignItems: 'center', gap: '16px', padding: '16px 20px', background: 'none', border: 'none', cursor: 'pointer', textAlign: 'left' }}
               >
                 <span style={{ fontFamily: 'var(--font-mono)', fontWeight: 'bold', color: 'var(--text-muted)', minWidth: '32px' }}>#{player.rank}</span>
-                <span style={{ fontWeight: 700, color: 'var(--text-primary)', flex: 1, fontSize: '15px' }}>{player.name}</span>
+                <span style={{ fontWeight: 700, color: 'var(--text-primary)', flex: 1, fontSize: '15px' }}>{formatPlayerName(player.name)}</span>
                 <span style={{ background: '#ff4757', color: '#fff', borderRadius: '20px', padding: '4px 14px', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-mono)' }}>{player.totalDucks} ducks</span>
                 <span style={{ color: 'var(--text-muted)', fontSize: '18px', transition: 'transform 0.2s', transform: expandedDuck === player.name ? 'rotate(180deg)' : 'rotate(0deg)' }}>▾</span>
               </button>
@@ -361,7 +362,7 @@ export default function HallOfFameSection() {
                 style={{ width: '100%', display: 'flex', alignItems: 'center', gap: '16px', padding: '16px 20px', background: 'none', border: 'none', cursor: 'pointer', textAlign: 'left' }}
               >
                 <span style={{ fontFamily: 'var(--font-mono)', fontWeight: 'bold', color: 'var(--text-muted)', minWidth: '32px' }}>#{player.rank}</span>
-                <span style={{ fontWeight: 700, color: 'var(--text-primary)', flex: 1, fontSize: '15px' }}>{player.name}</span>
+                <span style={{ fontWeight: 700, color: 'var(--text-primary)', flex: 1, fontSize: '15px' }}>{formatPlayerName(player.name)}</span>
                 <span style={{ background: 'var(--din-accent)', color: '#000', borderRadius: '20px', padding: '4px 14px', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-mono)' }}>{player.totalSpells} spells</span>
                 <span style={{ color: 'var(--text-muted)', fontSize: '18px', transition: 'transform 0.2s', transform: expandedFiftyPlus === player.name ? 'rotate(180deg)' : 'rotate(0deg)' }}>▾</span>
               </button>

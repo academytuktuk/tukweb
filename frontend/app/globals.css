@@ -281,16 +281,25 @@ h1, h2, h3, h4, h5, h6 {
   position: sticky;
   z-index: 2;
 }
-.rank-col { left: 0; min-width: 60px; border-right: 1px solid var(--border); }
-.player-col { left: 60px; min-width: 160px; border-right: 1px solid var(--border); box-shadow: 2px 0 5px rgba(0,0,0,0.2); }
+.rank-col { left: 0; min-width: 50px; max-width: 50px; border-right: 1px solid var(--border); }
+.player-col { 
+  left: 50px; 
+  min-width: 140px; 
+  max-width: 140px; 
+  border-right: 1px solid var(--border); 
+  box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
-.lb-table thead .sticky-col {
+.lb-table thead .sticky-col, .pts-table thead .sticky-col {
   background: var(--bg-elevated);
   z-index: 3;
 }
-.lb-table tbody tr:nth-child(odd) .sticky-col { background: var(--bg-card); }
-.lb-table tbody tr:nth-child(even) .sticky-col { background: var(--bg-primary); }
-.lb-table tbody tr:hover .sticky-col { background: var(--bg-hover); }
+.lb-table tbody tr:nth-child(odd) .sticky-col, .pts-table tbody tr:nth-child(odd) .sticky-col { background: var(--bg-card); }
+.lb-table tbody tr:nth-child(even) .sticky-col, .pts-table tbody tr:nth-child(even) .sticky-col { background: var(--bg-primary); }
+.lb-table tbody tr:hover .sticky-col, .pts-table tbody tr:hover .sticky-col { background: var(--bg-hover); }
 
 .lb-table tbody td {
   padding: 13px 16px;

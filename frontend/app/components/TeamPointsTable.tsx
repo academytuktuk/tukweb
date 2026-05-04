@@ -60,8 +60,8 @@ export default function TeamPointsTable({ type, rows }: Props) {
       <table className={`pts-table ${!isTuktuk ? 'dinda-pts' : ''}`}>
         <thead>
           <tr>
-            <th>#</th>
-            <th>Team</th>
+            <th className="sticky-col rank-col">#</th>
+            <th className="sticky-col player-col">Team</th>
             {isTuktuk ? (
               <>
                 <th>Matches</th>
@@ -93,12 +93,12 @@ export default function TeamPointsTable({ type, rows }: Props) {
           ) : isTuktuk ? (
             (rows as TukTukTeamRow[]).map((row) => (
               <tr key={row.team} className={row.rank === 1 ? styles.topRow : ''}>
-                <td style={{ paddingRight: '16px' }}>
+                <td className="sticky-col rank-col" style={{ paddingRight: '16px' }}>
                   <span className={`${styles.rankNum} ${row.rank <= 3 ? styles[`rank${row.rank}`] : ''}`}>
                     {row.rank}
                   </span>
                 </td>
-                <td><TeamBadge team={row.team} /></td>
+                <td className="sticky-col player-col"><TeamBadge team={row.team} /></td>
                 <td>{row.matchesPlayed}</td>
                 <td>{row.runsBatted.toLocaleString()}</td>
                 <td>{row.ballsFaced.toLocaleString()}</td>
@@ -109,12 +109,12 @@ export default function TeamPointsTable({ type, rows }: Props) {
           ) : (
             (rows as DindaTeamRow[]).map((row) => (
               <tr key={row.team} className={row.rank === 1 ? styles.topRow : ''}>
-                <td style={{ paddingRight: '16px' }}>
+                <td className="sticky-col rank-col" style={{ paddingRight: '16px' }}>
                   <span className={`${styles.rankNum} ${row.rank <= 3 ? styles[`rank${row.rank}`] : ''}`}>
                     {row.rank}
                   </span>
                 </td>
-                <td><TeamBadge team={row.team} /></td>
+                <td className="sticky-col player-col"><TeamBadge team={row.team} /></td>
                 <td>{row.matchesPlayed}</td>
                 <td>{row.oversBowled.toFixed(1)}</td>
                 <td>{row.runsConceded}</td>

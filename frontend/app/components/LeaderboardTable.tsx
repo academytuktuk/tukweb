@@ -67,6 +67,15 @@ function RankBadge({ rank }: { rank: number }) {
   return <span className={`${styles.rankBadge} ${cls}`}>#{rank}</span>;
 }
 
+export function formatPlayerName(name: string): string {
+  if (!name) return '';
+  const parts = name.split(' ');
+  if (parts.length > 1) {
+    return `${parts[0].charAt(0)} ${parts.slice(1).join(' ')}`;
+  }
+  return name;
+}
+
 export default function LeaderboardTable({ type, top10, full }: Props) {
   const [showAll, setShowAll] = useState(false);
   const rows = showAll ? full : top10;
@@ -113,7 +122,7 @@ export default function LeaderboardTable({ type, top10, full }: Props) {
                   <td className="sticky-col rank-col"><RankBadge rank={row.rank} /></td>
                   <td className="sticky-col player-col">
                     <div className={styles.playerCell}>
-                      <span className={styles.playerName}>{row.name}</span>
+                      <span className={styles.playerName}>{formatPlayerName(row.name)}</span>
                       <TeamPill team={row.team} />
                     </div>
                   </td>
@@ -129,7 +138,7 @@ export default function LeaderboardTable({ type, top10, full }: Props) {
                   <td className="sticky-col rank-col"><RankBadge rank={row.rank} /></td>
                   <td className="sticky-col player-col">
                     <div className={styles.playerCell}>
-                      <span className={styles.playerName}>{row.name}</span>
+                      <span className={styles.playerName}>{formatPlayerName(row.name)}</span>
                       <TeamPill team={row.team} />
                     </div>
                   </td>
