@@ -276,6 +276,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 .lb-table.dinda-table tbody tr.rank-one { border-left-color: var(--din-accent); }
 
+/* Sticky columns for horizontal scrolling */
+.sticky-col {
+  position: sticky;
+  z-index: 2;
+}
+.rank-col { left: 0; min-width: 60px; border-right: 1px solid var(--border); }
+.player-col { left: 60px; min-width: 160px; border-right: 1px solid var(--border); box-shadow: 2px 0 5px rgba(0,0,0,0.2); }
+
+.lb-table thead .sticky-col {
+  background: var(--bg-elevated);
+  z-index: 3;
+}
+.lb-table tbody tr:nth-child(odd) .sticky-col { background: var(--bg-card); }
+.lb-table tbody tr:nth-child(even) .sticky-col { background: var(--bg-primary); }
+.lb-table tbody tr:hover .sticky-col { background: var(--bg-hover); }
+
 .lb-table tbody td {
   padding: 13px 16px;
   color: var(--text-primary);

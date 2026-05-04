@@ -78,23 +78,23 @@ export default function LeaderboardTable({ type, top10, full }: Props) {
         <table className={`lb-table ${!isTuktuk ? 'dinda-table' : ''}`}>
           <thead>
             <tr>
-              <th>Rank</th>
-              <th>Player</th>
+              <th className="sticky-col rank-col">Rank</th>
+              <th className="sticky-col player-col">Player</th>
               {isTuktuk ? (
                 <>
-                  <th className="text-right hide-mobile">Inn</th>
+                  <th className="text-right">Inn</th>
                   <th className="text-right">Runs(Balls)</th>
                   <th className="text-right">SR</th>
                   <th className={`text-right ${styles.scoreHead}`}>TukTuk ↓</th>
                 </>
               ) : (
                 <>
-                  <th className="text-right hide-mobile">Inn</th>
-                  <th className="text-right hide-mobile">Overs</th>
+                  <th className="text-right">Inn</th>
+                  <th className="text-right">Overs</th>
                   <th className="text-right">Runs</th>
                   <th className="text-right">Wkts</th>
                   <th className="text-right">Econ</th>
-                  <th className="text-right hide-mobile">W.Drought</th>
+                  <th className="text-right">W.Drought</th>
                   <th className={`text-right ${styles.scoreHead}`}>Score ↓</th>
                 </>
               )}
@@ -110,14 +110,14 @@ export default function LeaderboardTable({ type, top10, full }: Props) {
             ) : isTuktuk ? (
               (rows as TukTukRow[]).map((row) => (
                 <tr key={row.playerId} className={row.rank === 1 ? 'rank-one' : ''}>
-                  <td><RankBadge rank={row.rank} /></td>
-                  <td>
+                  <td className="sticky-col rank-col"><RankBadge rank={row.rank} /></td>
+                  <td className="sticky-col player-col">
                     <div className={styles.playerCell}>
                       <span className={styles.playerName}>{row.name}</span>
                       <TeamPill team={row.team} />
                     </div>
                   </td>
-                  <td className="stat hide-mobile">{row.innings}</td>
+                  <td className="stat">{row.innings}</td>
                   <td className="stat">{row.totalRuns}<span style={{color:'var(--text-muted)',fontWeight:400}}>({row.totalBalls})</span></td>
                   <td className="stat">{row.avgSR.toFixed(1)}</td>
                   <td className="score-col text-right">{row.tuktukScore.toFixed(2)}</td>
@@ -126,19 +126,19 @@ export default function LeaderboardTable({ type, top10, full }: Props) {
             ) : (
               (rows as RunMachineRow[]).map((row) => (
                 <tr key={row.playerId} className={row.rank === 1 ? 'rank-one' : ''}>
-                  <td><RankBadge rank={row.rank} /></td>
-                  <td>
+                  <td className="sticky-col rank-col"><RankBadge rank={row.rank} /></td>
+                  <td className="sticky-col player-col">
                     <div className={styles.playerCell}>
                       <span className={styles.playerName}>{row.name}</span>
                       <TeamPill team={row.team} />
                     </div>
                   </td>
-                  <td className="stat hide-mobile">{row.innings}</td>
-                  <td className="stat hide-mobile">{row.totalOvers.toFixed(1)}</td>
+                  <td className="stat">{row.innings}</td>
+                  <td className="stat">{row.totalOvers.toFixed(1)}</td>
                   <td className="stat">{row.totalRuns}</td>
                   <td className="stat">{row.totalWickets}</td>
                   <td className="stat">{row.economy.toFixed(2)}</td>
-                  <td className="stat hide-mobile">{row.wktsPerOver.toFixed(2)}</td>
+                  <td className="stat">{row.wktsPerOver.toFixed(2)}</td>
                   <td className="score-col text-right">{row.runMachineScore.toFixed(2)}</td>
                 </tr>
               ))
