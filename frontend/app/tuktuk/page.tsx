@@ -17,10 +17,11 @@ export default function TukTukPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    const cb = `?t=${new Date().getTime()}`;
     Promise.all([
-      fetch(`${API_BASE}/api/potd/tuktuk`).then(r => r.json()).catch(() => null),
-      fetch(`${API_BASE}/api/leaderboard/tuktuk`).then(r => r.json()).catch(() => ({ top10: [], full: [] })),
-      fetch(`${API_BASE}/api/teams/tuktuk`).then(r => r.json()).catch(() => []),
+      fetch(`${API_BASE}/api/potd/tuktuk${cb}`).then(r => r.json()).catch(() => null),
+      fetch(`${API_BASE}/api/leaderboard/tuktuk${cb}`).then(r => r.json()).catch(() => ({ top10: [], full: [] })),
+      fetch(`${API_BASE}/api/teams/tuktuk${cb}`).then(r => r.json()).catch(() => []),
     ]).then(([p, l, t]) => {
       setPotd(p);
       setLb(l || { top10: [], full: [] });

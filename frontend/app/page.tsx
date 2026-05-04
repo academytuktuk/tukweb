@@ -15,9 +15,10 @@ export default function HomePage() {
   const [topDin, setTopDin] = useState<TopPlayer | null>(null);
 
   useEffect(() => {
+    const cb = `?t=${new Date().getTime()}`;
     Promise.all([
-      fetch(`${API_BASE}/api/leaderboard/tuktuk`).then(r => r.json()).catch(() => null),
-      fetch(`${API_BASE}/api/leaderboard/run-machine`).then(r => r.json()).catch(() => null),
+      fetch(`${API_BASE}/api/leaderboard/tuktuk${cb}`).then(r => r.json()).catch(() => null),
+      fetch(`${API_BASE}/api/leaderboard/run-machine${cb}`).then(r => r.json()).catch(() => null),
     ]).then(([tukData, dinData]) => {
       if (tukData?.top10?.[0]) setTopTuk(tukData.top10[0]);
       if (dinData?.top10?.[0]) setTopDin(dinData.top10[0]);

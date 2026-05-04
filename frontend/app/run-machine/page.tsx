@@ -17,10 +17,11 @@ export default function DindaPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    const cb = `?t=${new Date().getTime()}`;
     Promise.all([
-      fetch(`${API_BASE}/api/potd/run-machine`).then(r => r.json()).catch(() => null),
-      fetch(`${API_BASE}/api/leaderboard/run-machine`).then(r => r.json()).catch(() => ({ top10: [], full: [] })),
-      fetch(`${API_BASE}/api/teams/run-machine`).then(r => r.json()).catch(() => []),
+      fetch(`${API_BASE}/api/potd/run-machine${cb}`).then(r => r.json()).catch(() => null),
+      fetch(`${API_BASE}/api/leaderboard/run-machine${cb}`).then(r => r.json()).catch(() => ({ top10: [], full: [] })),
+      fetch(`${API_BASE}/api/teams/run-machine${cb}`).then(r => r.json()).catch(() => []),
     ]).then(([p, l, t]) => {
       setPotd(p);
       setLb(l || { top10: [], full: [] });

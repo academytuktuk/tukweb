@@ -76,12 +76,13 @@ export default function HallOfFameSection() {
   const [showAllFiftyPlus, setShowAllFiftyPlus] = useState(false);
 
   useEffect(() => {
-    // Fetch all JSON files in parallel
+    // Fetch all JSON files in parallel with cache-busting query parameter
+    const cb = `?t=${new Date().getTime()}`;
     Promise.all([
-      fetch('/data/run_machine_spells.json').then(r => r.json()),
-      fetch('/data/tuktuk_hall_of_fame.json').then(r => r.json()),
-      fetch('/data/duck_masters.json').then(r => r.json()),
-      fetch('/data/fifty_plus_masters.json').then(r => r.json()).catch(() => []),
+      fetch(`/data/run_machine_spells.json${cb}`).then(r => r.json()),
+      fetch(`/data/tuktuk_hall_of_fame.json${cb}`).then(r => r.json()),
+      fetch(`/data/duck_masters.json${cb}`).then(r => r.json()),
+      fetch(`/data/fifty_plus_masters.json${cb}`).then(r => r.json()).catch(() => []),
     ]).then(([runMachineData, tuktukData, duckData, fiftyPlusData]) => {
       setRunMachineHistory(runMachineData);
       const years = Object.keys(runMachineData).sort((a, b) => parseInt(b) - parseInt(a));
