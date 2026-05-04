@@ -47,7 +47,7 @@ export default function TukTukPage() {
               </h1>
               <p className={styles.pageSubtitle}>
                 Ranking IPL's slowest stroke-makers by TukTuk Score - the definitive metric of batting patience.
-                Minimum 4 innings - Positions 1–7 only - Higher score = more TukTuk.
+                Minimum 6 innings - Positions 1–7 only - Higher score = more TukTuk.
               </p>
             </div>
           </div>

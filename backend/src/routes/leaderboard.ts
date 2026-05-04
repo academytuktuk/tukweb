@@ -39,8 +39,8 @@ router.get('/tuktuk', async (_req, res) => {
       const { player, innings: playerInnings } = data;
       const count = playerInnings.length;
       
-      // Filter: Minimum 5 innings required for the leaderboard
-      if (count < 5) continue;
+      // Filter: Minimum 6 innings required for the leaderboard
+      if (count < 6) continue;
 
       const totalRuns = playerInnings.reduce((s, i) => s + i.runs, 0);
       const totalBalls = playerInnings.reduce((s, i) => s + i.balls, 0);

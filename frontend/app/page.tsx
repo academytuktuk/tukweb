@@ -111,7 +111,7 @@ export default function HomePage() {
               </p>
               <div className={styles.statPillsRow}>
                 <span className={`${styles.statPill} ${styles.statPillTuk}`}>SR &lt; 140</span>
-                <span className={`${styles.statPill} ${styles.statPillTuk}`}>4+ INNINGS</span>
+                <span className={`${styles.statPill} ${styles.statPillTuk}`}>6+ INNINGS</span>
                 <span className={`${styles.statPill} ${styles.statPillTuk}`}>POS 1–7</span>
               </div>
               <Link href="/tuktuk" className={`${styles.featureCta} ${styles.featureCtaTuk}`}>
