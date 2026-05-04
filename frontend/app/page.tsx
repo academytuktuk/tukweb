@@ -17,8 +17,8 @@ export default function HomePage() {
   useEffect(() => {
     const cb = `?t=${new Date().getTime()}`;
     Promise.all([
-      fetch(`${API_BASE}/api/leaderboard/tuktuk${cb}`).then(r => r.json()).catch(() => null),
-      fetch(`${API_BASE}/api/leaderboard/run-machine${cb}`).then(r => r.json()).catch(() => null),
+      fetch(`${API_BASE}/api/rankings/tuktuk${cb}`).then(r => r.json()).catch(() => null),
+      fetch(`${API_BASE}/api/rankings/run-machine${cb}`).then(r => r.json()).catch(() => null),
     ]).then(([tukData, dinData]) => {
       if (tukData?.top10?.[0]) setTopTuk(tukData.top10[0]);
       if (dinData?.top10?.[0]) setTopDin(dinData.top10[0]);

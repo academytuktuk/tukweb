@@ -37,7 +37,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
 
 // Routes
-app.use('/api/leaderboard', leaderboardRouter);
+app.use('/api/rankings', leaderboardRouter);
 app.use('/api/teams', teamsRouter);
 app.use('/api/potd', potdRouter);
 app.use('/api/trees', treesRouter);
