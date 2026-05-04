@@ -146,8 +146,8 @@ export default function HallOfFameSection() {
     if (duckSearchPlayer) {
       filtered = duckMasters.filter(d => d.name.toLowerCase().includes(duckSearchPlayer.toLowerCase()));
     }
-    return filtered;
-  }, [duckMasters, duckSearchPlayer]);
+    return showAllDucks || duckSearchPlayer ? filtered : filtered.slice(0, 10);
+  }, [duckMasters, duckSearchPlayer, showAllDucks]);
 
   // Fifty Plus Filtering
   const filteredFiftyPlusMasters = useMemo(() => {
@@ -155,8 +155,8 @@ export default function HallOfFameSection() {
     if (fiftyPlusSearchPlayer) {
       filtered = fiftyPlusMasters.filter(f => f.name.toLowerCase().includes(fiftyPlusSearchPlayer.toLowerCase()));
     }
-    return filtered;
-  }, [fiftyPlusMasters, fiftyPlusSearchPlayer]);
+    return showAllFiftyPlus || fiftyPlusSearchPlayer ? filtered : filtered.slice(0, 10);
+  }, [fiftyPlusMasters, fiftyPlusSearchPlayer, showAllFiftyPlus]);
 
   return (
     <>
@@ -321,7 +321,16 @@ export default function HallOfFameSection() {
             </div>
           ))}
 
-
+          {!duckSearchPlayer && duckMasters.length > 10 && (
+            <div style={{ textAlign: 'center', marginTop: '12px' }}>
+              <button 
+                className="btn btn-ghost" 
+                onClick={() => setShowAllDucks(!showAllDucks)}
+              >
+                {showAllDucks ? 'Show Top 10' : `Show All ${duckMasters.length} Masters`}
+              </button>
+            </div>
+          )}
         </div>
       </section>
 
@@ -391,7 +400,16 @@ export default function HallOfFameSection() {
             </div>
           ))}
 
-
+          {!fiftyPlusSearchPlayer && fiftyPlusMasters.length > 10 && (
+            <div style={{ textAlign: 'center', marginTop: '12px' }}>
+              <button 
+                className="btn btn-ghost" 
+                onClick={() => setShowAllFiftyPlus(!showAllFiftyPlus)}
+              >
+                {showAllFiftyPlus ? 'Show Top 10' : `Show All ${fiftyPlusMasters.length} Masters`}
+              </button>
+            </div>
+          )}
         </div>
       </section>
     </>

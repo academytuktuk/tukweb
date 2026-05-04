@@ -980,5 +980,10098 @@
         "balls": 1
       }
     ]
+  },
+  {
+    "rank": 11,
+    "name": "David Warner",
+    "totalDucks": 13,
+    "innings": [
+      {
+        "fixture": "DD vs DC",
+        "matchNumber": null,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs KKR",
+        "matchNumber": 39,
+        "season": "2009",
+        "balls": 5
+      },
+      {
+        "fixture": "DD vs CSK",
+        "matchNumber": 50,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "DD vs SRH",
+        "matchNumber": 14,
+        "season": "2013",
+        "balls": 4
+      },
+      {
+        "fixture": "DD vs RCB",
+        "matchNumber": 21,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs KXIP",
+        "matchNumber": 67,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs CSK",
+        "matchNumber": 17,
+        "season": "2014",
+        "balls": 2
+      },
+      {
+        "fixture": "SRH vs RPS",
+        "matchNumber": 22,
+        "season": "2016",
+        "balls": 4
+      },
+      {
+        "fixture": "SRH vs KKR",
+        "matchNumber": 35,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs DC",
+        "matchNumber": 33,
+        "season": "2021",
+        "balls": 3
+      },
+      {
+        "fixture": "DC vs PBKS",
+        "matchNumber": 64,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs SRH",
+        "matchNumber": 40,
+        "season": "2023",
+        "balls": 2
+      },
+      {
+        "fixture": "DC vs CSK",
+        "matchNumber": 55,
+        "season": "2023",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 12,
+    "name": "Ajinkya Rahane",
+    "totalDucks": 12,
+    "innings": [
+      {
+        "fixture": "MI vs DC",
+        "matchNumber": 14,
+        "season": "2007",
+        "balls": 7
+      },
+      {
+        "fixture": "MI vs RCB",
+        "matchNumber": 28,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs PWI",
+        "matchNumber": 52,
+        "season": "2012",
+        "balls": 3
+      },
+      {
+        "fixture": "RR vs SRH",
+        "matchNumber": 30,
+        "season": "2014",
+        "balls": 3
+      },
+      {
+        "fixture": "RR vs KXIP",
+        "matchNumber": 3,
+        "season": "2015",
+        "balls": 8
+      },
+      {
+        "fixture": "RPS vs SRH",
+        "matchNumber": 22,
+        "season": "2016",
+        "balls": 5
+      },
+      {
+        "fixture": "RPS vs SRH",
+        "matchNumber": 40,
+        "season": "2016",
+        "balls": 3
+      },
+      {
+        "fixture": "RPS vs GL",
+        "matchNumber": 13,
+        "season": "2017",
+        "balls": 3
+      },
+      {
+        "fixture": "RPS vs DD",
+        "matchNumber": 52,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs CSK",
+        "matchNumber": 12,
+        "season": "2019",
+        "balls": 2
+      },
+      {
+        "fixture": "DC vs KKR",
+        "matchNumber": 42,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": null,
+        "season": "2020",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 13,
+    "name": "Harbhajan Singh",
+    "totalDucks": 12,
+    "innings": [
+      {
+        "fixture": "MI vs KXIP",
+        "matchNumber": 10,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs DC",
+        "matchNumber": 32,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs KXIP",
+        "matchNumber": 33,
+        "season": "2012",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs PWI",
+        "matchNumber": 45,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": 49,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": null,
+        "season": "2013",
+        "balls": 4
+      },
+      {
+        "fixture": "MI vs KKR",
+        "matchNumber": 1,
+        "season": "2014",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": 13,
+        "season": "2014",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs RCB",
+        "matchNumber": 16,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs SRH",
+        "matchNumber": 23,
+        "season": "2015",
+        "balls": 4
+      },
+      {
+        "fixture": "MI vs DD",
+        "matchNumber": 17,
+        "season": "2016",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs GL",
+        "matchNumber": 35,
+        "season": "2017",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 14,
+    "name": "S Dhawan",
+    "totalDucks": 12,
+    "innings": [
+      {
+        "fixture": "DD vs KXIP",
+        "matchNumber": 13,
+        "season": "2007",
+        "balls": 3
+      },
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": null,
+        "season": "2009",
+        "balls": 8
+      },
+      {
+        "fixture": "SRH vs RR",
+        "matchNumber": 36,
+        "season": "2013",
+        "balls": 2
+      },
+      {
+        "fixture": "SRH vs GL",
+        "matchNumber": null,
+        "season": "2016",
+        "balls": 4
+      },
+      {
+        "fixture": "SRH vs KXIP",
+        "matchNumber": 16,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs CSK",
+        "matchNumber": null,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs RCB",
+        "matchNumber": 20,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs KXIP",
+        "matchNumber": 2,
+        "season": "2020",
+        "balls": 2
+      },
+      {
+        "fixture": "DC vs SRH",
+        "matchNumber": 47,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": 51,
+        "season": "2020",
+        "balls": 2
+      },
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": null,
+        "season": "2020",
+        "balls": 2
+      },
+      {
+        "fixture": "PBKS vs DC",
+        "matchNumber": 64,
+        "season": "2023",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 15,
+    "name": "SA Yadav",
+    "totalDucks": 11,
+    "innings": [
+      {
+        "fixture": "MI vs PWI",
+        "matchNumber": 3,
+        "season": "2012",
+        "balls": 4
+      },
+      {
+        "fixture": "KKR vs RR",
+        "matchNumber": 19,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs RR",
+        "matchNumber": 54,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs RCB",
+        "matchNumber": 14,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs KXIP",
+        "matchNumber": 36,
+        "season": "2020",
+        "balls": 4
+      },
+      {
+        "fixture": "MI vs RCB",
+        "matchNumber": 10,
+        "season": "2020",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs PBKS",
+        "matchNumber": 42,
+        "season": "2021",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs DC",
+        "matchNumber": 16,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs DC",
+        "matchNumber": 20,
+        "season": "2024",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": 29,
+        "season": "2024",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs LSG",
+        "matchNumber": 67,
+        "season": "2024",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 16,
+    "name": "Ravichandran Ashwin",
+    "totalDucks": 11,
+    "innings": [
+      {
+        "fixture": "CSK vs DC",
+        "matchNumber": 5,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 25,
+        "season": "2011",
+        "balls": 2
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 49,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "RPS vs RCB",
+        "matchNumber": 16,
+        "season": "2016",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs RR",
+        "matchNumber": 40,
+        "season": "2018",
+        "balls": 2
+      },
+      {
+        "fixture": "KXIP vs RCB",
+        "matchNumber": 48,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs CSK",
+        "matchNumber": 56,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs SRH",
+        "matchNumber": 48,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs KKR",
+        "matchNumber": 52,
+        "season": "2019",
+        "balls": 3
+      },
+      {
+        "fixture": "RR vs PBKS",
+        "matchNumber": 8,
+        "season": "2023",
+        "balls": 4
+      },
+      {
+        "fixture": "RR vs SRH",
+        "matchNumber": null,
+        "season": "2024",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 17,
+    "name": "Gautam Gambhir",
+    "totalDucks": 11,
+    "innings": [
+      {
+        "fixture": "DD vs CSK",
+        "matchNumber": 9,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs DC",
+        "matchNumber": null,
+        "season": "2009",
+        "balls": 5
+      },
+      {
+        "fixture": "KKR vs KTK",
+        "matchNumber": 45,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs RR",
+        "matchNumber": 7,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs MI",
+        "matchNumber": 58,
+        "season": "2012",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs MI",
+        "matchNumber": 53,
+        "season": "2013",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs MI",
+        "matchNumber": 1,
+        "season": "2014",
+        "balls": 8
+      },
+      {
+        "fixture": "KKR vs DD",
+        "matchNumber": 6,
+        "season": "2014",
+        "balls": 4
+      },
+      {
+        "fixture": "KKR vs RCB",
+        "matchNumber": 11,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 28,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs RPS",
+        "matchNumber": 45,
+        "season": "2016",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 18,
+    "name": "Virat Kohli",
+    "totalDucks": 10,
+    "innings": [
+      {
+        "fixture": "RCB vs MI",
+        "matchNumber": 55,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs MI",
+        "matchNumber": 5,
+        "season": "2014",
+        "balls": 2
+      },
+      {
+        "fixture": "RCB vs SRH",
+        "matchNumber": 24,
+        "season": "2014",
+        "balls": 5
+      },
+      {
+        "fixture": "RCB vs KXIP",
+        "matchNumber": 31,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs GL",
+        "matchNumber": null,
+        "season": "2016",
+        "balls": 2
+      },
+      {
+        "fixture": "RCB vs KKR",
+        "matchNumber": 27,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs LSG",
+        "matchNumber": 31,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs SRH",
+        "matchNumber": 36,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs SRH",
+        "matchNumber": 54,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": 32,
+        "season": "2023",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 19,
+    "name": "Sanju Samson",
+    "totalDucks": 10,
+    "innings": [
+      {
+        "fixture": "RR vs CSK",
+        "matchNumber": 61,
+        "season": "2013",
+        "balls": 5
+      },
+      {
+        "fixture": "RR vs MI",
+        "matchNumber": null,
+        "season": "2013",
+        "balls": 2
+      },
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 45,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs RCB",
+        "matchNumber": 56,
+        "season": "2017",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": 53,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs MI",
+        "matchNumber": 20,
+        "season": "2020",
+        "balls": 3
+      },
+      {
+        "fixture": "RR vs CSK",
+        "matchNumber": 37,
+        "season": "2020",
+        "balls": 3
+      },
+      {
+        "fixture": "RR vs DC",
+        "matchNumber": 11,
+        "season": "2023",
+        "balls": 4
+      },
+      {
+        "fixture": "RR vs CSK",
+        "matchNumber": 17,
+        "season": "2023",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs SRH",
+        "matchNumber": 50,
+        "season": "2024",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 20,
+    "name": "N Pooran",
+    "totalDucks": 10,
+    "innings": [
+      {
+        "fixture": "KXIP vs DC",
+        "matchNumber": 2,
+        "season": "2020",
+        "balls": 3
+      },
+      {
+        "fixture": "KXIP vs DC",
+        "matchNumber": 2,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs MI",
+        "matchNumber": 36,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "PBKS vs RR",
+        "matchNumber": 4,
+        "season": "2021",
+        "balls": 1
+      },
+      {
+        "fixture": "PBKS vs CSK",
+        "matchNumber": 8,
+        "season": "2021",
+        "balls": 2
+      },
+      {
+        "fixture": "PBKS vs RCB",
+        "matchNumber": 26,
+        "season": "2021",
+        "balls": 3
+      },
+      {
+        "fixture": "SRH vs RR",
+        "matchNumber": 5,
+        "season": "2022",
+        "balls": 9
+      },
+      {
+        "fixture": "LSG vs PBKS",
+        "matchNumber": 21,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "LSG vs MI",
+        "matchNumber": null,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "LSG vs DC",
+        "matchNumber": 26,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 21,
+    "name": "AB de Villiers",
+    "totalDucks": 10,
+    "innings": [
+      {
+        "fixture": "DD vs CSK",
+        "matchNumber": 28,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs CSK",
+        "matchNumber": 26,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs DC",
+        "matchNumber": 11,
+        "season": "2011",
+        "balls": 7
+      },
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 69,
+        "season": "2011",
+        "balls": 3
+      },
+      {
+        "fixture": "RCB vs KKR",
+        "matchNumber": 38,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": 14,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs SRH",
+        "matchNumber": 52,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs KXIP",
+        "matchNumber": 50,
+        "season": "2016",
+        "balls": 2
+      },
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 25,
+        "season": "2020",
+        "balls": 2
+      },
+      {
+        "fixture": "RCB vs KKR",
+        "matchNumber": 31,
+        "season": "2021",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 22,
+    "name": "Yusuf Pathan",
+    "totalDucks": 9,
+    "innings": [
+      {
+        "fixture": "RR vs DD",
+        "matchNumber": 6,
+        "season": "2009",
+        "balls": 5
+      },
+      {
+        "fixture": "KKR vs DD",
+        "matchNumber": 2,
+        "season": "2012",
+        "balls": 4
+      },
+      {
+        "fixture": "KKR vs KXIP",
+        "matchNumber": 17,
+        "season": "2012",
+        "balls": 3
+      },
+      {
+        "fixture": "KKR vs RR",
+        "matchNumber": 8,
+        "season": "2013",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs KXIP",
+        "matchNumber": 35,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs RCB",
+        "matchNumber": 11,
+        "season": "2014",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs RR",
+        "matchNumber": 25,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs SRH",
+        "matchNumber": null,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs MI",
+        "matchNumber": 19,
+        "season": "2019",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 23,
+    "name": "Ishan Kishan",
+    "totalDucks": 9,
+    "innings": [
+      {
+        "fixture": "GL vs RPS",
+        "matchNumber": 25,
+        "season": "2016",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs RCB",
+        "matchNumber": 14,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs SRH",
+        "matchNumber": 23,
+        "season": "2018",
+        "balls": 3
+      },
+      {
+        "fixture": "MI vs RCB",
+        "matchNumber": 31,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs RR",
+        "matchNumber": 20,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": 33,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs GT",
+        "matchNumber": 5,
+        "season": "2024",
+        "balls": 4
+      },
+      {
+        "fixture": "MI vs RR",
+        "matchNumber": 38,
+        "season": "2024",
+        "balls": 3
+      },
+      {
+        "fixture": "SRH vs LSG",
+        "matchNumber": 7,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 24,
+    "name": "CH Morris",
+    "totalDucks": 9,
+    "innings": [
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": null,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": null,
+        "season": "2015",
+        "balls": 3
+      },
+      {
+        "fixture": "DD vs KKR",
+        "matchNumber": 26,
+        "season": "2016",
+        "balls": 2
+      },
+      {
+        "fixture": "DC vs KXIP",
+        "matchNumber": 13,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs RCB",
+        "matchNumber": 20,
+        "season": "2019",
+        "balls": 3
+      },
+      {
+        "fixture": "DC vs CSK",
+        "matchNumber": 50,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs DC",
+        "matchNumber": 55,
+        "season": "2020",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs CSK",
+        "matchNumber": 12,
+        "season": "2021",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": 54,
+        "season": "2021",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 25,
+    "name": "MP Stoinis",
+    "totalDucks": 9,
+    "innings": [
+      {
+        "fixture": "KXIP vs KKR",
+        "matchNumber": 32,
+        "season": "2016",
+        "balls": 3
+      },
+      {
+        "fixture": "RCB vs MI",
+        "matchNumber": 31,
+        "season": "2019",
+        "balls": 2
+      },
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": 49,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": null,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs RR",
+        "matchNumber": 7,
+        "season": "2021",
+        "balls": 5
+      },
+      {
+        "fixture": "LSG vs MI",
+        "matchNumber": 37,
+        "season": "2022",
+        "balls": 3
+      },
+      {
+        "fixture": "LSG vs GT",
+        "matchNumber": 30,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "LSG vs KKR",
+        "matchNumber": 68,
+        "season": "2023",
+        "balls": 2
+      },
+      {
+        "fixture": "LSG vs RR",
+        "matchNumber": 44,
+        "season": "2024",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 26,
+    "name": "RA Jadeja",
+    "totalDucks": 9,
+    "innings": [
+      {
+        "fixture": "RR vs MI",
+        "matchNumber": 27,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs CSK",
+        "matchNumber": null,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs RR",
+        "matchNumber": 30,
+        "season": "2013",
+        "balls": 2
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": null,
+        "season": "2013",
+        "balls": 2
+      },
+      {
+        "fixture": "CSK vs SRH",
+        "matchNumber": 4,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "GL vs RPS",
+        "matchNumber": 25,
+        "season": "2016",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs PBKS",
+        "matchNumber": 11,
+        "season": "2022",
+        "balls": 3
+      },
+      {
+        "fixture": "CSK vs RCB",
+        "matchNumber": 22,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs KKR",
+        "matchNumber": 25,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 27,
+    "name": "P Kumar",
+    "totalDucks": 9,
+    "innings": [
+      {
+        "fixture": "RCB vs KXIP",
+        "matchNumber": 25,
+        "season": "2007",
+        "balls": 2
+      },
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": 39,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 5,
+        "season": "2009",
+        "balls": 3
+      },
+      {
+        "fixture": "RCB vs DD",
+        "matchNumber": 20,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs DC",
+        "matchNumber": 67,
+        "season": "2011",
+        "balls": 7
+      },
+      {
+        "fixture": "KXIP vs KKR",
+        "matchNumber": 17,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs MI",
+        "matchNumber": 69,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs MI",
+        "matchNumber": 23,
+        "season": "2015",
+        "balls": 2
+      },
+      {
+        "fixture": "GL vs MI",
+        "matchNumber": 9,
+        "season": "2016",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 28,
+    "name": "DR Smith",
+    "totalDucks": 8,
+    "innings": [
+      {
+        "fixture": "MI vs KKR",
+        "matchNumber": 65,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs PWI",
+        "matchNumber": 58,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs KKR",
+        "matchNumber": 30,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs RCB",
+        "matchNumber": 37,
+        "season": "2015",
+        "balls": 6
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": null,
+        "season": "2015",
+        "balls": 4
+      },
+      {
+        "fixture": "GL vs KKR",
+        "matchNumber": 51,
+        "season": "2016",
+        "balls": 1
+      },
+      {
+        "fixture": "GL vs MI",
+        "matchNumber": 16,
+        "season": "2017",
+        "balls": 2
+      },
+      {
+        "fixture": "GL vs RPS",
+        "matchNumber": 39,
+        "season": "2017",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 29,
+    "name": "AJ Finch",
+    "totalDucks": 8,
+    "innings": [
+      {
+        "fixture": "DD vs DC",
+        "matchNumber": 19,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs DC",
+        "matchNumber": 46,
+        "season": "2011",
+        "balls": 2
+      },
+      {
+        "fixture": "PWI vs MI",
+        "matchNumber": 15,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "GL vs SRH",
+        "matchNumber": 15,
+        "season": "2016",
+        "balls": 4
+      },
+      {
+        "fixture": "GL vs MI",
+        "matchNumber": 54,
+        "season": "2016",
+        "balls": 2
+      },
+      {
+        "fixture": "GL vs MI",
+        "matchNumber": 35,
+        "season": "2017",
+        "balls": 3
+      },
+      {
+        "fixture": "KXIP vs RCB",
+        "matchNumber": 8,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs CSK",
+        "matchNumber": 12,
+        "season": "2018",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 30,
+    "name": "MK Tiwary",
+    "totalDucks": 8,
+    "innings": [
+      {
+        "fixture": "DD vs RR",
+        "matchNumber": null,
+        "season": "2007",
+        "balls": 3
+      },
+      {
+        "fixture": "KKR vs DC",
+        "matchNumber": 1,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs DD",
+        "matchNumber": 26,
+        "season": "2009",
+        "balls": 3
+      },
+      {
+        "fixture": "KKR vs RCB",
+        "matchNumber": 43,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs DD",
+        "matchNumber": 2,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs PWI",
+        "matchNumber": 65,
+        "season": "2013",
+        "balls": 2
+      },
+      {
+        "fixture": "DD vs CSK",
+        "matchNumber": 8,
+        "season": "2014",
+        "balls": 2
+      },
+      {
+        "fixture": "RPS vs GL",
+        "matchNumber": 39,
+        "season": "2017",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 31,
+    "name": "Chris Gayle",
+    "totalDucks": 8,
+    "innings": [
+      {
+        "fixture": "KKR vs RR",
+        "matchNumber": 53,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "RCB vs KXIP",
+        "matchNumber": 63,
+        "season": "2011",
+        "balls": 7
+      },
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": null,
+        "season": "2011",
+        "balls": 3
+      },
+      {
+        "fixture": "RCB vs DD",
+        "matchNumber": 11,
+        "season": "2016",
+        "balls": 3
+      },
+      {
+        "fixture": "RCB vs KXIP",
+        "matchNumber": 43,
+        "season": "2017",
+        "balls": 2
+      },
+      {
+        "fixture": "RCB vs KKR",
+        "matchNumber": 46,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs CSK",
+        "matchNumber": 56,
+        "season": "2018",
+        "balls": 2
+      },
+      {
+        "fixture": "PBKS vs KKR",
+        "matchNumber": 21,
+        "season": "2021",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 32,
+    "name": "Robin Uthappa",
+    "totalDucks": 8,
+    "innings": [
+      {
+        "fixture": "RCB vs KXIP",
+        "matchNumber": 11,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "PWI vs CSK",
+        "matchNumber": 29,
+        "season": "2011",
+        "balls": 4
+      },
+      {
+        "fixture": "PWI vs RCB",
+        "matchNumber": 31,
+        "season": "2013",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs RR",
+        "matchNumber": 19,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs RPS",
+        "matchNumber": 20,
+        "season": "2016",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs KXIP",
+        "matchNumber": 49,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 29,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs DC",
+        "matchNumber": 55,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 33,
+    "name": "Umesh Yadav",
+    "totalDucks": 8,
+    "innings": [
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 4,
+        "season": "2011",
+        "balls": 4
+      },
+      {
+        "fixture": "DD vs RCB",
+        "matchNumber": 67,
+        "season": "2012",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 28,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 24,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": 53,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs KXIP",
+        "matchNumber": 6,
+        "season": "2020",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs DC",
+        "matchNumber": 19,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs LSG",
+        "matchNumber": 66,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 34,
+    "name": "Shane Watson",
+    "totalDucks": 8,
+    "innings": [
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": 18,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs KXIP",
+        "matchNumber": 52,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs KXIP",
+        "matchNumber": 18,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs GL",
+        "matchNumber": 44,
+        "season": "2016",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs SRH",
+        "matchNumber": null,
+        "season": "2018",
+        "balls": 5
+      },
+      {
+        "fixture": "CSK vs RCB",
+        "matchNumber": 1,
+        "season": "2019",
+        "balls": 10
+      },
+      {
+        "fixture": "CSK vs RR",
+        "matchNumber": 25,
+        "season": "2019",
+        "balls": 4
+      },
+      {
+        "fixture": "CSK vs DC",
+        "matchNumber": 50,
+        "season": "2019",
+        "balls": 9
+      }
+    ]
+  },
+  {
+    "rank": 35,
+    "name": "HV Patel",
+    "totalDucks": 8,
+    "innings": [
+      {
+        "fixture": "RCB vs DD",
+        "matchNumber": 5,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 20,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 37,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs KXIP",
+        "matchNumber": 13,
+        "season": "2019",
+        "balls": 2
+      },
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 19,
+        "season": "2021",
+        "balls": 8
+      },
+      {
+        "fixture": "RCB vs KKR",
+        "matchNumber": 9,
+        "season": "2023",
+        "balls": 2
+      },
+      {
+        "fixture": "PBKS vs GT",
+        "matchNumber": 37,
+        "season": "2024",
+        "balls": 1
+      },
+      {
+        "fixture": "PBKS vs RCB",
+        "matchNumber": 58,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 36,
+    "name": "Suresh Raina",
+    "totalDucks": 8,
+    "innings": [
+      {
+        "fixture": "CSK vs KXIP",
+        "matchNumber": 9,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs PWI",
+        "matchNumber": 24,
+        "season": "2012",
+        "balls": 2
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": null,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 49,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs RCB",
+        "matchNumber": 70,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": null,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs RCB",
+        "matchNumber": null,
+        "season": "2015",
+        "balls": 2
+      },
+      {
+        "fixture": "CSK vs RCB",
+        "matchNumber": 39,
+        "season": "2019",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 37,
+    "name": "JC Buttler",
+    "totalDucks": 8,
+    "innings": [
+      {
+        "fixture": "MI vs RPS",
+        "matchNumber": 1,
+        "season": "2016",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs GT",
+        "matchNumber": 23,
+        "season": "2023",
+        "balls": 5
+      },
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": 32,
+        "season": "2023",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": 56,
+        "season": "2023",
+        "balls": 3
+      },
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": 60,
+        "season": "2023",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs PBKS",
+        "matchNumber": 66,
+        "season": "2023",
+        "balls": 4
+      },
+      {
+        "fixture": "RR vs SRH",
+        "matchNumber": 50,
+        "season": "2024",
+        "balls": 1
+      },
+      {
+        "fixture": "GT vs SRH",
+        "matchNumber": 19,
+        "season": "2025",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 38,
+    "name": "NV Ojha",
+    "totalDucks": 8,
+    "innings": [
+      {
+        "fixture": "RR vs DC",
+        "matchNumber": 25,
+        "season": "2009",
+        "balls": 6
+      },
+      {
+        "fixture": "RR vs CSK",
+        "matchNumber": 37,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs MI",
+        "matchNumber": 45,
+        "season": "2009",
+        "balls": 5
+      },
+      {
+        "fixture": "DD vs RR",
+        "matchNumber": 7,
+        "season": "2011",
+        "balls": 2
+      },
+      {
+        "fixture": "DD vs KTK",
+        "matchNumber": 36,
+        "season": "2011",
+        "balls": 3
+      },
+      {
+        "fixture": "SRH vs KKR",
+        "matchNumber": 38,
+        "season": "2015",
+        "balls": 3
+      },
+      {
+        "fixture": "SRH vs MI",
+        "matchNumber": 56,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs RCB",
+        "matchNumber": 4,
+        "season": "2016",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 39,
+    "name": "MA Agarwal",
+    "totalDucks": 7,
+    "innings": [
+      {
+        "fixture": "RCB vs MI",
+        "matchNumber": 8,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 39,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "RPS vs KXIP",
+        "matchNumber": 4,
+        "season": "2017",
+        "balls": 4
+      },
+      {
+        "fixture": "KXIP vs KKR",
+        "matchNumber": 44,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs CSK",
+        "matchNumber": 18,
+        "season": "2019",
+        "balls": 2
+      },
+      {
+        "fixture": "PBKS vs CSK",
+        "matchNumber": 8,
+        "season": "2021",
+        "balls": 2
+      },
+      {
+        "fixture": "PBKS vs DC",
+        "matchNumber": 64,
+        "season": "2022",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 40,
+    "name": "AR Patel",
+    "totalDucks": 7,
+    "innings": [
+      {
+        "fixture": "KXIP vs MI",
+        "matchNumber": 35,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs MI",
+        "matchNumber": 21,
+        "season": "2016",
+        "balls": 2
+      },
+      {
+        "fixture": "KXIP vs GL",
+        "matchNumber": 28,
+        "season": "2016",
+        "balls": 2
+      },
+      {
+        "fixture": "KXIP vs KKR",
+        "matchNumber": 11,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs SRH",
+        "matchNumber": null,
+        "season": "2019",
+        "balls": 3
+      },
+      {
+        "fixture": "DC vs KKR",
+        "matchNumber": 41,
+        "season": "2021",
+        "balls": 5
+      },
+      {
+        "fixture": "DC vs KKR",
+        "matchNumber": 16,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 41,
+    "name": "SN Thakur",
+    "totalDucks": 7,
+    "innings": [
+      {
+        "fixture": "RPS vs GL",
+        "matchNumber": 13,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "RPS vs RCB",
+        "matchNumber": 17,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "RPS vs SRH",
+        "matchNumber": 44,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs DC",
+        "matchNumber": null,
+        "season": "2021",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs GT",
+        "matchNumber": 13,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs GT",
+        "matchNumber": 39,
+        "season": "2023",
+        "balls": 4
+      },
+      {
+        "fixture": "LSG vs DC",
+        "matchNumber": 4,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 42,
+    "name": "WP Saha",
+    "totalDucks": 7,
+    "innings": [
+      {
+        "fixture": "KKR vs DD",
+        "matchNumber": 39,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs SRH",
+        "matchNumber": 19,
+        "season": "2017",
+        "balls": 2
+      },
+      {
+        "fixture": "SRH vs MI",
+        "matchNumber": 23,
+        "season": "2018",
+        "balls": 2
+      },
+      {
+        "fixture": "SRH vs KKR",
+        "matchNumber": 49,
+        "season": "2021",
+        "balls": 1
+      },
+      {
+        "fixture": "GT vs RR",
+        "matchNumber": null,
+        "season": "2022",
+        "balls": 2
+      },
+      {
+        "fixture": "GT vs DC",
+        "matchNumber": 44,
+        "season": "2023",
+        "balls": 6
+      },
+      {
+        "fixture": "GT vs SRH",
+        "matchNumber": 62,
+        "season": "2023",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 43,
+    "name": "STR Binny",
+    "totalDucks": 7,
+    "innings": [
+      {
+        "fixture": "RR vs KXIP",
+        "matchNumber": 48,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs KXIP",
+        "matchNumber": 18,
+        "season": "2013",
+        "balls": 4
+      },
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": 19,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs DD",
+        "matchNumber": 41,
+        "season": "2014",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": null,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": null,
+        "season": "2018",
+        "balls": 3
+      },
+      {
+        "fixture": "RR vs DC",
+        "matchNumber": 53,
+        "season": "2019",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 44,
+    "name": "Prithvi Shaw",
+    "totalDucks": 7,
+    "innings": [
+      {
+        "fixture": "DC vs KXIP",
+        "matchNumber": 13,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs CSK",
+        "matchNumber": 34,
+        "season": "2020",
+        "balls": 2
+      },
+      {
+        "fixture": "DC vs RR",
+        "matchNumber": 30,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": null,
+        "season": "2020",
+        "balls": 2
+      },
+      {
+        "fixture": "DC vs KKR",
+        "matchNumber": 41,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs RR",
+        "matchNumber": 11,
+        "season": "2023",
+        "balls": 3
+      },
+      {
+        "fixture": "DC vs RCB",
+        "matchNumber": 20,
+        "season": "2023",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 45,
+    "name": "Nitish Rana",
+    "totalDucks": 7,
+    "innings": [
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 23,
+        "season": "2019",
+        "balls": 3
+      },
+      {
+        "fixture": "KKR vs RCB",
+        "matchNumber": 39,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs KXIP",
+        "matchNumber": 46,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs RR",
+        "matchNumber": 54,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs PBKS",
+        "matchNumber": 21,
+        "season": "2021",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": null,
+        "season": "2021",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs PBKS",
+        "matchNumber": 8,
+        "season": "2022",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 46,
+    "name": "Krunal Pandya",
+    "totalDucks": 7,
+    "innings": [
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": null,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs SRH",
+        "matchNumber": 56,
+        "season": "2020",
+        "balls": 3
+      },
+      {
+        "fixture": "LSG vs RCB",
+        "matchNumber": null,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "LSG vs RCB",
+        "matchNumber": 15,
+        "season": "2023",
+        "balls": 2
+      },
+      {
+        "fixture": "LSG vs CSK",
+        "matchNumber": 45,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "LSG vs GT",
+        "matchNumber": 51,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 8,
+        "season": "2025",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 47,
+    "name": "RD Chahar",
+    "totalDucks": 7,
+    "innings": [
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": null,
+        "season": "2019",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": 30,
+        "season": "2021",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs RCB",
+        "matchNumber": 39,
+        "season": "2021",
+        "balls": 1
+      },
+      {
+        "fixture": "PBKS vs KKR",
+        "matchNumber": 8,
+        "season": "2022",
+        "balls": 2
+      },
+      {
+        "fixture": "PBKS vs SRH",
+        "matchNumber": 28,
+        "season": "2022",
+        "balls": 2
+      },
+      {
+        "fixture": "PBKS vs SRH",
+        "matchNumber": 14,
+        "season": "2023",
+        "balls": 8
+      },
+      {
+        "fixture": "PBKS vs LSG",
+        "matchNumber": 38,
+        "season": "2023",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 48,
+    "name": "RD Gaikwad",
+    "totalDucks": 7,
+    "innings": [
+      {
+        "fixture": "CSK vs RR",
+        "matchNumber": 4,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 41,
+        "season": "2020",
+        "balls": 5
+      },
+      {
+        "fixture": "CSK vs KKR",
+        "matchNumber": 1,
+        "season": "2022",
+        "balls": 4
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 33,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs GT",
+        "matchNumber": 59,
+        "season": "2024",
+        "balls": 3
+      },
+      {
+        "fixture": "CSK vs RCB",
+        "matchNumber": 68,
+        "season": "2024",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs RCB",
+        "matchNumber": 8,
+        "season": "2025",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 49,
+    "name": "F du Plessis",
+    "totalDucks": 7,
+    "innings": [
+      {
+        "fixture": "CSK vs SRH",
+        "matchNumber": 17,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs KXIP",
+        "matchNumber": null,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs SRH",
+        "matchNumber": 29,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs DC",
+        "matchNumber": 2,
+        "season": "2021",
+        "balls": 3
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 30,
+        "season": "2021",
+        "balls": 3
+      },
+      {
+        "fixture": "RCB vs GT",
+        "matchNumber": 43,
+        "season": "2022",
+        "balls": 4
+      },
+      {
+        "fixture": "RCB vs LSG",
+        "matchNumber": null,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 50,
+    "name": "MR Marsh",
+    "totalDucks": 7,
+    "innings": [
+      {
+        "fixture": "SRH vs RCB",
+        "matchNumber": 3,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": 69,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs LSG",
+        "matchNumber": 3,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs RCB",
+        "matchNumber": 20,
+        "season": "2023",
+        "balls": 4
+      },
+      {
+        "fixture": "DC vs KKR",
+        "matchNumber": 16,
+        "season": "2024",
+        "balls": 2
+      },
+      {
+        "fixture": "LSG vs PBKS",
+        "matchNumber": 13,
+        "season": "2025",
+        "balls": 1
+      },
+      {
+        "fixture": "LSG vs PBKS",
+        "matchNumber": 54,
+        "season": "2025",
+        "balls": 5
+      }
+    ]
+  },
+  {
+    "rank": 51,
+    "name": "Shreyas Iyer",
+    "totalDucks": 7,
+    "innings": [
+      {
+        "fixture": "DD vs RCB",
+        "matchNumber": 26,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs SRH",
+        "matchNumber": 45,
+        "season": "2015",
+        "balls": 7
+      },
+      {
+        "fixture": "DD vs KKR",
+        "matchNumber": 2,
+        "season": "2016",
+        "balls": 3
+      },
+      {
+        "fixture": "DD vs RCB",
+        "matchNumber": 11,
+        "season": "2016",
+        "balls": 4
+      },
+      {
+        "fixture": "DD vs KKR",
+        "matchNumber": 26,
+        "season": "2016",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs SRH",
+        "matchNumber": 3,
+        "season": "2024",
+        "balls": 2
+      },
+      {
+        "fixture": "PBKS vs KKR",
+        "matchNumber": 31,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 52,
+    "name": "V Sehwag",
+    "totalDucks": 7,
+    "innings": [
+      {
+        "fixture": "DD vs KKR",
+        "matchNumber": 35,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs DC",
+        "matchNumber": 37,
+        "season": "2007",
+        "balls": 2
+      },
+      {
+        "fixture": "DD vs RCB",
+        "matchNumber": 52,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "DD vs KXIP",
+        "matchNumber": 44,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs RCB",
+        "matchNumber": 5,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs CSK",
+        "matchNumber": 64,
+        "season": "2013",
+        "balls": 2
+      },
+      {
+        "fixture": "KXIP vs RR",
+        "matchNumber": 3,
+        "season": "2015",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 53,
+    "name": "JH Kallis",
+    "totalDucks": 7,
+    "innings": [
+      {
+        "fixture": "RCB vs DD",
+        "matchNumber": 14,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 44,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": 49,
+        "season": "2009",
+        "balls": 3
+      },
+      {
+        "fixture": "KKR vs RR",
+        "matchNumber": 17,
+        "season": "2011",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs MI",
+        "matchNumber": 65,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs RR",
+        "matchNumber": 8,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs DD",
+        "matchNumber": 6,
+        "season": "2014",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 54,
+    "name": "A Mishra",
+    "totalDucks": 7,
+    "innings": [
+      {
+        "fixture": "DD vs RR",
+        "matchNumber": 18,
+        "season": "2009",
+        "balls": 4
+      },
+      {
+        "fixture": "DD vs DC",
+        "matchNumber": 15,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs KXIP",
+        "matchNumber": 15,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs KTK",
+        "matchNumber": 32,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs PWI",
+        "matchNumber": 53,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": 9,
+        "season": "2012",
+        "balls": 2
+      },
+      {
+        "fixture": "SRH vs RR",
+        "matchNumber": 30,
+        "season": "2014",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 55,
+    "name": "AC Gilchrist",
+    "totalDucks": 7,
+    "innings": [
+      {
+        "fixture": "DC vs CSK",
+        "matchNumber": 29,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs RCB",
+        "matchNumber": null,
+        "season": "2009",
+        "balls": 3
+      },
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": 25,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "DC vs RCB",
+        "matchNumber": 46,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs MI",
+        "matchNumber": 40,
+        "season": "2011",
+        "balls": 2
+      },
+      {
+        "fixture": "KXIP vs RCB",
+        "matchNumber": 47,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs RR",
+        "matchNumber": 18,
+        "season": "2013",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 56,
+    "name": "R Sharma",
+    "totalDucks": 7,
+    "innings": [
+      {
+        "fixture": "DC vs RCB",
+        "matchNumber": null,
+        "season": "2009",
+        "balls": 6
+      },
+      {
+        "fixture": "PWI vs RR",
+        "matchNumber": 38,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "PWI vs RCB",
+        "matchNumber": 57,
+        "season": "2012",
+        "balls": 2
+      },
+      {
+        "fixture": "PWI vs RR",
+        "matchNumber": 60,
+        "season": "2012",
+        "balls": 3
+      },
+      {
+        "fixture": "PWI vs SRH",
+        "matchNumber": 3,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "PWI vs SRH",
+        "matchNumber": 22,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "PWI vs CSK",
+        "matchNumber": 42,
+        "season": "2013",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 57,
+    "name": "S Nadeem",
+    "totalDucks": 6,
+    "innings": [
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 49,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs SRH",
+        "matchNumber": 14,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs SRH",
+        "matchNumber": 48,
+        "season": "2013",
+        "balls": 3
+      },
+      {
+        "fixture": "DD vs RCB",
+        "matchNumber": 5,
+        "season": "2017",
+        "balls": 2
+      },
+      {
+        "fixture": "DD vs KXIP",
+        "matchNumber": 36,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs RCB",
+        "matchNumber": 6,
+        "season": "2021",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 58,
+    "name": "RR Pant",
+    "totalDucks": 6,
+    "innings": [
+      {
+        "fixture": "DD vs SRH",
+        "matchNumber": 21,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 25,
+        "season": "2017",
+        "balls": 3
+      },
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 45,
+        "season": "2017",
+        "balls": 3
+      },
+      {
+        "fixture": "DD vs KKR",
+        "matchNumber": 26,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "LSG vs DC",
+        "matchNumber": 4,
+        "season": "2025",
+        "balls": 6
+      },
+      {
+        "fixture": "LSG vs DC",
+        "matchNumber": 40,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 59,
+    "name": "Bhuvneshwar Kumar",
+    "totalDucks": 6,
+    "innings": [
+      {
+        "fixture": "PWI vs SRH",
+        "matchNumber": 22,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs MI",
+        "matchNumber": 56,
+        "season": "2015",
+        "balls": 2
+      },
+      {
+        "fixture": "SRH vs RPS",
+        "matchNumber": 44,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs KKR",
+        "matchNumber": 54,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs RCB",
+        "matchNumber": 3,
+        "season": "2020",
+        "balls": 2
+      },
+      {
+        "fixture": "SRH vs KKR",
+        "matchNumber": null,
+        "season": "2024",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 60,
+    "name": "BB McCullum",
+    "totalDucks": 6,
+    "innings": [
+      {
+        "fixture": "KKR vs RCB",
+        "matchNumber": 19,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 48,
+        "season": "2009",
+        "balls": 4
+      },
+      {
+        "fixture": "KTK vs PWI",
+        "matchNumber": 10,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "KTK vs DC",
+        "matchNumber": 32,
+        "season": "2011",
+        "balls": 4
+      },
+      {
+        "fixture": "GL vs KXIP",
+        "matchNumber": 3,
+        "season": "2016",
+        "balls": 2
+      },
+      {
+        "fixture": "RCB vs KXIP",
+        "matchNumber": 8,
+        "season": "2018",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 61,
+    "name": "AD Russell",
+    "totalDucks": 6,
+    "innings": [
+      {
+        "fixture": "KKR vs RCB",
+        "matchNumber": 29,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs MI",
+        "matchNumber": 56,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs RR",
+        "matchNumber": 30,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs DC",
+        "matchNumber": 41,
+        "season": "2022",
+        "balls": 3
+      },
+      {
+        "fixture": "KKR vs RCB",
+        "matchNumber": 9,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs SRH",
+        "matchNumber": 68,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 62,
+    "name": "Hardik Pandya",
+    "totalDucks": 6,
+    "innings": [
+      {
+        "fixture": "MI vs DD",
+        "matchNumber": 21,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": null,
+        "season": "2015",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs DC",
+        "matchNumber": 3,
+        "season": "2019",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs DC",
+        "matchNumber": 27,
+        "season": "2020",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs DC",
+        "matchNumber": 13,
+        "season": "2021",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs LSG",
+        "matchNumber": 48,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 63,
+    "name": "KM Jadhav",
+    "totalDucks": 6,
+    "innings": [
+      {
+        "fixture": "KTK vs DC",
+        "matchNumber": 32,
+        "season": "2011",
+        "balls": 2
+      },
+      {
+        "fixture": "DD vs KXIP",
+        "matchNumber": 32,
+        "season": "2013",
+        "balls": 2
+      },
+      {
+        "fixture": "DD vs KXIP",
+        "matchNumber": 45,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs KXIP",
+        "matchNumber": 55,
+        "season": "2014",
+        "balls": 4
+      },
+      {
+        "fixture": "DD vs RCB",
+        "matchNumber": 55,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs KXIP",
+        "matchNumber": 55,
+        "season": "2019",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 64,
+    "name": "MM Ali",
+    "totalDucks": 6,
+    "innings": [
+      {
+        "fixture": "RCB vs SRH",
+        "matchNumber": null,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs PBKS",
+        "matchNumber": 53,
+        "season": "2021",
+        "balls": 6
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 30,
+        "season": "2021",
+        "balls": 3
+      },
+      {
+        "fixture": "CSK vs PBKS",
+        "matchNumber": 11,
+        "season": "2022",
+        "balls": 2
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 59,
+        "season": "2022",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs GT",
+        "matchNumber": 39,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 65,
+    "name": "MS Dhoni",
+    "totalDucks": 6,
+    "innings": [
+      {
+        "fixture": "CSK vs RR",
+        "matchNumber": 32,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs DD",
+        "matchNumber": 50,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": null,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs DC",
+        "matchNumber": 2,
+        "season": "2021",
+        "balls": 2
+      },
+      {
+        "fixture": "CSK vs GT",
+        "matchNumber": null,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs PBKS",
+        "matchNumber": 53,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 66,
+    "name": "D Padikkal",
+    "totalDucks": 6,
+    "innings": [
+      {
+        "fixture": "RCB vs DC",
+        "matchNumber": 56,
+        "season": "2021",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs MI",
+        "matchNumber": 39,
+        "season": "2021",
+        "balls": 4
+      },
+      {
+        "fixture": "RR vs GT",
+        "matchNumber": 24,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "LSG vs RR",
+        "matchNumber": 4,
+        "season": "2024",
+        "balls": 3
+      },
+      {
+        "fixture": "LSG vs MI",
+        "matchNumber": 67,
+        "season": "2024",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs DC",
+        "matchNumber": 46,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 67,
+    "name": "S Badrinath",
+    "totalDucks": 6,
+    "innings": [
+      {
+        "fixture": "CSK vs DC",
+        "matchNumber": 26,
+        "season": "2007",
+        "balls": 4
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 1,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "CSK vs KXIP",
+        "matchNumber": 34,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs RCB",
+        "matchNumber": 69,
+        "season": "2011",
+        "balls": 10
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 49,
+        "season": "2013",
+        "balls": 3
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": null,
+        "season": "2013",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 68,
+    "name": "TM Dilshan",
+    "totalDucks": 6,
+    "innings": [
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 50,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs KXIP",
+        "matchNumber": 3,
+        "season": "2009",
+        "balls": 3
+      },
+      {
+        "fixture": "DD vs RR",
+        "matchNumber": 6,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 14,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs DD",
+        "matchNumber": 30,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs MI",
+        "matchNumber": 2,
+        "season": "2013",
+        "balls": 8
+      }
+    ]
+  },
+  {
+    "rank": 69,
+    "name": "AB Dinda",
+    "totalDucks": 6,
+    "innings": [
+      {
+        "fixture": "KKR vs MI",
+        "matchNumber": 17,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs RCB",
+        "matchNumber": 43,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 4,
+        "season": "2011",
+        "balls": 5
+      },
+      {
+        "fixture": "PWI vs SRH",
+        "matchNumber": 3,
+        "season": "2013",
+        "balls": 2
+      },
+      {
+        "fixture": "PWI vs SRH",
+        "matchNumber": 22,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": 14,
+        "season": "2014",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 70,
+    "name": "M Manhas",
+    "totalDucks": 6,
+    "innings": [
+      {
+        "fixture": "DD vs CSK",
+        "matchNumber": 26,
+        "season": "2009",
+        "balls": 4
+      },
+      {
+        "fixture": "DD vs RCB",
+        "matchNumber": 52,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "PWI vs MI",
+        "matchNumber": 21,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "PWI vs CSK",
+        "matchNumber": 31,
+        "season": "2011",
+        "balls": 4
+      },
+      {
+        "fixture": "PWI vs MI",
+        "matchNumber": 44,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "PWI vs DC",
+        "matchNumber": 62,
+        "season": "2011",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 71,
+    "name": "AP Tare",
+    "totalDucks": 5,
+    "innings": [
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": null,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": null,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs KXIP",
+        "matchNumber": 18,
+        "season": "2016",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs RPS",
+        "matchNumber": 9,
+        "season": "2017",
+        "balls": 5
+      },
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 25,
+        "season": "2017",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 72,
+    "name": "TM Head",
+    "totalDucks": 5,
+    "innings": [
+      {
+        "fixture": "RCB vs GL",
+        "matchNumber": 31,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs PBKS",
+        "matchNumber": 69,
+        "season": "2024",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs KKR",
+        "matchNumber": null,
+        "season": "2024",
+        "balls": 2
+      },
+      {
+        "fixture": "SRH vs KKR",
+        "matchNumber": null,
+        "season": "2024",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs MI",
+        "matchNumber": 41,
+        "season": "2025",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 73,
+    "name": "KA Pollard",
+    "totalDucks": 5,
+    "innings": [
+      {
+        "fixture": "MI vs DC",
+        "matchNumber": 27,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": 33,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs DD",
+        "matchNumber": 9,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs DC",
+        "matchNumber": null,
+        "season": "2020",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs RCB",
+        "matchNumber": 18,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 74,
+    "name": "DJ Bravo",
+    "totalDucks": 5,
+    "innings": [
+      {
+        "fixture": "CSK vs RCB",
+        "matchNumber": null,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "GL vs KXIP",
+        "matchNumber": 28,
+        "season": "2016",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 27,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs SRH",
+        "matchNumber": 29,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs PBKS",
+        "matchNumber": 11,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 75,
+    "name": "JC Archer",
+    "totalDucks": 5,
+    "innings": [
+      {
+        "fixture": "RR vs KXIP",
+        "matchNumber": 38,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs KXIP",
+        "matchNumber": 40,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": 53,
+        "season": "2018",
+        "balls": 4
+      },
+      {
+        "fixture": "RR vs CSK",
+        "matchNumber": 11,
+        "season": "2025",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": 42,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 76,
+    "name": "DJ Hooda",
+    "totalDucks": 5,
+    "innings": [
+      {
+        "fixture": "SRH vs RR",
+        "matchNumber": 45,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs SRH",
+        "matchNumber": 43,
+        "season": "2020",
+        "balls": 2
+      },
+      {
+        "fixture": "PBKS vs RR",
+        "matchNumber": 32,
+        "season": "2021",
+        "balls": 2
+      },
+      {
+        "fixture": "LSG vs DC",
+        "matchNumber": 64,
+        "season": "2024",
+        "balls": 2
+      },
+      {
+        "fixture": "CSK vs KKR",
+        "matchNumber": 25,
+        "season": "2025",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 77,
+    "name": "EJG Morgan",
+    "totalDucks": 5,
+    "innings": [
+      {
+        "fixture": "KKR vs DD",
+        "matchNumber": 33,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs RPS",
+        "matchNumber": 22,
+        "season": "2016",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs DC",
+        "matchNumber": 25,
+        "season": "2021",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs DC",
+        "matchNumber": 41,
+        "season": "2021",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs DC",
+        "matchNumber": null,
+        "season": "2021",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 78,
+    "name": "PWH de Silva",
+    "totalDucks": 5,
+    "innings": [
+      {
+        "fixture": "RCB vs KKR",
+        "matchNumber": 31,
+        "season": "2021",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 49,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": null,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": 53,
+        "season": "2025",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs PBKS",
+        "matchNumber": 59,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 79,
+    "name": "Z Khan",
+    "totalDucks": 5,
+    "innings": [
+      {
+        "fixture": "RCB vs KXIP",
+        "matchNumber": 25,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs DC",
+        "matchNumber": 11,
+        "season": "2011",
+        "balls": 3
+      },
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": 18,
+        "season": "2012",
+        "balls": 3
+      },
+      {
+        "fixture": "RCB vs DC",
+        "matchNumber": 71,
+        "season": "2012",
+        "balls": 4
+      },
+      {
+        "fixture": "MI vs RCB",
+        "matchNumber": 5,
+        "season": "2014",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 80,
+    "name": "PP Ojha",
+    "totalDucks": 5,
+    "innings": [
+      {
+        "fixture": "DC vs DD",
+        "matchNumber": 37,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs CSK",
+        "matchNumber": 29,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "DC vs DD",
+        "matchNumber": 43,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "DC vs RCB",
+        "matchNumber": null,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": null,
+        "season": "2013",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 81,
+    "name": "SK Warne",
+    "totalDucks": 5,
+    "innings": [
+      {
+        "fixture": "RR vs DD",
+        "matchNumber": null,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs DD",
+        "matchNumber": 18,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs DC",
+        "matchNumber": 40,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs DD",
+        "matchNumber": 29,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs CSK",
+        "matchNumber": 52,
+        "season": "2011",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 82,
+    "name": "DW Steyn",
+    "totalDucks": 5,
+    "innings": [
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 5,
+        "season": "2009",
+        "balls": 3
+      },
+      {
+        "fixture": "RCB vs DC",
+        "matchNumber": 46,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs MI",
+        "matchNumber": 52,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "SRH vs RR",
+        "matchNumber": 68,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs MI",
+        "matchNumber": 23,
+        "season": "2015",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 83,
+    "name": "MJ McClenaghan",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "MI vs DD",
+        "matchNumber": 21,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs RCB",
+        "matchNumber": 12,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs RR",
+        "matchNumber": 21,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs SRH",
+        "matchNumber": 23,
+        "season": "2018",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 84,
+    "name": "KK Nair",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "RCB vs MI",
+        "matchNumber": 2,
+        "season": "2013",
+        "balls": 3
+      },
+      {
+        "fixture": "DD vs KXIP",
+        "matchNumber": 15,
+        "season": "2017",
+        "balls": 3
+      },
+      {
+        "fixture": "KXIP vs MI",
+        "matchNumber": 13,
+        "season": "2020",
+        "balls": 3
+      },
+      {
+        "fixture": "DC vs SRH",
+        "matchNumber": 55,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 85,
+    "name": "Yuvraj Singh",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "PWI vs MI",
+        "matchNumber": 21,
+        "season": "2011",
+        "balls": 2
+      },
+      {
+        "fixture": "RCB vs MI",
+        "matchNumber": 5,
+        "season": "2014",
+        "balls": 2
+      },
+      {
+        "fixture": "DD vs KKR",
+        "matchNumber": 42,
+        "season": "2015",
+        "balls": 3
+      },
+      {
+        "fixture": "SRH vs KXIP",
+        "matchNumber": 19,
+        "season": "2017",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 86,
+    "name": "Jasprit Bumrah",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "MI vs GL",
+        "matchNumber": 35,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs DD",
+        "matchNumber": 55,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs KKR",
+        "matchNumber": 5,
+        "season": "2021",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs PBKS",
+        "matchNumber": 23,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 87,
+    "name": "PJ Sangwan",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "DD vs KKR",
+        "matchNumber": 35,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs CSK",
+        "matchNumber": 26,
+        "season": "2009",
+        "balls": 3
+      },
+      {
+        "fixture": "GL vs SRH",
+        "matchNumber": 53,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs SRH",
+        "matchNumber": 7,
+        "season": "2018",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 88,
+    "name": "MM Patel",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": 2,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs CSK",
+        "matchNumber": 22,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs KXIP",
+        "matchNumber": 54,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "GL vs SRH",
+        "matchNumber": 53,
+        "season": "2017",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 89,
+    "name": "Rahul Tripathi",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "RPS vs MI",
+        "matchNumber": null,
+        "season": "2017",
+        "balls": 2
+      },
+      {
+        "fixture": "SRH vs RR",
+        "matchNumber": 5,
+        "season": "2022",
+        "balls": 3
+      },
+      {
+        "fixture": "SRH vs CSK",
+        "matchNumber": 46,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs RR",
+        "matchNumber": 4,
+        "season": "2023",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 90,
+    "name": "DL Chahar",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 1,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 44,
+        "season": "2019",
+        "balls": 2
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 41,
+        "season": "2020",
+        "balls": 5
+      },
+      {
+        "fixture": "MI vs RCB",
+        "matchNumber": 20,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 91,
+    "name": "Shreyas Gopal",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": 15,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs CSK",
+        "matchNumber": 12,
+        "season": "2019",
+        "balls": 3
+      },
+      {
+        "fixture": "RR vs KXIP",
+        "matchNumber": 32,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs MI",
+        "matchNumber": 51,
+        "season": "2021",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 92,
+    "name": "Mohammed Shami",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "DD vs KXIP",
+        "matchNumber": 55,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs DC",
+        "matchNumber": 13,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs SRH",
+        "matchNumber": 22,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "GT vs SRH",
+        "matchNumber": 62,
+        "season": "2023",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 93,
+    "name": "Kuldeep Yadav",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 23,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": 16,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs CSK",
+        "matchNumber": 67,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs SRH",
+        "matchNumber": 35,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 94,
+    "name": "KK Ahmed",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "SRH vs DC",
+        "matchNumber": 30,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs KXIP",
+        "matchNumber": 43,
+        "season": "2020",
+        "balls": 2
+      },
+      {
+        "fixture": "DC vs GT",
+        "matchNumber": 10,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs CSK",
+        "matchNumber": 55,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 95,
+    "name": "SM Curran",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "KXIP vs DC",
+        "matchNumber": 37,
+        "season": "2019",
+        "balls": 4
+      },
+      {
+        "fixture": "CSK vs DC",
+        "matchNumber": 34,
+        "season": "2020",
+        "balls": 3
+      },
+      {
+        "fixture": "CSK vs RCB",
+        "matchNumber": 25,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "PBKS vs LSG",
+        "matchNumber": 11,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 96,
+    "name": "Q de Kock",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "SRH vs KXIP",
+        "matchNumber": 25,
+        "season": "2013",
+        "balls": 4
+      },
+      {
+        "fixture": "MI vs KKR",
+        "matchNumber": 47,
+        "season": "2019",
+        "balls": 4
+      },
+      {
+        "fixture": "MI vs KXIP",
+        "matchNumber": 13,
+        "season": "2020",
+        "balls": 5
+      },
+      {
+        "fixture": "LSG vs CSK",
+        "matchNumber": 39,
+        "season": "2024",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 97,
+    "name": "YBK Jaiswal",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "RR vs MI",
+        "matchNumber": 20,
+        "season": "2020",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": 54,
+        "season": "2021",
+        "balls": 3
+      },
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": 60,
+        "season": "2023",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": 19,
+        "season": "2024",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 98,
+    "name": "SP Goswami",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "KKR vs MI",
+        "matchNumber": null,
+        "season": "2011",
+        "balls": 3
+      },
+      {
+        "fixture": "RR vs MI",
+        "matchNumber": 12,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs RCB",
+        "matchNumber": null,
+        "season": "2020",
+        "balls": 3
+      },
+      {
+        "fixture": "SRH vs DC",
+        "matchNumber": null,
+        "season": "2020",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 99,
+    "name": "PJ Cummins",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 28,
+        "season": "2015",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs MI",
+        "matchNumber": 5,
+        "season": "2021",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs RR",
+        "matchNumber": 30,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs MI",
+        "matchNumber": 56,
+        "season": "2022",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 100,
+    "name": "Shubman Gill",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 15,
+        "season": "2021",
+        "balls": 1
+      },
+      {
+        "fixture": "GT vs LSG",
+        "matchNumber": 4,
+        "season": "2022",
+        "balls": 3
+      },
+      {
+        "fixture": "GT vs CSK",
+        "matchNumber": 29,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "GT vs LSG",
+        "matchNumber": 30,
+        "season": "2023",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 101,
+    "name": "DA Miller",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "KXIP vs RR",
+        "matchNumber": 18,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs RCB",
+        "matchNumber": 39,
+        "season": "2016",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": 16,
+        "season": "2021",
+        "balls": 2
+      },
+      {
+        "fixture": "GT vs DC",
+        "matchNumber": 44,
+        "season": "2023",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 102,
+    "name": "Anuj Rawat",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": 54,
+        "season": "2021",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs KKR",
+        "matchNumber": 6,
+        "season": "2022",
+        "balls": 2
+      },
+      {
+        "fixture": "RCB vs DC",
+        "matchNumber": 27,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs SRH",
+        "matchNumber": 36,
+        "season": "2022",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 103,
+    "name": "Shakib Al Hasan",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 21,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs RCB",
+        "matchNumber": 5,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs DC",
+        "matchNumber": null,
+        "season": "2021",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": null,
+        "season": "2021",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 104,
+    "name": "RR Rossouw",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "RCB vs MI",
+        "matchNumber": 16,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs GT",
+        "matchNumber": 7,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs CSK",
+        "matchNumber": 67,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "PBKS vs CSK",
+        "matchNumber": 53,
+        "season": "2024",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 105,
+    "name": "P Simran Singh",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "PBKS vs SRH",
+        "matchNumber": 14,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "PBKS vs GT",
+        "matchNumber": 18,
+        "season": "2023",
+        "balls": 2
+      },
+      {
+        "fixture": "PBKS vs MI",
+        "matchNumber": 33,
+        "season": "2024",
+        "balls": 1
+      },
+      {
+        "fixture": "PBKS vs CSK",
+        "matchNumber": 22,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 106,
+    "name": "MM Sharma",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 49,
+        "season": "2013",
+        "balls": 3
+      },
+      {
+        "fixture": "CSK vs KKR",
+        "matchNumber": 30,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "GT vs RCB",
+        "matchNumber": 52,
+        "season": "2024",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": 29,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 107,
+    "name": "VVS Laxman",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "DC vs KKR",
+        "matchNumber": 4,
+        "season": "2007",
+        "balls": 6
+      },
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": 12,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs CSK",
+        "matchNumber": 29,
+        "season": "2009",
+        "balls": 7
+      },
+      {
+        "fixture": "KTK vs PWI",
+        "matchNumber": 10,
+        "season": "2011",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 108,
+    "name": "David Hussey",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 11,
+        "season": "2007",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 41,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 48,
+        "season": "2009",
+        "balls": 3
+      },
+      {
+        "fixture": "KXIP vs MI",
+        "matchNumber": 54,
+        "season": "2011",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 109,
+    "name": "CL White",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "RCB vs KXIP",
+        "matchNumber": 25,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": 40,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs PWI",
+        "matchNumber": 22,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs RR",
+        "matchNumber": 68,
+        "season": "2013",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 110,
+    "name": "SR Tendulkar",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "MI vs KKR",
+        "matchNumber": 38,
+        "season": "2007",
+        "balls": 3
+      },
+      {
+        "fixture": "MI vs RCB",
+        "matchNumber": 38,
+        "season": "2009",
+        "balls": 3
+      },
+      {
+        "fixture": "MI vs RCB",
+        "matchNumber": 62,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": 5,
+        "season": "2013",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 111,
+    "name": "L Balaji",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "CSK vs RCB",
+        "matchNumber": 46,
+        "season": "2007",
+        "balls": 4
+      },
+      {
+        "fixture": "CSK vs RCB",
+        "matchNumber": 44,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs MI",
+        "matchNumber": 53,
+        "season": "2013",
+        "balls": 3
+      },
+      {
+        "fixture": "KXIP vs KKR",
+        "matchNumber": 15,
+        "season": "2014",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 112,
+    "name": "JD Ryder",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": 2,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "RCB vs DC",
+        "matchNumber": 8,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "PWI vs MI",
+        "matchNumber": 44,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "PWI vs DD",
+        "matchNumber": 31,
+        "season": "2012",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 113,
+    "name": "KP Pietersen",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 5,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs KXIP",
+        "matchNumber": 11,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "DD vs CSK",
+        "matchNumber": 26,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "RPS vs RCB",
+        "matchNumber": 16,
+        "season": "2016",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 114,
+    "name": "HH Gibbs",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "DC vs DD",
+        "matchNumber": 21,
+        "season": "2009",
+        "balls": 4
+      },
+      {
+        "fixture": "DC vs CSK",
+        "matchNumber": 29,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": 32,
+        "season": "2009",
+        "balls": 5
+      },
+      {
+        "fixture": "DC vs DD",
+        "matchNumber": null,
+        "season": "2009",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 115,
+    "name": "Sourav Ganguly",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "KKR vs MI",
+        "matchNumber": 23,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs RR",
+        "matchNumber": 53,
+        "season": "2009",
+        "balls": 3
+      },
+      {
+        "fixture": "KKR vs DC",
+        "matchNumber": 1,
+        "season": "2009",
+        "balls": 3
+      },
+      {
+        "fixture": "PWI vs DC",
+        "matchNumber": 62,
+        "season": "2011",
+        "balls": 5
+      }
+    ]
+  },
+  {
+    "rank": 116,
+    "name": "KC Sangakkara",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "KXIP vs KKR",
+        "matchNumber": 27,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "KXIP vs DC",
+        "matchNumber": 12,
+        "season": "2009",
+        "balls": 3
+      },
+      {
+        "fixture": "DC vs RR",
+        "matchNumber": 2,
+        "season": "2011",
+        "balls": 3
+      },
+      {
+        "fixture": "DC vs KKR",
+        "matchNumber": 42,
+        "season": "2011",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 117,
+    "name": "RP Singh",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "DC vs DD",
+        "matchNumber": 43,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs KXIP",
+        "matchNumber": 49,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "KTK vs DC",
+        "matchNumber": 32,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs DD",
+        "matchNumber": 19,
+        "season": "2012",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 118,
+    "name": "SL Malinga",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "MI vs RR",
+        "matchNumber": 45,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": 49,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": null,
+        "season": "2013",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": null,
+        "season": "2013",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 119,
+    "name": "Murali Vijay",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "CSK vs KXIP",
+        "matchNumber": 16,
+        "season": "2009",
+        "balls": 3
+      },
+      {
+        "fixture": "CSK vs RR",
+        "matchNumber": 56,
+        "season": "2012",
+        "balls": 5
+      },
+      {
+        "fixture": "DD vs KKR",
+        "matchNumber": 6,
+        "season": "2014",
+        "balls": 2
+      },
+      {
+        "fixture": "KXIP vs KKR",
+        "matchNumber": 14,
+        "season": "2015",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 120,
+    "name": "UBT Chand",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 4,
+        "season": "2011",
+        "balls": 2
+      },
+      {
+        "fixture": "DD vs KKR",
+        "matchNumber": 1,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 10,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs KXIP",
+        "matchNumber": 43,
+        "season": "2016",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 121,
+    "name": "M Morkel",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 4,
+        "season": "2011",
+        "balls": 2
+      },
+      {
+        "fixture": "DD vs KKR",
+        "matchNumber": null,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs SRH",
+        "matchNumber": 14,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs PWI",
+        "matchNumber": 71,
+        "season": "2013",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 122,
+    "name": "A Nehra",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "DD vs KKR",
+        "matchNumber": 1,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs SRH",
+        "matchNumber": 48,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs CSK",
+        "matchNumber": 64,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": null,
+        "season": "2015",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 123,
+    "name": "Gurkeerat Singh",
+    "totalDucks": 4,
+    "innings": [
+      {
+        "fixture": "KXIP vs KKR",
+        "matchNumber": 20,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs CSK",
+        "matchNumber": 45,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs MI",
+        "matchNumber": 69,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs GL",
+        "matchNumber": 28,
+        "season": "2016",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 124,
+    "name": "C de Grandhomme",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "KKR vs SRH",
+        "matchNumber": 14,
+        "season": "2017",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs RCB",
+        "matchNumber": 27,
+        "season": "2017",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs MI",
+        "matchNumber": null,
+        "season": "2017",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 125,
+    "name": "SW Billings",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "DD vs KXIP",
+        "matchNumber": 36,
+        "season": "2017",
+        "balls": 2
+      },
+      {
+        "fixture": "CSK vs KXIP",
+        "matchNumber": 56,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs SRH",
+        "matchNumber": 33,
+        "season": "2019",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 126,
+    "name": "K Rabada",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 45,
+        "season": "2017",
+        "balls": 5
+      },
+      {
+        "fixture": "DC vs KXIP",
+        "matchNumber": 13,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "PBKS vs LSG",
+        "matchNumber": 38,
+        "season": "2023",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 127,
+    "name": "Sandeep Sharma",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "SRH vs MI",
+        "matchNumber": 7,
+        "season": "2018",
+        "balls": 2
+      },
+      {
+        "fixture": "SRH vs RCB",
+        "matchNumber": 39,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs KXIP",
+        "matchNumber": 43,
+        "season": "2020",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 128,
+    "name": "SN Khan",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "RCB vs KXIP",
+        "matchNumber": 8,
+        "season": "2018",
+        "balls": 1
+      },
+      {
+        "fixture": "PBKS vs RCB",
+        "matchNumber": 48,
+        "season": "2021",
+        "balls": 1
+      },
+      {
+        "fixture": "PBKS vs CSK",
+        "matchNumber": 53,
+        "season": "2021",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 129,
+    "name": "CA Lynn",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "KKR vs RR",
+        "matchNumber": 15,
+        "season": "2018",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 23,
+        "season": "2019",
+        "balls": 5
+      },
+      {
+        "fixture": "KKR vs RR",
+        "matchNumber": 43,
+        "season": "2019",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 130,
+    "name": "Shivam Mavi",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "KKR vs DD",
+        "matchNumber": 26,
+        "season": "2018",
+        "balls": 3
+      },
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 21,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs RR",
+        "matchNumber": 30,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 131,
+    "name": "BA Stokes",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "RR vs SRH",
+        "matchNumber": 28,
+        "season": "2018",
+        "balls": 3
+      },
+      {
+        "fixture": "RR vs MI",
+        "matchNumber": 36,
+        "season": "2019",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs PBKS",
+        "matchNumber": 4,
+        "season": "2021",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 132,
+    "name": "M Vohra",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "KXIP vs SRH",
+        "matchNumber": 25,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs KKR",
+        "matchNumber": 32,
+        "season": "2016",
+        "balls": 5
+      },
+      {
+        "fixture": "RCB vs KKR",
+        "matchNumber": 29,
+        "season": "2018",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 133,
+    "name": "SO Hetmyer",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 1,
+        "season": "2019",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": 31,
+        "season": "2024",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs MI",
+        "matchNumber": 50,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 134,
+    "name": "AJ Turner",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "RR vs KXIP",
+        "matchNumber": 32,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs MI",
+        "matchNumber": 36,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs DC",
+        "matchNumber": 40,
+        "season": "2019",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 135,
+    "name": "JM Bairstow",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "SRH vs CSK",
+        "matchNumber": 41,
+        "season": "2019",
+        "balls": 2
+      },
+      {
+        "fixture": "SRH vs CSK",
+        "matchNumber": 14,
+        "season": "2020",
+        "balls": 3
+      },
+      {
+        "fixture": "PBKS vs SRH",
+        "matchNumber": 23,
+        "season": "2024",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 136,
+    "name": "R Parag",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "RR vs KXIP",
+        "matchNumber": 9,
+        "season": "2020",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": 54,
+        "season": "2020",
+        "balls": 7
+      },
+      {
+        "fixture": "RR vs SRH",
+        "matchNumber": 40,
+        "season": "2021",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 137,
+    "name": "Arshdeep Singh",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "KXIP vs SRH",
+        "matchNumber": 22,
+        "season": "2020",
+        "balls": 3
+      },
+      {
+        "fixture": "PBKS vs KKR",
+        "matchNumber": 8,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "PBKS vs SRH",
+        "matchNumber": 28,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 138,
+    "name": "DR Sams",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": null,
+        "season": "2020",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs RR",
+        "matchNumber": 9,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs GT",
+        "matchNumber": 51,
+        "season": "2022",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 139,
+    "name": "M Jansen",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "MI vs RCB",
+        "matchNumber": 1,
+        "season": "2021",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs KKR",
+        "matchNumber": 5,
+        "season": "2021",
+        "balls": 1
+      },
+      {
+        "fixture": "PBKS vs DC",
+        "matchNumber": 66,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 140,
+    "name": "Abdul Samad",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "SRH vs RCB",
+        "matchNumber": 6,
+        "season": "2021",
+        "balls": 2
+      },
+      {
+        "fixture": "SRH vs LSG",
+        "matchNumber": 12,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs RR",
+        "matchNumber": null,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 141,
+    "name": "M Shahrukh Khan",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "PBKS vs RCB",
+        "matchNumber": 26,
+        "season": "2021",
+        "balls": 3
+      },
+      {
+        "fixture": "PBKS vs KKR",
+        "matchNumber": 8,
+        "season": "2022",
+        "balls": 5
+      },
+      {
+        "fixture": "GT vs DC",
+        "matchNumber": 32,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 142,
+    "name": "KL Rahul",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "RCB vs GL",
+        "matchNumber": null,
+        "season": "2016",
+        "balls": 1
+      },
+      {
+        "fixture": "LSG vs GT",
+        "matchNumber": 4,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "LSG vs RR",
+        "matchNumber": 20,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 143,
+    "name": "VG Arora",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "PBKS vs SRH",
+        "matchNumber": 28,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs PBKS",
+        "matchNumber": 31,
+        "season": "2025",
+        "balls": 7
+      },
+      {
+        "fixture": "KKR vs SRH",
+        "matchNumber": 68,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 144,
+    "name": "TG Southee",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "KKR vs DC",
+        "matchNumber": 41,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs LSG",
+        "matchNumber": 53,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs MI",
+        "matchNumber": 56,
+        "season": "2022",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 145,
+    "name": "AS Roy",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "KKR vs LSG",
+        "matchNumber": 53,
+        "season": "2022",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs DC",
+        "matchNumber": 28,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs DC",
+        "matchNumber": 48,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 146,
+    "name": "Abhishek Sharma",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "SRH vs RCB",
+        "matchNumber": 54,
+        "season": "2022",
+        "balls": 3
+      },
+      {
+        "fixture": "SRH vs RR",
+        "matchNumber": 4,
+        "season": "2023",
+        "balls": 3
+      },
+      {
+        "fixture": "SRH vs CSK",
+        "matchNumber": 43,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 147,
+    "name": "DP Conway",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 59,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 12,
+        "season": "2023",
+        "balls": 4
+      },
+      {
+        "fixture": "CSK vs KKR",
+        "matchNumber": 57,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 148,
+    "name": "S Dube",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "CSK vs GT",
+        "matchNumber": 62,
+        "season": "2022",
+        "balls": 2
+      },
+      {
+        "fixture": "CSK vs PBKS",
+        "matchNumber": 49,
+        "season": "2024",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs PBKS",
+        "matchNumber": 53,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 149,
+    "name": "MK Lomror",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 24,
+        "season": "2023",
+        "balls": 5
+      },
+      {
+        "fixture": "RCB vs MI",
+        "matchNumber": 25,
+        "season": "2024",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs PBKS",
+        "matchNumber": 58,
+        "season": "2024",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 150,
+    "name": "Dhruv Jurel",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "RR vs LSG",
+        "matchNumber": 26,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs PBKS",
+        "matchNumber": 65,
+        "season": "2024",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": 53,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 151,
+    "name": "PD Salt",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "DC vs SRH",
+        "matchNumber": 34,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs GT",
+        "matchNumber": 44,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 22,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 152,
+    "name": "TH David",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "MI vs GT",
+        "matchNumber": 35,
+        "season": "2023",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs RCB",
+        "matchNumber": 54,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs KKR",
+        "matchNumber": 60,
+        "season": "2024",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 153,
+    "name": "HC Brook",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "SRH vs DC",
+        "matchNumber": 40,
+        "season": "2023",
+        "balls": 2
+      },
+      {
+        "fixture": "SRH vs KKR",
+        "matchNumber": 47,
+        "season": "2023",
+        "balls": 4
+      },
+      {
+        "fixture": "SRH vs MI",
+        "matchNumber": 69,
+        "season": "2023",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 154,
+    "name": "Naman Dhir",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "MI vs RR",
+        "matchNumber": 14,
+        "season": "2024",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs SRH",
+        "matchNumber": 55,
+        "season": "2024",
+        "balls": 9
+      },
+      {
+        "fixture": "MI vs SRH",
+        "matchNumber": 33,
+        "season": "2025",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 155,
+    "name": "MA Starc",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 22,
+        "season": "2024",
+        "balls": 3
+      },
+      {
+        "fixture": "KKR vs MI",
+        "matchNumber": 51,
+        "season": "2024",
+        "balls": 2
+      },
+      {
+        "fixture": "DC vs KKR",
+        "matchNumber": 48,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 156,
+    "name": "LS Livingstone",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "PBKS vs RCB",
+        "matchNumber": 58,
+        "season": "2024",
+        "balls": 2
+      },
+      {
+        "fixture": "RCB vs MI",
+        "matchNumber": 20,
+        "season": "2025",
+        "balls": 2
+      },
+      {
+        "fixture": "RCB vs LSG",
+        "matchNumber": 70,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 157,
+    "name": "J Fraser-McGurk",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "DC vs LSG",
+        "matchNumber": 64,
+        "season": "2024",
+        "balls": 2
+      },
+      {
+        "fixture": "DC vs CSK",
+        "matchNumber": 17,
+        "season": "2025",
+        "balls": 5
+      },
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": 29,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 158,
+    "name": "RT Ponting",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "KKR vs DC",
+        "matchNumber": 4,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 11,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs DD",
+        "matchNumber": 10,
+        "season": "2013",
+        "balls": 6
+      }
+    ]
+  },
+  {
+    "rank": 159,
+    "name": "S Sohal",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "KXIP vs MI",
+        "matchNumber": 10,
+        "season": "2007",
+        "balls": 4
+      },
+      {
+        "fixture": "KXIP vs RR",
+        "matchNumber": 30,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs PWI",
+        "matchNumber": 53,
+        "season": "2011",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 160,
+    "name": "S Sreesanth",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "KXIP vs MI",
+        "matchNumber": 10,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "KTK vs DD",
+        "matchNumber": 36,
+        "season": "2011",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": 27,
+        "season": "2013",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 161,
+    "name": "R Dravid",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": 12,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 15,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": 33,
+        "season": "2009",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 162,
+    "name": "LR Shukla",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "KKR vs MI",
+        "matchNumber": 38,
+        "season": "2007",
+        "balls": 4
+      },
+      {
+        "fixture": "KKR vs PWI",
+        "matchNumber": 47,
+        "season": "2012",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs CSK",
+        "matchNumber": 26,
+        "season": "2014",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 163,
+    "name": "R Vinay Kumar",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 46,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs RR",
+        "matchNumber": 19,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs SRH",
+        "matchNumber": 23,
+        "season": "2015",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 164,
+    "name": "LRPL Taylor",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": 2,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs KXIP",
+        "matchNumber": 23,
+        "season": "2011",
+        "balls": 5
+      },
+      {
+        "fixture": "DD vs KXIP",
+        "matchNumber": 64,
+        "season": "2012",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 165,
+    "name": "GC Smith",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "RR vs DC",
+        "matchNumber": 25,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs DD",
+        "matchNumber": 50,
+        "season": "2009",
+        "balls": 4
+      },
+      {
+        "fixture": "PWI vs KXIP",
+        "matchNumber": 5,
+        "season": "2011",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 166,
+    "name": "BJ Hodge",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "KKR vs DD",
+        "matchNumber": 39,
+        "season": "2009",
+        "balls": 3
+      },
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 8,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "KTK vs DC",
+        "matchNumber": 32,
+        "season": "2011",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 167,
+    "name": "Irfan Pathan",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "KXIP vs MI",
+        "matchNumber": 42,
+        "season": "2009",
+        "balls": 3
+      },
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 4,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 36,
+        "season": "2012",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 168,
+    "name": "R Bhatia",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "DD vs DC",
+        "matchNumber": 43,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs KXIP",
+        "matchNumber": 46,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs CSK",
+        "matchNumber": 47,
+        "season": "2015",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 169,
+    "name": "TL Suman",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "DC vs KXIP",
+        "matchNumber": 49,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs RCB",
+        "matchNumber": 46,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "PWI vs CSK",
+        "matchNumber": 42,
+        "season": "2013",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 170,
+    "name": "A Singh",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "RR vs DD",
+        "matchNumber": 50,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": 17,
+        "season": "2011",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs MI",
+        "matchNumber": 12,
+        "season": "2012",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 171,
+    "name": "JA Morkel",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "CSK vs DD",
+        "matchNumber": 11,
+        "season": "2009",
+        "balls": 3
+      },
+      {
+        "fixture": "CSK vs PWI",
+        "matchNumber": 29,
+        "season": "2011",
+        "balls": 4
+      },
+      {
+        "fixture": "CSK vs DD",
+        "matchNumber": null,
+        "season": "2012",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 172,
+    "name": "MJ Lumb",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": 13,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs DD",
+        "matchNumber": 29,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": 59,
+        "season": "2011",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 173,
+    "name": "RV Gomez",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "KTK vs RCB",
+        "matchNumber": 3,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "KTK vs RR",
+        "matchNumber": 28,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "KTK vs DC",
+        "matchNumber": 32,
+        "season": "2011",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 174,
+    "name": "R Rampaul",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 16,
+        "season": "2013",
+        "balls": 4
+      },
+      {
+        "fixture": "RCB vs PWI",
+        "matchNumber": 31,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs KKR",
+        "matchNumber": 60,
+        "season": "2013",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 175,
+    "name": "RN ten Doeschate",
+    "totalDucks": 3,
+    "innings": [
+      {
+        "fixture": "KKR vs RR",
+        "matchNumber": 25,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs SRH",
+        "matchNumber": 54,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs KXIP",
+        "matchNumber": 14,
+        "season": "2015",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 176,
+    "name": "TS Mills",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "RCB vs DD",
+        "matchNumber": 5,
+        "season": "2017",
+        "balls": 3
+      },
+      {
+        "fixture": "MI vs PBKS",
+        "matchNumber": 23,
+        "season": "2022",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 177,
+    "name": "S Badree",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "RCB vs RPS",
+        "matchNumber": 17,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs KKR",
+        "matchNumber": 27,
+        "season": "2017",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 178,
+    "name": "HM Amla",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "KXIP vs MI",
+        "matchNumber": 43,
+        "season": "2016",
+        "balls": 5
+      },
+      {
+        "fixture": "KXIP vs SRH",
+        "matchNumber": 19,
+        "season": "2017",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 179,
+    "name": "CJ Anderson",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 25,
+        "season": "2017",
+        "balls": 3
+      },
+      {
+        "fixture": "RCB vs MI",
+        "matchNumber": 14,
+        "season": "2018",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 180,
+    "name": "Ankit Soni",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "GL vs RPS",
+        "matchNumber": 39,
+        "season": "2017",
+        "balls": 1
+      },
+      {
+        "fixture": "GL vs SRH",
+        "matchNumber": 53,
+        "season": "2017",
+        "balls": 6
+      }
+    ]
+  },
+  {
+    "rank": 181,
+    "name": "LMP Simmons",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "MI vs DD",
+        "matchNumber": 39,
+        "season": "2015",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs KKR",
+        "matchNumber": 54,
+        "season": "2017",
+        "balls": 5
+      }
+    ]
+  },
+  {
+    "rank": 182,
+    "name": "E Lewis",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": 1,
+        "season": "2018",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs RR",
+        "matchNumber": 21,
+        "season": "2018",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 183,
+    "name": "K Gowtham",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "RR vs SRH",
+        "matchNumber": 4,
+        "season": "2018",
+        "balls": 2
+      },
+      {
+        "fixture": "LSG vs RR",
+        "matchNumber": 20,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 184,
+    "name": "S Kaul",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "SRH vs MI",
+        "matchNumber": 7,
+        "season": "2018",
+        "balls": 4
+      },
+      {
+        "fixture": "SRH vs MI",
+        "matchNumber": 19,
+        "season": "2019",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 185,
+    "name": "Mujeeb Ur Rahman",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "KXIP vs RCB",
+        "matchNumber": 8,
+        "season": "2018",
+        "balls": 2
+      },
+      {
+        "fixture": "KXIP vs SRH",
+        "matchNumber": 48,
+        "season": "2019",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 186,
+    "name": "TA Boult",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "DD vs KKR",
+        "matchNumber": 13,
+        "season": "2018",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": 1,
+        "season": "2020",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 187,
+    "name": "B Laughlin",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 5,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs CSK",
+        "matchNumber": 17,
+        "season": "2018",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 188,
+    "name": "RK Bhui",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "SRH vs CSK",
+        "matchNumber": 20,
+        "season": "2018",
+        "balls": 5
+      },
+      {
+        "fixture": "DC vs RR",
+        "matchNumber": 9,
+        "season": "2024",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 189,
+    "name": "JD Unadkat",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "DD vs KXIP",
+        "matchNumber": 55,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs KXIP",
+        "matchNumber": 40,
+        "season": "2018",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 190,
+    "name": "AJ Tye",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "KXIP vs RCB",
+        "matchNumber": 48,
+        "season": "2018",
+        "balls": 3
+      },
+      {
+        "fixture": "KXIP vs CSK",
+        "matchNumber": 56,
+        "season": "2018",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 191,
+    "name": "P Negi",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "RCB vs DC",
+        "matchNumber": 20,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs MI",
+        "matchNumber": 31,
+        "season": "2019",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 192,
+    "name": "Washington Sundar",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "RCB vs SRH",
+        "matchNumber": 54,
+        "season": "2019",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs GT",
+        "matchNumber": 12,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 193,
+    "name": "KL Nagarkoti",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 21,
+        "season": "2020",
+        "balls": 2
+      },
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 15,
+        "season": "2021",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 194,
+    "name": "N Jagadeesan",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 41,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs MI",
+        "matchNumber": 22,
+        "season": "2023",
+        "balls": 5
+      }
+    ]
+  },
+  {
+    "rank": 195,
+    "name": "V Shankar",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "SRH vs RCB",
+        "matchNumber": 3,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "GT vs CSK",
+        "matchNumber": 29,
+        "season": "2022",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 196,
+    "name": "PK Garg",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "SRH vs KXIP",
+        "matchNumber": 22,
+        "season": "2020",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs RR",
+        "matchNumber": 40,
+        "season": "2021",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 197,
+    "name": "JDS Neesham",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": 27,
+        "season": "2021",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs SRH",
+        "matchNumber": 55,
+        "season": "2021",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 198,
+    "name": "DT Christian",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "DC vs RCB",
+        "matchNumber": 11,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs PBKS",
+        "matchNumber": 48,
+        "season": "2021",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 199,
+    "name": "R Powell",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": 2,
+        "season": "2022",
+        "balls": 2
+      },
+      {
+        "fixture": "DC vs RCB",
+        "matchNumber": 27,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 200,
+    "name": "Akash Deep",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 22,
+        "season": "2022",
+        "balls": 2
+      },
+      {
+        "fixture": "LSG vs MI",
+        "matchNumber": 16,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 201,
+    "name": "NT Ellis",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "PBKS vs DC",
+        "matchNumber": 32,
+        "season": "2022",
+        "balls": 2
+      },
+      {
+        "fixture": "PBKS vs SRH",
+        "matchNumber": 14,
+        "season": "2023",
+        "balls": 5
+      }
+    ]
+  },
+  {
+    "rank": 202,
+    "name": "Yash Dayal",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "GT vs KKR",
+        "matchNumber": 35,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs PBKS",
+        "matchNumber": 34,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 203,
+    "name": "A Manohar",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "GT vs SRH",
+        "matchNumber": 40,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs RR",
+        "matchNumber": 2,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 204,
+    "name": "M Ashwin",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "RPS vs RCB",
+        "matchNumber": 16,
+        "season": "2016",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs KKR",
+        "matchNumber": 56,
+        "season": "2022",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 205,
+    "name": "T Stubbs",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": 59,
+        "season": "2022",
+        "balls": 2
+      },
+      {
+        "fixture": "DC vs CSK",
+        "matchNumber": 13,
+        "season": "2024",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 206,
+    "name": "A Badoni",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "LSG vs RR",
+        "matchNumber": 63,
+        "season": "2022",
+        "balls": 1
+      },
+      {
+        "fixture": "LSG vs RCB",
+        "matchNumber": 15,
+        "season": "2024",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 207,
+    "name": "VR Iyer",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "KKR vs LSG",
+        "matchNumber": 66,
+        "season": "2022",
+        "balls": 4
+      },
+      {
+        "fixture": "KKR vs DC",
+        "matchNumber": 28,
+        "season": "2023",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 208,
+    "name": "AK Markram",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "SRH vs LSG",
+        "matchNumber": 10,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs PBKS",
+        "matchNumber": 23,
+        "season": "2024",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 209,
+    "name": "R Shepherd",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "LSG vs SRH",
+        "matchNumber": 10,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs SRH",
+        "matchNumber": 65,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 210,
+    "name": "A Nortje",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "DC vs RR",
+        "matchNumber": 11,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs SRH",
+        "matchNumber": 35,
+        "season": "2024",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 211,
+    "name": "Kyle Mayers",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "LSG vs RCB",
+        "matchNumber": 15,
+        "season": "2023",
+        "balls": 3
+      },
+      {
+        "fixture": "LSG vs RCB",
+        "matchNumber": 43,
+        "season": "2023",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 212,
+    "name": "JO Holder",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "KKR vs DD",
+        "matchNumber": 26,
+        "season": "2016",
+        "balls": 1
+      },
+      {
+        "fixture": "RR vs CSK",
+        "matchNumber": 17,
+        "season": "2023",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 213,
+    "name": "Rahmanullah Gurbaz",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "KKR vs SRH",
+        "matchNumber": 19,
+        "season": "2023",
+        "balls": 3
+      },
+      {
+        "fixture": "KKR vs SRH",
+        "matchNumber": 47,
+        "season": "2023",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 214,
+    "name": "Vijaykumar Vyshak",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": 32,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs MI",
+        "matchNumber": 25,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 215,
+    "name": "Noor Ahmad",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "GT vs SRH",
+        "matchNumber": 62,
+        "season": "2023",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs PBKS",
+        "matchNumber": 49,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 216,
+    "name": "JM Sharma",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "PBKS vs DC",
+        "matchNumber": 64,
+        "season": "2023",
+        "balls": 3
+      },
+      {
+        "fixture": "PBKS vs CSK",
+        "matchNumber": 53,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 217,
+    "name": "Shashank Singh",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "PBKS vs DC",
+        "matchNumber": 2,
+        "season": "2024",
+        "balls": 1
+      },
+      {
+        "fixture": "PBKS vs RR",
+        "matchNumber": 65,
+        "season": "2024",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 218,
+    "name": "Ravi Bishnoi",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "LSG vs PBKS",
+        "matchNumber": 11,
+        "season": "2024",
+        "balls": 1
+      },
+      {
+        "fixture": "LSG vs DC",
+        "matchNumber": 4,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 219,
+    "name": "D Brevis",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "MI vs RR",
+        "matchNumber": 14,
+        "season": "2024",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs RCB",
+        "matchNumber": 52,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 220,
+    "name": "Abishek Porel",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "DC vs KKR",
+        "matchNumber": 16,
+        "season": "2024",
+        "balls": 5
+      },
+      {
+        "fixture": "DC vs LSG",
+        "matchNumber": 4,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 221,
+    "name": "R Ravindra",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "CSK vs LSG",
+        "matchNumber": 34,
+        "season": "2024",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs RR",
+        "matchNumber": 11,
+        "season": "2025",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 222,
+    "name": "Swapnil Singh",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "KXIP vs KKR",
+        "matchNumber": 32,
+        "season": "2016",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs DC",
+        "matchNumber": 62,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 223,
+    "name": "Simarjeet Singh",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "SRH vs KKR",
+        "matchNumber": 15,
+        "season": "2025",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs GT",
+        "matchNumber": 19,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 224,
+    "name": "R Tewatia",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "GT vs LSG",
+        "matchNumber": 26,
+        "season": "2025",
+        "balls": 1
+      },
+      {
+        "fixture": "GT vs KKR",
+        "matchNumber": 39,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 225,
+    "name": "B Akhil",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "RCB vs KKR",
+        "matchNumber": 1,
+        "season": "2007",
+        "balls": 2
+      },
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 44,
+        "season": "2009",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 226,
+    "name": "WPUJC Vaas",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "DC vs KKR",
+        "matchNumber": 4,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs KKR",
+        "matchNumber": 1,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 227,
+    "name": "Joginder Sharma",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "CSK vs RR",
+        "matchNumber": 24,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 25,
+        "season": "2011",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 228,
+    "name": "M Muralitharan",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "CSK vs RR",
+        "matchNumber": 24,
+        "season": "2007",
+        "balls": 3
+      },
+      {
+        "fixture": "RCB vs DC",
+        "matchNumber": 71,
+        "season": "2012",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 229,
+    "name": "Misbah-ul-Haq",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "RCB vs MI",
+        "matchNumber": 55,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": 39,
+        "season": "2007",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 230,
+    "name": "MF Maharoof",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "DD vs KXIP",
+        "matchNumber": 40,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs KXIP",
+        "matchNumber": 44,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 231,
+    "name": "SM Pollock",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "MI vs KXIP",
+        "matchNumber": 45,
+        "season": "2007",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs RR",
+        "matchNumber": 53,
+        "season": "2007",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 232,
+    "name": "SA Asnodkar",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": 2,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "RR vs DC",
+        "matchNumber": 25,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 233,
+    "name": "AD Mascarenhas",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": 2,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs KKR",
+        "matchNumber": 17,
+        "season": "2012",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 234,
+    "name": "ST Jayasuriya",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "MI vs KXIP",
+        "matchNumber": 20,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "MI vs DD",
+        "matchNumber": 55,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 235,
+    "name": "Shoaib Ahmed",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "DC vs DD",
+        "matchNumber": 21,
+        "season": "2009",
+        "balls": 3
+      },
+      {
+        "fixture": "DC vs DD",
+        "matchNumber": 43,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 236,
+    "name": "Y Venugopal Rao",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "DC vs KXIP",
+        "matchNumber": 49,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "DC vs RCB",
+        "matchNumber": null,
+        "season": "2009",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 237,
+    "name": "DPMD Jayawardene",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "KXIP vs DD",
+        "matchNumber": 3,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs RR",
+        "matchNumber": 43,
+        "season": "2012",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 238,
+    "name": "ML Hayden",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "CSK vs KXIP",
+        "matchNumber": 16,
+        "season": "2009",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs KKR",
+        "matchNumber": 48,
+        "season": "2009",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 239,
+    "name": "RS Bopara",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "KXIP vs KKR",
+        "matchNumber": 23,
+        "season": "2009",
+        "balls": 2
+      },
+      {
+        "fixture": "SRH vs KXIP",
+        "matchNumber": 27,
+        "season": "2015",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 240,
+    "name": "AUK Pathan",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "RCB vs MI",
+        "matchNumber": 8,
+        "season": "2011",
+        "balls": 2
+      },
+      {
+        "fixture": "RCB vs KXIP",
+        "matchNumber": 47,
+        "season": "2011",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 241,
+    "name": "S Anirudha",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "CSK vs KXIP",
+        "matchNumber": 9,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "CSK vs PWI",
+        "matchNumber": 19,
+        "season": "2013",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 242,
+    "name": "AM Nayar",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "KXIP vs CSK",
+        "matchNumber": 9,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "PWI vs SRH",
+        "matchNumber": 22,
+        "season": "2013",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 243,
+    "name": "MS Gony",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "DC vs KXIP",
+        "matchNumber": 15,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs MI",
+        "matchNumber": 41,
+        "season": "2013",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 244,
+    "name": "R Sathish",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": 25,
+        "season": "2011",
+        "balls": 7
+      },
+      {
+        "fixture": "KXIP vs CSK",
+        "matchNumber": 45,
+        "season": "2013",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 245,
+    "name": "Y Nagar",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 49,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 36,
+        "season": "2012",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 246,
+    "name": "RJ Harris",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "KXIP vs DC",
+        "matchNumber": 67,
+        "season": "2011",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs CSK",
+        "matchNumber": 11,
+        "season": "2013",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 247,
+    "name": "RE Levi",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "MI vs PWI",
+        "matchNumber": 3,
+        "season": "2012",
+        "balls": 2
+      },
+      {
+        "fixture": "MI vs DC",
+        "matchNumber": 40,
+        "season": "2012",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 248,
+    "name": "P Awana",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "KXIP vs RR",
+        "matchNumber": 18,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs SRH",
+        "matchNumber": 59,
+        "season": "2013",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 249,
+    "name": "Azhar Mahmood",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "KXIP vs KKR",
+        "matchNumber": 20,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs PWI",
+        "matchNumber": 29,
+        "season": "2013",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 250,
+    "name": "MS Bisla",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "KKR vs KXIP",
+        "matchNumber": 20,
+        "season": "2013",
+        "balls": 1
+      },
+      {
+        "fixture": "KKR vs RCB",
+        "matchNumber": 60,
+        "season": "2013",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 251,
+    "name": "AD Mathews",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "PWI vs MI",
+        "matchNumber": 58,
+        "season": "2013",
+        "balls": 2
+      },
+      {
+        "fixture": "DD vs RCB",
+        "matchNumber": 26,
+        "season": "2015",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 252,
+    "name": "DJG Sammy",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "SRH vs KXIP",
+        "matchNumber": 59,
+        "season": "2013",
+        "balls": 3
+      },
+      {
+        "fixture": "SRH vs CSK",
+        "matchNumber": 50,
+        "season": "2014",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 253,
+    "name": "YV Takawale",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": 14,
+        "season": "2014",
+        "balls": 3
+      },
+      {
+        "fixture": "RCB vs KXIP",
+        "matchNumber": 18,
+        "season": "2014",
+        "balls": 7
+      }
+    ]
+  },
+  {
+    "rank": 254,
+    "name": "MG Johnson",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "KXIP vs KKR",
+        "matchNumber": 15,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "KXIP vs RR",
+        "matchNumber": 3,
+        "season": "2015",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 255,
+    "name": "MC Henriques",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "SRH vs KXIP",
+        "matchNumber": 39,
+        "season": "2014",
+        "balls": 1
+      },
+      {
+        "fixture": "SRH vs DD",
+        "matchNumber": 42,
+        "season": "2016",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 256,
+    "name": "Anureet Singh",
+    "totalDucks": 2,
+    "innings": [
+      {
+        "fixture": "KXIP vs SRH",
+        "matchNumber": 27,
+        "season": "2015",
+        "balls": 2
+      },
+      {
+        "fixture": "KXIP vs RCB",
+        "matchNumber": 40,
+        "season": "2015",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 257,
+    "name": "S Aravind",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs SRH",
+        "matchNumber": 1,
+        "season": "2017",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 258,
+    "name": "AD Nath",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "GL vs KXIP",
+        "matchNumber": 26,
+        "season": "2017",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 259,
+    "name": "YS Chahal",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs KKR",
+        "matchNumber": 27,
+        "season": "2017",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 260,
+    "name": "MJ Guptill",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KXIP vs RPS",
+        "matchNumber": 55,
+        "season": "2017",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 261,
+    "name": "MN Samuels",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DD vs RCB",
+        "matchNumber": 56,
+        "season": "2017",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 262,
+    "name": "CJ Jordan",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "SRH vs KKR",
+        "matchNumber": null,
+        "season": "2017",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 263,
+    "name": "H Klaasen",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs MI",
+        "matchNumber": 21,
+        "season": "2018",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 264,
+    "name": "LE Plunkett",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DD vs KXIP",
+        "matchNumber": 22,
+        "season": "2018",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 265,
+    "name": "KS Williamson",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "SRH vs KXIP",
+        "matchNumber": 25,
+        "season": "2018",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 266,
+    "name": "C Munro",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DD vs RR",
+        "matchNumber": 32,
+        "season": "2018",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 267,
+    "name": "KMA Paul",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DC vs CSK",
+        "matchNumber": 5,
+        "season": "2019",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 268,
+    "name": "S Lamichhane",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DC vs KXIP",
+        "matchNumber": 13,
+        "season": "2019",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 269,
+    "name": "M Prasidh Krishna",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KKR vs CSK",
+        "matchNumber": 23,
+        "season": "2019",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 270,
+    "name": "JL Denly",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KKR vs DC",
+        "matchNumber": 26,
+        "season": "2019",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 271,
+    "name": "GC Viljoen",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KXIP vs RCB",
+        "matchNumber": 42,
+        "season": "2019",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 272,
+    "name": "I Udana",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs SRH",
+        "matchNumber": 52,
+        "season": "2020",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 273,
+    "name": "JR Philippe",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs KXIP",
+        "matchNumber": 6,
+        "season": "2020",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 274,
+    "name": "SS Cottrell",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KXIP vs SRH",
+        "matchNumber": 22,
+        "season": "2020",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 275,
+    "name": "JA Richardson",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "PBKS vs RR",
+        "matchNumber": 4,
+        "season": "2021",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 276,
+    "name": "C Sakariya",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": 16,
+        "season": "2021",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 277,
+    "name": "GHS Garton",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs PBKS",
+        "matchNumber": 48,
+        "season": "2021",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 278,
+    "name": "Lalit Yadav",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DC vs KKR",
+        "matchNumber": 41,
+        "season": "2021",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 279,
+    "name": "AF Milne",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "MI vs RCB",
+        "matchNumber": 39,
+        "season": "2021",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 280,
+    "name": "RA Bawa",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "PBKS vs RCB",
+        "matchNumber": 3,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 281,
+    "name": "SP Jackson",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KKR vs RCB",
+        "matchNumber": 6,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 282,
+    "name": "D Pretorius",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "CSK vs LSG",
+        "matchNumber": 7,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 283,
+    "name": "DJ Willey",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": 13,
+        "season": "2022",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 284,
+    "name": "OF Smith",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "PBKS vs GT",
+        "matchNumber": 16,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 285,
+    "name": "Tilak Varma",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "MI vs RCB",
+        "matchNumber": 18,
+        "season": "2022",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 286,
+    "name": "AS Joseph",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "GT vs CSK",
+        "matchNumber": 29,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 287,
+    "name": "LH Ferguson",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "GT vs KKR",
+        "matchNumber": 35,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 288,
+    "name": "B Indrajith",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KKR vs LSG",
+        "matchNumber": 53,
+        "season": "2022",
+        "balls": 6
+      }
+    ]
+  },
+  {
+    "rank": 289,
+    "name": "Kartik Tyagi",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "SRH vs RCB",
+        "matchNumber": 54,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 290,
+    "name": "Umran Malik",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "SRH vs RCB",
+        "matchNumber": 54,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 291,
+    "name": "KS Bharat",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DC vs RR",
+        "matchNumber": 58,
+        "season": "2022",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 292,
+    "name": "M Theekshana",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 59,
+        "season": "2022",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 293,
+    "name": "PVD Chameera",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "LSG vs RR",
+        "matchNumber": 63,
+        "season": "2022",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 294,
+    "name": "R Sanjay Yadav",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "MI vs SRH",
+        "matchNumber": 65,
+        "season": "2022",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 295,
+    "name": "J Suchith",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "SRH vs PBKS",
+        "matchNumber": 70,
+        "season": "2022",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 296,
+    "name": "Yudhvir Singh",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "LSG vs PBKS",
+        "matchNumber": 21,
+        "season": "2023",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 297,
+    "name": "Atharva Taide",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "PBKS vs LSG",
+        "matchNumber": 21,
+        "season": "2023",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 298,
+    "name": "Aman Hakim Khan",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DC vs KKR",
+        "matchNumber": 28,
+        "season": "2023",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 299,
+    "name": "N Wadhera",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "MI vs PBKS",
+        "matchNumber": 31,
+        "season": "2023",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 300,
+    "name": "SS Prabhudessai",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": 32,
+        "season": "2023",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 301,
+    "name": "Mohammed Siraj",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs LSG",
+        "matchNumber": 43,
+        "season": "2023",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 302,
+    "name": "Harshit Rana",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KKR vs SRH",
+        "matchNumber": 47,
+        "season": "2023",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 303,
+    "name": "PBB Rajapaksa",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "PBKS vs KKR",
+        "matchNumber": 53,
+        "season": "2023",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 304,
+    "name": "GD Phillips",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "SRH vs LSG",
+        "matchNumber": 58,
+        "season": "2023",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 305,
+    "name": "KM Asif",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": 60,
+        "season": "2023",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 306,
+    "name": "PN Mankad",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "LSG vs MI",
+        "matchNumber": 63,
+        "season": "2023",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 307,
+    "name": "Harpreet Brar",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "PBKS vs DC",
+        "matchNumber": 64,
+        "season": "2023",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 308,
+    "name": "MD Shanaka",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "GT vs RCB",
+        "matchNumber": 70,
+        "season": "2023",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 309,
+    "name": "DG Nalkande",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "GT vs CSK",
+        "matchNumber": null,
+        "season": "2023",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 310,
+    "name": "Mohsin Khan",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "LSG vs MI",
+        "matchNumber": null,
+        "season": "2023",
+        "balls": 7
+      }
+    ]
+  },
+  {
+    "rank": 311,
+    "name": "RM Patidar",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 1,
+        "season": "2024",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 312,
+    "name": "Sameer Rizvi",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "CSK vs DC",
+        "matchNumber": 13,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 313,
+    "name": "Kumar Kushagra",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": 20,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 314,
+    "name": "Saurav Chauhan",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs SRH",
+        "matchNumber": 30,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 315,
+    "name": "Mohammad Nabi",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "MI vs PBKS",
+        "matchNumber": 33,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 316,
+    "name": "G Coetzee",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "MI vs RR",
+        "matchNumber": 38,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 317,
+    "name": "Anmolpreet Singh",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "SRH vs CSK",
+        "matchNumber": 46,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 318,
+    "name": "AA Kulkarni",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "LSG vs MI",
+        "matchNumber": 48,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 319,
+    "name": "MJ Santner",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "CSK vs GT",
+        "matchNumber": 59,
+        "season": "2024",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 320,
+    "name": "SB Dubey",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs CSK",
+        "matchNumber": 61,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 321,
+    "name": "Arshad Khan",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "LSG vs MI",
+        "matchNumber": 67,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 322,
+    "name": "Shahbaz Ahmed",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "SRH vs KKR",
+        "matchNumber": null,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 323,
+    "name": "Sanvir Singh",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "SRH vs KKR",
+        "matchNumber": null,
+        "season": "2024",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 324,
+    "name": "Nithish Kumar Reddy",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "SRH vs DC",
+        "matchNumber": 10,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 325,
+    "name": "Priyansh Arya",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "PBKS vs RR",
+        "matchNumber": 18,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 326,
+    "name": "Ramandeep Singh",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KKR vs PBKS",
+        "matchNumber": 31,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 327,
+    "name": "V Nigam",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DC vs GT",
+        "matchNumber": 35,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 328,
+    "name": "SK Rasheed",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "CSK vs SRH",
+        "matchNumber": 43,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 329,
+    "name": "Avesh Khan",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "LSG vs MI",
+        "matchNumber": 45,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 330,
+    "name": "A Kamboj",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "CSK vs PBKS",
+        "matchNumber": 49,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 331,
+    "name": "V Suryavanshi",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs MI",
+        "matchNumber": 50,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 332,
+    "name": "PHKD Mendis",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "SRH vs GT",
+        "matchNumber": 51,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 333,
+    "name": "KS Rathore",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": 53,
+        "season": "2025",
+        "balls": 5
+      }
+    ]
+  },
+  {
+    "rank": 334,
+    "name": "A Mhatre",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "CSK vs KKR",
+        "matchNumber": 57,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 335,
+    "name": "MJ Owen",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "PBKS vs RR",
+        "matchNumber": 59,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 336,
+    "name": "Urvil Patel",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "CSK vs RR",
+        "matchNumber": 62,
+        "season": "2025",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 337,
+    "name": "Mustafizur Rahman",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": 63,
+        "season": "2025",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 338,
+    "name": "SE Rutherford",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "GT vs CSK",
+        "matchNumber": 67,
+        "season": "2025",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 339,
+    "name": "Musheer Khan",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "PBKS vs RCB",
+        "matchNumber": null,
+        "season": "2025",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 340,
+    "name": "DJ Thornely",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "MI vs RCB",
+        "matchNumber": 5,
+        "season": "2007",
+        "balls": 5
+      }
+    ]
+  },
+  {
+    "rank": 341,
+    "name": "B Lee",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KXIP vs RR",
+        "matchNumber": 6,
+        "season": "2007",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 342,
+    "name": "M Rawat",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": 12,
+        "season": "2007",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 343,
+    "name": "LPC Silva",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DC vs RCB",
+        "matchNumber": 51,
+        "season": "2007",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 344,
+    "name": "Mohammad Asif",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 23,
+        "season": "2007",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 345,
+    "name": "GD McGrath",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 23,
+        "season": "2007",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 346,
+    "name": "SP Fleming",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "CSK vs RR",
+        "matchNumber": 24,
+        "season": "2007",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 347,
+    "name": "W Jaffer",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs KXIP",
+        "matchNumber": 25,
+        "season": "2007",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 348,
+    "name": "VRV Singh",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KXIP vs CSK",
+        "matchNumber": 31,
+        "season": "2007",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 349,
+    "name": "CK Kapugedera",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "CSK vs MI",
+        "matchNumber": 36,
+        "season": "2007",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 350,
+    "name": "J Arunkumar",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs RR",
+        "matchNumber": 39,
+        "season": "2007",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 351,
+    "name": "Shahid Afridi",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": 42,
+        "season": "2007",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 352,
+    "name": "JR Hopes",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KXIP vs MI",
+        "matchNumber": 45,
+        "season": "2007",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 353,
+    "name": "S Vidyut",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "CSK vs RCB",
+        "matchNumber": 46,
+        "season": "2007",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 354,
+    "name": "PR Shah",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "MI vs DD",
+        "matchNumber": 50,
+        "season": "2007",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 355,
+    "name": "A Mukund",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "CSK vs RR",
+        "matchNumber": 49,
+        "season": "2007",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 356,
+    "name": "DB Das",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KKR vs KXIP",
+        "matchNumber": 52,
+        "season": "2007",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 357,
+    "name": "AS Yadav",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DC vs CSK",
+        "matchNumber": 54,
+        "season": "2007",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 358,
+    "name": "R Bishnoi",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 5,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 359,
+    "name": "K Goel",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KXIP vs KKR",
+        "matchNumber": 6,
+        "season": "2009",
+        "balls": 7
+      }
+    ]
+  },
+  {
+    "rank": 360,
+    "name": "Pankaj Singh",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs KXIP",
+        "matchNumber": 11,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 361,
+    "name": "AN Ghosh",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KKR vs MI",
+        "matchNumber": 17,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 362,
+    "name": "BAW Mendis",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KKR vs MI",
+        "matchNumber": 17,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 363,
+    "name": "L Ronchi",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "MI vs DD",
+        "matchNumber": 35,
+        "season": "2009",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 364,
+    "name": "JP Duminy",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "MI vs DD",
+        "matchNumber": 35,
+        "season": "2009",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 365,
+    "name": "MN van Wyk",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KKR vs DD",
+        "matchNumber": 39,
+        "season": "2009",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 366,
+    "name": "SM Katich",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KXIP vs MI",
+        "matchNumber": 42,
+        "season": "2009",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 367,
+    "name": "C Nanda",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "MI vs RR",
+        "matchNumber": 45,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 368,
+    "name": "A Uniyal",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs MI",
+        "matchNumber": 2,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 369,
+    "name": "S Narwal",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": 10,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 370,
+    "name": "Anirudh Singh",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DC vs KXIP",
+        "matchNumber": 12,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 371,
+    "name": "P Dogra",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": 13,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 372,
+    "name": "S Ladda",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DD vs DC",
+        "matchNumber": 15,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 373,
+    "name": "J Theron",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KXIP vs CSK",
+        "matchNumber": 16,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 374,
+    "name": "SJ Srivastava",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KXIP vs RR",
+        "matchNumber": 19,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 375,
+    "name": "CK Langeveldt",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KKR vs DD",
+        "matchNumber": 26,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 376,
+    "name": "FY Fazal",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs DD",
+        "matchNumber": 29,
+        "season": "2009",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 377,
+    "name": "AS Raut",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs DC",
+        "matchNumber": 36,
+        "season": "2009",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 378,
+    "name": "R McLaren",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "MI vs KXIP",
+        "matchNumber": 41,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 379,
+    "name": "I Sharma",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KKR vs RCB",
+        "matchNumber": 43,
+        "season": "2009",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 380,
+    "name": "AG Paunikar",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs RCB",
+        "matchNumber": 49,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 381,
+    "name": "SE Marsh",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KXIP vs DC",
+        "matchNumber": 51,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 382,
+    "name": "Harmeet Singh",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DC vs CSK",
+        "matchNumber": null,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 383,
+    "name": "MD Mishra",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DC vs RCB",
+        "matchNumber": null,
+        "season": "2009",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 384,
+    "name": "SS Tiwary",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": null,
+        "season": "2009",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 385,
+    "name": "JJ van der Wath",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs DC",
+        "matchNumber": 11,
+        "season": "2011",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 386,
+    "name": "SW Tait",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": 17,
+        "season": "2011",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 387,
+    "name": "SK Trivedi",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": 17,
+        "season": "2011",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 388,
+    "name": "A Mithun",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs DD",
+        "matchNumber": 30,
+        "season": "2011",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 389,
+    "name": "RR Powar",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KTK vs DD",
+        "matchNumber": 36,
+        "season": "2011",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 390,
+    "name": "SB Wagh",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "PWI vs MI",
+        "matchNumber": 44,
+        "season": "2011",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 391,
+    "name": "AA Jhunjhunwala",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "PWI vs KXIP",
+        "matchNumber": 51,
+        "season": "2011",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 392,
+    "name": "JDP Oram",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs KTK",
+        "matchNumber": 61,
+        "season": "2011",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 393,
+    "name": "Rahul Doshi",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs KTK",
+        "matchNumber": 61,
+        "season": "2011",
+        "balls": 13
+      }
+    ]
+  },
+  {
+    "rank": 394,
+    "name": "Mike Hussey",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "CSK vs RCB",
+        "matchNumber": null,
+        "season": "2011",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 395,
+    "name": "DL Vettori",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": null,
+        "season": "2011",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 396,
+    "name": "AL Menaria",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs KXIP",
+        "matchNumber": 4,
+        "season": "2012",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 397,
+    "name": "DB Ravi Teja",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DC vs CSK",
+        "matchNumber": 6,
+        "season": "2012",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 398,
+    "name": "CA Pujara",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 13,
+        "season": "2012",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 399,
+    "name": "RR Bhatkal",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 13,
+        "season": "2012",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 400,
+    "name": "PC Valthaty",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KXIP vs PWI",
+        "matchNumber": 14,
+        "season": "2012",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 401,
+    "name": "DJ Jacobs",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "MI vs DD",
+        "matchNumber": 19,
+        "season": "2012",
+        "balls": 10
+      }
+    ]
+  },
+  {
+    "rank": 402,
+    "name": "AC Blizzard",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "MI vs DD",
+        "matchNumber": 36,
+        "season": "2012",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 403,
+    "name": "V Pratap Singh",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DC vs MI",
+        "matchNumber": 40,
+        "season": "2012",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 404,
+    "name": "NLTC Perera",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "MI vs PWI",
+        "matchNumber": 45,
+        "season": "2012",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 405,
+    "name": "RJ Peterson",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "MI vs CSK",
+        "matchNumber": 49,
+        "season": "2012",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 406,
+    "name": "Sunny Gupta",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DD vs CSK",
+        "matchNumber": null,
+        "season": "2012",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 407,
+    "name": "VR Aaron",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DD vs CSK",
+        "matchNumber": null,
+        "season": "2012",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 408,
+    "name": "KB Arun Karthik",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs SRH",
+        "matchNumber": 7,
+        "season": "2013",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 409,
+    "name": "KK Cooper",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs KKR",
+        "matchNumber": 8,
+        "season": "2013",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 410,
+    "name": "BMAJ Mendis",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DD vs MI",
+        "matchNumber": 10,
+        "season": "2013",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 411,
+    "name": "MDKJ Perera",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs PWI",
+        "matchNumber": 13,
+        "season": "2013",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 412,
+    "name": "AB McDonald",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs DD",
+        "matchNumber": 21,
+        "season": "2013",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 413,
+    "name": "BJ Rohrer",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "DD vs RCB",
+        "matchNumber": 21,
+        "season": "2013",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 414,
+    "name": "R Dhawan",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "MI vs RR",
+        "matchNumber": 23,
+        "season": "2013",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 415,
+    "name": "IC Pandey",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "PWI vs RCB",
+        "matchNumber": 31,
+        "season": "2013",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 416,
+    "name": "BB Samantray",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "SRH vs KXIP",
+        "matchNumber": 59,
+        "season": "2013",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 417,
+    "name": "M Kartik",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs KKR",
+        "matchNumber": 60,
+        "season": "2013",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 418,
+    "name": "DH Yagnik",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs SRH",
+        "matchNumber": null,
+        "season": "2013",
+        "balls": 4
+      }
+    ]
+  },
+  {
+    "rank": 419,
+    "name": "KV Sharma",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "SRH vs RR",
+        "matchNumber": 30,
+        "season": "2014",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 420,
+    "name": "BE Hendricks",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KXIP vs MI",
+        "matchNumber": 48,
+        "season": "2014",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 421,
+    "name": "SPD Smith",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs KXIP",
+        "matchNumber": 18,
+        "season": "2015",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 422,
+    "name": "JP Faulkner",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs KXIP",
+        "matchNumber": 18,
+        "season": "2015",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 423,
+    "name": "Iqbal Abdulla",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs CSK",
+        "matchNumber": 37,
+        "season": "2015",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 424,
+    "name": "Ankit Sharma",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RR vs CSK",
+        "matchNumber": 47,
+        "season": "2015",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 425,
+    "name": "GJ Bailey",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RPS vs RCB",
+        "matchNumber": 35,
+        "season": "2016",
+        "balls": 2
+      }
+    ]
+  },
+  {
+    "rank": 426,
+    "name": "A Zampa",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RPS vs SRH",
+        "matchNumber": 40,
+        "season": "2016",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 427,
+    "name": "S Kaushik",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "GL vs RCB",
+        "matchNumber": 44,
+        "season": "2016",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 428,
+    "name": "F Behardien",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KXIP vs RCB",
+        "matchNumber": 50,
+        "season": "2016",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 429,
+    "name": "KJ Abbott",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "KXIP vs RCB",
+        "matchNumber": 50,
+        "season": "2016",
+        "balls": 1
+      }
+    ]
+  },
+  {
+    "rank": 430,
+    "name": "Sachin Baby",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "RCB vs GL",
+        "matchNumber": null,
+        "season": "2016",
+        "balls": 3
+      }
+    ]
+  },
+  {
+    "rank": 431,
+    "name": "BCJ Cutting",
+    "totalDucks": 1,
+    "innings": [
+      {
+        "fixture": "SRH vs KKR",
+        "matchNumber": null,
+        "season": "2016",
+        "balls": 1
+      }
+    ]
   }
 ]
