@@ -1,161 +1,3866 @@
 [
   {
-    "rank": 1,
-    "name": "Ashok Dinda",
-    "team": "PWI / KKR / RPS",
+    "name": "B Kumar",
+    "team": "SRH / RCB",
+    "totalSpells": 8,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "SRH vs RCB",
+        "runs": 60,
+        "overs": 4,
+        "matchNumber": 30
+      },
+      {
+        "season": 2019,
+        "fixture": "RR vs SRH",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 8
+      },
+      {
+        "season": 2025,
+        "fixture": "RCB vs CSK",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 52
+      },
+      {
+        "season": 2016,
+        "fixture": "RCB vs SRH",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 4
+      },
+      {
+        "season": 2024,
+        "fixture": "SRH vs MI",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 8
+      },
+      {
+        "season": 2018,
+        "fixture": "DC vs SRH",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 42
+      },
+      {
+        "season": 2024,
+        "fixture": "KKR vs SRH",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 3
+      },
+      {
+        "season": 2025,
+        "fixture": "RCB vs RR",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 42
+      }
+    ],
+    "rank": 1
+  },
+  {
+    "name": "Mohammed Shami",
+    "team": "DC / PBKS / GT / SRH",
+    "totalSpells": 7,
+    "innings": [
+      {
+        "season": 2025,
+        "fixture": "PBKS vs SRH",
+        "runs": 75,
+        "overs": 4,
+        "matchNumber": 27
+      },
+      {
+        "season": 2018,
+        "fixture": "KKR vs DC",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 13
+      },
+      {
+        "season": 2019,
+        "fixture": "RCB vs PBKS",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 42
+      },
+      {
+        "season": 2020,
+        "fixture": "PBKS vs RR",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 9
+      },
+      {
+        "season": 2021,
+        "fixture": "PBKS vs DC",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 11
+      },
+      {
+        "season": 2023,
+        "fixture": "MI vs GT",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 57
+      },
+      {
+        "season": 2016,
+        "fixture": "DC vs RPS",
+        "runs": 50,
+        "overs": 3.1,
+        "matchNumber": 33
+      }
+    ],
+    "rank": 2
+  },
+  {
+    "name": "MM Sharma",
+    "team": "PBKS / GT / CSK",
+    "totalSpells": 7,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "DC vs GT",
+        "runs": 73,
+        "overs": 4,
+        "matchNumber": 40
+      },
+      {
+        "season": 2015,
+        "fixture": "SRH vs CSK",
+        "runs": 58,
+        "overs": 4,
+        "matchNumber": 34
+      },
+      {
+        "season": 2017,
+        "fixture": "MI vs PBKS",
+        "runs": 57,
+        "overs": 4,
+        "matchNumber": 51
+      },
+      {
+        "season": 2023,
+        "fixture": "RCB vs GT",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 70
+      },
+      {
+        "season": 2018,
+        "fixture": "PBKS vs SRH",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 16
+      },
+      {
+        "season": 2024,
+        "fixture": "RR vs GT",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 24
+      },
+      {
+        "season": 2014,
+        "fixture": "DC vs CSK",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 26
+      }
+    ],
+    "rank": 3
+  },
+  {
+    "name": "YS Chahal",
+    "team": "RR / PBKS / RCB",
+    "totalSpells": 7,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "SRH vs RR",
+        "runs": 62,
+        "overs": 4,
+        "matchNumber": 50
+      },
+      {
+        "season": 2025,
+        "fixture": "PBKS vs SRH",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": 27
+      },
+      {
+        "season": 2024,
+        "fixture": "KKR vs RR",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 31
+      },
+      {
+        "season": 2015,
+        "fixture": "MI vs RCB",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 46
+      },
+      {
+        "season": 2023,
+        "fixture": "PBKS vs RR",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 8
+      },
+      {
+        "season": 2025,
+        "fixture": "PBKS vs LSG",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 54
+      },
+      {
+        "season": 2014,
+        "fixture": "KKR vs RCB",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 49
+      }
+    ],
+    "rank": 4
+  },
+  {
+    "name": "SN Thakur",
+    "team": "RPS / CSK / LSG",
+    "totalSpells": 7,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "RCB vs CSK",
+        "runs": 61,
+        "overs": 4,
+        "matchNumber": 68
+      },
+      {
+        "season": 2021,
+        "fixture": "CSK vs MI",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": 27
+      },
+      {
+        "season": 2025,
+        "fixture": "LSG vs CSK",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": 30
+      },
+      {
+        "season": 2021,
+        "fixture": "CSK vs DC",
+        "runs": 53,
+        "overs": 3.4,
+        "matchNumber": 2
+      },
+      {
+        "season": 2025,
+        "fixture": "LSG vs KKR",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 21
+      },
+      {
+        "season": 2017,
+        "fixture": "RPS vs SRH",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 24
+      },
+      {
+        "season": 2018,
+        "fixture": "SRH vs CSK",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": ""
+      }
+    ],
+    "rank": 5
+  },
+  {
+    "name": "PJ Cummins",
+    "team": "DC / KKR / SRH",
+    "totalSpells": 7,
+    "innings": [
+      {
+        "season": 2025,
+        "fixture": "SRH vs RR",
+        "runs": 60,
+        "overs": 4,
+        "matchNumber": 2
+      },
+      {
+        "season": 2017,
+        "fixture": "DC vs MI",
+        "runs": 59,
+        "overs": 4,
+        "matchNumber": 45
+      },
+      {
+        "season": 2021,
+        "fixture": "CSK vs KKR",
+        "runs": 58,
+        "overs": 4,
+        "matchNumber": 15
+      },
+      {
+        "season": 2024,
+        "fixture": "RCB vs SRH",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 41
+      },
+      {
+        "season": 2015,
+        "fixture": "KKR vs CSK",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 30
+      },
+      {
+        "season": 2022,
+        "fixture": "DC vs KKR",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 19
+      },
+      {
+        "season": 2022,
+        "fixture": "RR vs KKR",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 30
+      }
+    ],
+    "rank": 6
+  },
+  {
+    "name": "SM Curran",
+    "team": "PBKS / CSK",
+    "totalSpells": 7,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "KKR vs PBKS",
+        "runs": 60,
+        "overs": 4,
+        "matchNumber": 42
+      },
+      {
+        "season": 2021,
+        "fixture": "CSK vs KKR",
+        "runs": 58,
+        "overs": 4,
+        "matchNumber": 15
+      },
+      {
+        "season": 2021,
+        "fixture": "KKR vs CSK",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": 38
+      },
+      {
+        "season": 2021,
+        "fixture": "CSK vs RR",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 47
+      },
+      {
+        "season": 2019,
+        "fixture": "PBKS vs MI",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 24
+      },
+      {
+        "season": 2019,
+        "fixture": "PBKS vs RR",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 4
+      },
+      {
+        "season": 2024,
+        "fixture": "RCB vs PBKS",
+        "runs": 50,
+        "overs": 3,
+        "matchNumber": 58
+      }
+    ],
+    "rank": 7
+  },
+  {
+    "name": "Sandeep Sharma",
+    "team": "SRH / RR / PBKS",
     "totalSpells": 6,
     "innings": [
-      { "season": 2013, "fixture": "PWI vs MI", "runs": 63, "overs": 4 },
-      { "season": 2013, "fixture": "PWI vs RCB", "runs": 52, "overs": 4 },
-      { "season": 2012, "fixture": "PWI vs MI", "runs": 50, "overs": 4 },
-      { "season": 2016, "fixture": "RPS vs MI", "runs": 53, "overs": 4 },
-      { "season": 2017, "fixture": "RPS vs MI", "runs": 57, "overs": 4 },
-      { "season": 2018, "fixture": "RPS vs CSK", "runs": 51, "overs": 4 }
-    ]
+      {
+        "season": 2014,
+        "fixture": "SRH vs PBKS",
+        "runs": 65,
+        "overs": 4,
+        "matchNumber": 39
+      },
+      {
+        "season": 2025,
+        "fixture": "LSG vs RR",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 36
+      },
+      {
+        "season": 2019,
+        "fixture": "SRH vs CSK",
+        "runs": 54,
+        "overs": 3.5,
+        "matchNumber": 41
+      },
+      {
+        "season": 2018,
+        "fixture": "SRH vs CSK",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": ""
+      },
+      {
+        "season": 2025,
+        "fixture": "SRH vs RR",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 2
+      },
+      {
+        "season": 2021,
+        "fixture": "RR vs SRH",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 28
+      }
+    ],
+    "rank": 8
   },
   {
-    "rank": 2,
-    "name": "Umesh Yadav",
-    "team": "DC / RCB / KKR",
+    "name": "K Rabada",
+    "team": "DC / PBKS",
+    "totalSpells": 6,
+    "innings": [
+      {
+        "season": 2017,
+        "fixture": "DC vs SRH",
+        "runs": 59,
+        "overs": 4,
+        "matchNumber": 40
+      },
+      {
+        "season": 2020,
+        "fixture": "SRH vs DC",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 47
+      },
+      {
+        "season": 2023,
+        "fixture": "LSG vs PBKS",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 38
+      },
+      {
+        "season": 2024,
+        "fixture": "KKR vs PBKS",
+        "runs": 52,
+        "overs": 3,
+        "matchNumber": 42
+      },
+      {
+        "season": 2020,
+        "fixture": "DC vs KKR",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 16
+      },
+      {
+        "season": 2022,
+        "fixture": "PBKS vs RR",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 52
+      }
+    ],
+    "rank": 9
+  },
+  {
+    "name": "UT Yadav",
+    "team": "KKR / RCB / DC",
     "totalSpells": 5,
     "innings": [
-      { "season": 2013, "fixture": "DC vs RCB", "runs": 65, "overs": 4 },
-      { "season": 2018, "fixture": "RCB vs CSK", "runs": 59, "overs": 4 },
-      { "season": 2019, "fixture": "RCB vs CSK", "runs": 52, "overs": 4 },
-      { "season": 2022, "fixture": "KKR vs MI", "runs": 50, "overs": 4 },
-      { "season": 2023, "fixture": "KKR vs SRH", "runs": 51, "overs": 4 }
-    ]
+      {
+        "season": 2013,
+        "fixture": "DC vs RCB",
+        "runs": 65,
+        "overs": 4,
+        "matchNumber": 57
+      },
+      {
+        "season": 2018,
+        "fixture": "RR vs RCB",
+        "runs": 59,
+        "overs": 4,
+        "matchNumber": 11
+      },
+      {
+        "season": 2016,
+        "fixture": "RCB vs KKR",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": 30
+      },
+      {
+        "season": 2017,
+        "fixture": "DC vs KKR",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 18
+      },
+      {
+        "season": 2013,
+        "fixture": "PWI vs DC",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 71
+      }
+    ],
+    "rank": 10
   },
   {
-    "rank": 3,
-    "name": "Sandeep Sharma",
-    "team": "PBKS / SRH",
-    "totalSpells": 4,
-    "innings": [
-      { "season": 2014, "fixture": "KXIP vs SRH", "runs": 65, "overs": 4 },
-      { "season": 2015, "fixture": "KXIP vs MI", "runs": 52, "overs": 4 },
-      { "season": 2020, "fixture": "SRH vs MI", "runs": 54, "overs": 4 },
-      { "season": 2021, "fixture": "SRH vs CSK", "runs": 51, "overs": 4 }
-    ]
-  },
-  {
-    "rank": 4,
     "name": "Mohammed Siraj",
-    "team": "RCB",
-    "totalSpells": 4,
+    "team": "RCB / GT",
+    "totalSpells": 5,
     "innings": [
-      { "season": 2019, "fixture": "RCB vs KKR", "runs": 59, "overs": 4 },
-      { "season": 2020, "fixture": "RCB vs MI", "runs": 55, "overs": 4 },
-      { "season": 2022, "fixture": "RCB vs PBKS", "runs": 54, "overs": 4 },
-      { "season": 2023, "fixture": "RCB vs GT", "runs": 50, "overs": 4 }
-    ]
+      {
+        "season": 2022,
+        "fixture": "RCB vs PBKS",
+        "runs": 59,
+        "overs": 4,
+        "matchNumber": 3
+      },
+      {
+        "season": 2019,
+        "fixture": "PBKS vs RCB",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 28
+      },
+      {
+        "season": 2025,
+        "fixture": "PBKS vs GT",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 5
+      },
+      {
+        "season": 2022,
+        "fixture": "MI vs RCB",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 18
+      },
+      {
+        "season": 2025,
+        "fixture": "GT vs LSG",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 26
+      }
+    ],
+    "rank": 11
   },
   {
-    "rank": 5,
-    "name": "Harshal Patel",
-    "team": "RCB / PBKS",
-    "totalSpells": 4,
+    "name": "CJ Jordan",
+    "team": "PBKS / CSK / MI / RCB",
+    "totalSpells": 5,
     "innings": [
-      { "season": 2021, "fixture": "RCB vs CSK", "runs": 58, "overs": 4 },
-      { "season": 2022, "fixture": "RCB vs RR", "runs": 52, "overs": 4 },
-      { "season": 2023, "fixture": "RCB vs MI", "runs": 51, "overs": 4 },
-      { "season": 2024, "fixture": "PBKS vs MI", "runs": 50, "overs": 4 }
-    ]
+      {
+        "season": 2022,
+        "fixture": "CSK vs GT",
+        "runs": 58,
+        "overs": 3.5,
+        "matchNumber": 29
+      },
+      {
+        "season": 2020,
+        "fixture": "DC vs PBKS",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": 2
+      },
+      {
+        "season": 2023,
+        "fixture": "GT vs MI",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": ""
+      },
+      {
+        "season": 2016,
+        "fixture": "PBKS vs RCB",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 39
+      },
+      {
+        "season": 2023,
+        "fixture": "LSG vs MI",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 63
+      }
+    ],
+    "rank": 12
   },
   {
-    "rank": 6,
-    "name": "Tim Southee",
+    "name": "Rashid Khan",
+    "team": "SRH / GT",
+    "totalSpells": 5,
+    "innings": [
+      {
+        "season": 2018,
+        "fixture": "PBKS vs SRH",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 16
+      },
+      {
+        "season": 2023,
+        "fixture": "KKR vs GT",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 39
+      },
+      {
+        "season": 2025,
+        "fixture": "RCB vs GT",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 14
+      },
+      {
+        "season": 2024,
+        "fixture": "GT vs RCB",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 45
+      },
+      {
+        "season": 2025,
+        "fixture": "GT vs SRH",
+        "runs": 50,
+        "overs": 3,
+        "matchNumber": 51
+      }
+    ],
+    "rank": 13
+  },
+  {
+    "name": "Arshdeep Singh",
+    "team": "PBKS",
+    "totalSpells": 4,
+    "innings": [
+      {
+        "season": 2023,
+        "fixture": "PBKS vs MI",
+        "runs": 66,
+        "overs": 3.5,
+        "matchNumber": 46
+      },
+      {
+        "season": 2025,
+        "fixture": "PBKS vs RR",
+        "runs": 60,
+        "overs": 4,
+        "matchNumber": 59
+      },
+      {
+        "season": 2023,
+        "fixture": "LSG vs PBKS",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 38
+      },
+      {
+        "season": 2024,
+        "fixture": "CSK vs PBKS",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 49
+      }
+    ],
+    "rank": 14
+  },
+  {
+    "name": "A Nortje",
+    "team": "DC / KKR",
+    "totalSpells": 4,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "MI vs DC",
+        "runs": 65,
+        "overs": 4,
+        "matchNumber": 20
+      },
+      {
+        "season": 2025,
+        "fixture": "SRH vs KKR",
+        "runs": 60,
+        "overs": 4,
+        "matchNumber": 68
+      },
+      {
+        "season": 2024,
+        "fixture": "KKR vs DC",
+        "runs": 59,
+        "overs": 4,
+        "matchNumber": 16
+      },
+      {
+        "season": 2020,
+        "fixture": "MI vs DC",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": ""
+      }
+    ],
+    "rank": 15
+  },
+  {
+    "name": "AB Dinda",
+    "team": "RPS / PWI / RCB",
+    "totalSpells": 4,
+    "innings": [
+      {
+        "season": 2013,
+        "fixture": "MI vs PWI",
+        "runs": 63,
+        "overs": 4,
+        "matchNumber": 15
+      },
+      {
+        "season": 2017,
+        "fixture": "RPS vs MI",
+        "runs": 57,
+        "overs": 4,
+        "matchNumber": 2
+      },
+      {
+        "season": 2013,
+        "fixture": "PWI vs RCB",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 46
+      },
+      {
+        "season": 2014,
+        "fixture": "DC vs RCB",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 2
+      }
+    ],
+    "rank": 16
+  },
+  {
+    "name": "T Natarajan",
+    "team": "SRH",
+    "totalSpells": 4,
+    "innings": [
+      {
+        "season": 2022,
+        "fixture": "SRH vs MI",
+        "runs": 60,
+        "overs": 4,
+        "matchNumber": 65
+      },
+      {
+        "season": 2023,
+        "fixture": "SRH vs KKR",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 19
+      },
+      {
+        "season": 2023,
+        "fixture": "MI vs SRH",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 25
+      },
+      {
+        "season": 2024,
+        "fixture": "LSG vs SRH",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 57
+      }
+    ],
+    "rank": 17
+  },
+  {
+    "name": "Avesh Khan",
+    "team": "LSG",
+    "totalSpells": 4,
+    "innings": [
+      {
+        "season": 2022,
+        "fixture": "LSG vs KKR",
+        "runs": 60,
+        "overs": 4,
+        "matchNumber": 66
+      },
+      {
+        "season": 2025,
+        "fixture": "PBKS vs LSG",
+        "runs": 57,
+        "overs": 4,
+        "matchNumber": 54
+      },
+      {
+        "season": 2023,
+        "fixture": "RCB vs LSG",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 15
+      },
+      {
+        "season": 2025,
+        "fixture": "LSG vs GT",
+        "runs": 51,
+        "overs": 3.5,
+        "matchNumber": 64
+      }
+    ],
+    "rank": 18
+  },
+  {
+    "name": "Mukesh Kumar",
+    "team": "DC",
+    "totalSpells": 4,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "DC vs MI",
+        "runs": 59,
+        "overs": 4,
+        "matchNumber": 43
+      },
+      {
+        "season": 2024,
+        "fixture": "SRH vs DC",
+        "runs": 57,
+        "overs": 4,
+        "matchNumber": 35
+      },
+      {
+        "season": 2023,
+        "fixture": "DC vs PBKS",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 64
+      },
+      {
+        "season": 2025,
+        "fixture": "DC vs RCB",
+        "runs": 51,
+        "overs": 3.3,
+        "matchNumber": 46
+      }
+    ],
+    "rank": 19
+  },
+  {
+    "name": "HV Patel",
+    "team": "DC / RCB",
+    "totalSpells": 4,
+    "innings": [
+      {
+        "season": 2014,
+        "fixture": "RCB vs PBKS",
+        "runs": 56,
+        "overs": 3,
+        "matchNumber": 31
+      },
+      {
+        "season": 2021,
+        "fixture": "PBKS vs RCB",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 26
+      },
+      {
+        "season": 2018,
+        "fixture": "DC vs RCB",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 45
+      },
+      {
+        "season": 2021,
+        "fixture": "CSK vs RCB",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 19
+      }
+    ],
+    "rank": 20
+  },
+  {
+    "name": "LH Ferguson",
+    "team": "KKR / GT / RCB",
+    "totalSpells": 4,
+    "innings": [
+      {
+        "season": 2021,
+        "fixture": "CSK vs KKR",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": ""
+      },
+      {
+        "season": 2020,
+        "fixture": "KKR vs CSK",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 49
+      },
+      {
+        "season": 2022,
+        "fixture": "SRH vs GT",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 40
+      },
+      {
+        "season": 2024,
+        "fixture": "SRH vs RCB",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 30
+      }
+    ],
+    "rank": 21
+  },
+  {
+    "name": "JJ Bumrah",
+    "team": "MI",
+    "totalSpells": 4,
+    "innings": [
+      {
+        "season": 2021,
+        "fixture": "CSK vs MI",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": 27
+      },
+      {
+        "season": 2015,
+        "fixture": "DC vs MI",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 21
+      },
+      {
+        "season": 2020,
+        "fixture": "RCB vs MI",
+        "runs": 53,
+        "overs": 5,
+        "matchNumber": 10
+      },
+      {
+        "season": 2015,
+        "fixture": "MI vs RCB",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 46
+      }
+    ],
+    "rank": 22
+  },
+  {
+    "name": "Mustafizur Rahman",
+    "team": "MI / RR / CSK",
+    "totalSpells": 4,
+    "innings": [
+      {
+        "season": 2018,
+        "fixture": "MI vs RCB",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 14
+      },
+      {
+        "season": 2024,
+        "fixture": "CSK vs MI",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 29
+      },
+      {
+        "season": 2021,
+        "fixture": "CSK vs RR",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 47
+      },
+      {
+        "season": 2024,
+        "fixture": "CSK vs LSG",
+        "runs": 51,
+        "overs": 3.3,
+        "matchNumber": 39
+      }
+    ],
+    "rank": 23
+  },
+  {
+    "name": "JO Holder",
+    "team": "SRH / LSG / RR",
+    "totalSpells": 4,
+    "innings": [
+      {
+        "season": 2023,
+        "fixture": "RR vs MI",
+        "runs": 55,
+        "overs": 3.3,
+        "matchNumber": 42
+      },
+      {
+        "season": 2021,
+        "fixture": "MI vs SRH",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 55
+      },
+      {
+        "season": 2020,
+        "fixture": "DC vs SRH",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": ""
+      },
+      {
+        "season": 2022,
+        "fixture": "RR vs LSG",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 20
+      }
+    ],
+    "rank": 24
+  },
+  {
+    "name": "AD Russell",
+    "team": "KKR / DC",
+    "totalSpells": 4,
+    "innings": [
+      {
+        "season": 2016,
+        "fixture": "KKR vs MI",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 5
+      },
+      {
+        "season": 2020,
+        "fixture": "RCB vs KKR",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 28
+      },
+      {
+        "season": 2012,
+        "fixture": "PBKS vs DC",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 69
+      },
+      {
+        "season": 2015,
+        "fixture": "KKR vs PBKS",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 44
+      }
+    ],
+    "rank": 25
+  },
+  {
+    "name": "Yash Dayal",
+    "team": "GT / RCB",
+    "totalSpells": 3,
+    "innings": [
+      {
+        "season": 2023,
+        "fixture": "GT vs KKR",
+        "runs": 69,
+        "overs": 4,
+        "matchNumber": 13
+      },
+      {
+        "season": 2024,
+        "fixture": "KKR vs RCB",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": 36
+      },
+      {
+        "season": 2024,
+        "fixture": "SRH vs RCB",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 30
+      }
+    ],
+    "rank": 26
+  },
+  {
+    "name": "I Sharma",
+    "team": "PBKS / GT / SRH",
+    "totalSpells": 3,
+    "innings": [
+      {
+        "season": 2013,
+        "fixture": "SRH vs CSK",
+        "runs": 66,
+        "overs": 4,
+        "matchNumber": 54
+      },
+      {
+        "season": 2017,
+        "fixture": "PBKS vs MI",
+        "runs": 58,
+        "overs": 4,
+        "matchNumber": 22
+      },
+      {
+        "season": 2025,
+        "fixture": "SRH vs GT",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 19
+      }
+    ],
+    "rank": 27
+  },
+  {
+    "name": "JR Hazlewood",
+    "team": "CSK / RCB",
+    "totalSpells": 3,
+    "innings": [
+      {
+        "season": 2022,
+        "fixture": "PBKS vs RCB",
+        "runs": 64,
+        "overs": 4,
+        "matchNumber": 60
+      },
+      {
+        "season": 2021,
+        "fixture": "CSK vs RR",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 47
+      },
+      {
+        "season": 2025,
+        "fixture": "RCB vs PBKS",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": ""
+      }
+    ],
+    "rank": 28
+  },
+  {
+    "name": "TA Boult",
+    "team": "MI",
+    "totalSpells": 3,
+    "innings": [
+      {
+        "season": 2020,
+        "fixture": "MI vs PBKS",
+        "runs": 63,
+        "overs": 4.4,
+        "matchNumber": 36
+      },
+      {
+        "season": 2025,
+        "fixture": "RCB vs MI",
+        "runs": 57,
+        "overs": 4,
+        "matchNumber": 20
+      },
+      {
+        "season": 2025,
+        "fixture": "MI vs GT",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": ""
+      }
+    ],
+    "rank": 29
+  },
+  {
+    "name": "L Ngidi",
+    "team": "CSK / RCB",
+    "totalSpells": 3,
+    "innings": [
+      {
+        "season": 2021,
+        "fixture": "CSK vs MI",
+        "runs": 62,
+        "overs": 4,
+        "matchNumber": 27
+      },
+      {
+        "season": 2020,
+        "fixture": "RR vs CSK",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": 4
+      },
+      {
+        "season": 2025,
+        "fixture": "SRH vs RCB",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 65
+      }
+    ],
+    "rank": 30
+  },
+  {
+    "name": "TG Southee",
     "team": "RCB / KKR",
-    "totalSpells": 4,
-    "innings": [
-      { "season": 2019, "fixture": "RCB vs KKR", "runs": 61, "overs": 4 },
-      { "season": 2022, "fixture": "KKR vs RR", "runs": 52, "overs": 4 },
-      { "season": 2023, "fixture": "KKR vs CSK", "runs": 51, "overs": 4 },
-      { "season": 2024, "fixture": "KKR vs SRH", "runs": 50, "overs": 4 }
-    ]
-  },
-  {
-    "rank": 7,
-    "name": "Pat Cummins",
-    "team": "KKR / SRH",
     "totalSpells": 3,
     "innings": [
-      { "season": 2017, "fixture": "DC vs MI", "runs": 59, "overs": 4 },
-      { "season": 2021, "fixture": "KKR vs CSK", "runs": 58, "overs": 4 },
-      { "season": 2022, "fixture": "KKR vs MI", "runs": 50, "overs": 4 }
-    ]
+      {
+        "season": 2019,
+        "fixture": "RCB vs KKR",
+        "runs": 61,
+        "overs": 4,
+        "matchNumber": 17
+      },
+      {
+        "season": 2022,
+        "fixture": "LSG vs KKR",
+        "runs": 57,
+        "overs": 4,
+        "matchNumber": 66
+      },
+      {
+        "season": 2023,
+        "fixture": "PBKS vs KKR",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 2
+      }
+    ],
+    "rank": 31
   },
   {
-    "rank": 8,
-    "name": "Shardul Thakur",
-    "team": "CSK / DC / KKR",
+    "name": "Kuldeep Yadav",
+    "team": "KKR / DC",
     "totalSpells": 3,
     "innings": [
-      { "season": 2019, "fixture": "CSK vs MI", "runs": 55, "overs": 4 },
-      { "season": 2022, "fixture": "DC vs RR", "runs": 52, "overs": 4 },
-      { "season": 2023, "fixture": "KKR vs SRH", "runs": 50, "overs": 4 }
-    ]
+      {
+        "season": 2019,
+        "fixture": "RCB vs KKR",
+        "runs": 59,
+        "overs": 4,
+        "matchNumber": 35
+      },
+      {
+        "season": 2024,
+        "fixture": "SRH vs DC",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 35
+      },
+      {
+        "season": 2024,
+        "fixture": "RCB vs DC",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 62
+      }
+    ],
+    "rank": 32
   },
   {
-    "rank": 9,
-    "name": "Tushar Deshpande",
-    "team": "CSK",
+    "name": "RP Singh",
+    "team": "SRH",
     "totalSpells": 3,
     "innings": [
-      { "season": 2023, "fixture": "CSK vs GT", "runs": 56, "overs": 4 },
-      { "season": 2023, "fixture": "CSK vs LSG", "runs": 51, "overs": 4 },
-      { "season": 2024, "fixture": "CSK vs RCB", "runs": 50, "overs": 4 }
-    ]
+      {
+        "season": 2007,
+        "fixture": "SRH vs KKR",
+        "runs": 59,
+        "overs": 4,
+        "matchNumber": 32
+      },
+      {
+        "season": 2009,
+        "fixture": "PBKS vs SRH",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 51
+      },
+      {
+        "season": 2007,
+        "fixture": "DC vs SRH",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 37
+      }
+    ],
+    "rank": 33
   },
   {
-    "rank": 10,
-    "name": "Kagiso Rabada",
-    "team": "DC / PBKS",
+    "name": "Akash Deep",
+    "team": "RCB / LSG",
     "totalSpells": 3,
     "innings": [
-      { "season": 2017, "fixture": "DC vs MI", "runs": 59, "overs": 4 },
-      { "season": 2022, "fixture": "PBKS vs GT", "runs": 52, "overs": 4 },
-      { "season": 2023, "fixture": "PBKS vs MI", "runs": 51, "overs": 4 }
-    ]
+      {
+        "season": 2022,
+        "fixture": "CSK vs RCB",
+        "runs": 58,
+        "overs": 4,
+        "matchNumber": 22
+      },
+      {
+        "season": 2024,
+        "fixture": "RCB vs MI",
+        "runs": 55,
+        "overs": 3.3,
+        "matchNumber": 25
+      },
+      {
+        "season": 2025,
+        "fixture": "LSG vs KKR",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 21
+      }
+    ],
+    "rank": 34
   },
   {
-    "rank": 11,
-    "name": "Basil Thampi",
+    "name": "HH Pandya",
+    "team": "MI",
+    "totalSpells": 3,
+    "innings": [
+      {
+        "season": 2019,
+        "fixture": "PBKS vs MI",
+        "runs": 57,
+        "overs": 4,
+        "matchNumber": 24
+      },
+      {
+        "season": 2018,
+        "fixture": "MI vs RR",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 47
+      },
+      {
+        "season": 2015,
+        "fixture": "MI vs RCB",
+        "runs": 51,
+        "overs": 3,
+        "matchNumber": 46
+      }
+    ],
+    "rank": 35
+  },
+  {
+    "name": "DW Steyn",
+    "team": "RCB / SRH",
+    "totalSpells": 3,
+    "innings": [
+      {
+        "season": 2020,
+        "fixture": "PBKS vs RCB",
+        "runs": 57,
+        "overs": 4,
+        "matchNumber": 6
+      },
+      {
+        "season": 2013,
+        "fixture": "SRH vs RCB",
+        "runs": 52,
+        "overs": 5,
+        "matchNumber": 7
+      },
+      {
+        "season": 2014,
+        "fixture": "SRH vs PBKS",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 39
+      }
+    ],
+    "rank": 36
+  },
+  {
+    "name": "Akash Madhwal",
+    "team": "MI / RR",
+    "totalSpells": 3,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "RCB vs MI",
+        "runs": 57,
+        "overs": 4,
+        "matchNumber": 25
+      },
+      {
+        "season": 2023,
+        "fixture": "GT vs MI",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": ""
+      },
+      {
+        "season": 2025,
+        "fixture": "KKR vs RR",
+        "runs": 50,
+        "overs": 3,
+        "matchNumber": 53
+      }
+    ],
+    "rank": 37
+  },
+  {
+    "name": "M Prasidh Krishna",
+    "team": "KKR / GT",
+    "totalSpells": 3,
+    "innings": [
+      {
+        "season": 2018,
+        "fixture": "SRH vs KKR",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": ""
+      },
+      {
+        "season": 2025,
+        "fixture": "MI vs GT",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": ""
+      },
+      {
+        "season": 2019,
+        "fixture": "RCB vs KKR",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 35
+      }
+    ],
+    "rank": 38
+  },
+  {
+    "name": "TU Deshpande",
+    "team": "CSK / RR",
+    "totalSpells": 3,
+    "innings": [
+      {
+        "season": 2023,
+        "fixture": "GT vs CSK",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": ""
+      },
+      {
+        "season": 2025,
+        "fixture": "GT vs RR",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 23
+      },
+      {
+        "season": 2023,
+        "fixture": "CSK vs GT",
+        "runs": 51,
+        "overs": 3.2,
+        "matchNumber": 1
+      }
+    ],
+    "rank": 39
+  },
+  {
+    "name": "A Mishra",
+    "team": "SRH",
+    "totalSpells": 3,
+    "innings": [
+      {
+        "season": 2014,
+        "fixture": "PBKS vs SRH",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": 9
+      },
+      {
+        "season": 2014,
+        "fixture": "MI vs SRH",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 20
+      },
+      {
+        "season": 2011,
+        "fixture": "SRH vs DC",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 46
+      }
+    ],
+    "rank": 40
+  },
+  {
+    "name": "MA Starc",
+    "team": "KKR",
+    "totalSpells": 3,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "KKR vs RCB",
+        "runs": 55,
+        "overs": 3,
+        "matchNumber": 36
+      },
+      {
+        "season": 2024,
+        "fixture": "KKR vs SRH",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 3
+      },
+      {
+        "season": 2024,
+        "fixture": "KKR vs RR",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 31
+      }
+    ],
+    "rank": 41
+  },
+  {
+    "name": "MM Patel",
+    "team": "RR / MI",
+    "totalSpells": 3,
+    "innings": [
+      {
+        "season": 2007,
+        "fixture": "SRH vs RR",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 9
+      },
+      {
+        "season": 2007,
+        "fixture": "CSK vs RR",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 49
+      },
+      {
+        "season": 2012,
+        "fixture": "RCB vs MI",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 62
+      }
+    ],
+    "rank": 42
+  },
+  {
+    "name": "MJ McClenaghan",
+    "team": "MI",
+    "totalSpells": 3,
+    "innings": [
+      {
+        "season": 2017,
+        "fixture": "MI vs PBKS",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 51
+      },
+      {
+        "season": 2017,
+        "fixture": "MI vs KKR",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 7
+      },
+      {
+        "season": 2017,
+        "fixture": "GL vs MI",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 35
+      }
+    ],
+    "rank": 43
+  },
+  {
+    "name": "AR Patel",
+    "team": "PBKS / DC",
+    "totalSpells": 3,
+    "innings": [
+      {
+        "season": 2018,
+        "fixture": "KKR vs PBKS",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 44
+      },
+      {
+        "season": 2025,
+        "fixture": "RCB vs DC",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 24
+      },
+      {
+        "season": 2015,
+        "fixture": "RCB vs PBKS",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 40
+      }
+    ],
+    "rank": 44
+  },
+  {
+    "name": "JC Archer",
+    "team": "MI / RR",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2025,
+        "fixture": "SRH vs RR",
+        "runs": 76,
+        "overs": 4,
+        "matchNumber": 2
+      },
+      {
+        "season": 2023,
+        "fixture": "PBKS vs MI",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": 46
+      }
+    ],
+    "rank": 45
+  },
+  {
+    "name": "KK Ahmed",
+    "team": "DC / CSK",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2025,
+        "fixture": "RCB vs CSK",
+        "runs": 65,
+        "overs": 3,
+        "matchNumber": 52
+      },
+      {
+        "season": 2024,
+        "fixture": "SRH vs DC",
+        "runs": 51,
+        "overs": 3,
+        "matchNumber": 35
+      }
+    ],
+    "rank": 46
+  },
+  {
+    "name": "S Kaul",
     "team": "SRH",
     "totalSpells": 2,
     "innings": [
-      { "season": 2018, "fixture": "SRH vs RCB", "runs": 70, "overs": 4 },
-      { "season": 2019, "fixture": "SRH vs MI", "runs": 51, "overs": 4 }
-    ]
+      {
+        "season": 2020,
+        "fixture": "MI vs SRH",
+        "runs": 64,
+        "overs": 4,
+        "matchNumber": 17
+      },
+      {
+        "season": 2021,
+        "fixture": "MI vs SRH",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": 55
+      }
+    ],
+    "rank": 47
   },
   {
-    "rank": 12,
-    "name": "Yash Dayal",
+    "name": "Vijaykumar Vyshak",
+    "team": "RCB",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "SRH vs RCB",
+        "runs": 64,
+        "overs": 4,
+        "matchNumber": 30
+      },
+      {
+        "season": 2023,
+        "fixture": "CSK vs RCB",
+        "runs": 62,
+        "overs": 4,
+        "matchNumber": 24
+      }
+    ],
+    "rank": 48
+  },
+  {
+    "name": "VR Aaron",
+    "team": "DC / RCB",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2012,
+        "fixture": "DC vs CSK",
+        "runs": 63,
+        "overs": 4,
+        "matchNumber": ""
+      },
+      {
+        "season": 2015,
+        "fixture": "RCB vs MI",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 16
+      }
+    ],
+    "rank": 49
+  },
+  {
+    "name": "Harshit Rana",
+    "team": "KKR",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "KKR vs PBKS",
+        "runs": 61,
+        "overs": 4,
+        "matchNumber": 42
+      },
+      {
+        "season": 2025,
+        "fixture": "LSG vs KKR",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 21
+      }
+    ],
+    "rank": 50
+  },
+  {
+    "name": "AS Rajpoot",
+    "team": "PBKS / RR",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2020,
+        "fixture": "MI vs RR",
+        "runs": 60,
+        "overs": 4,
+        "matchNumber": 45
+      },
+      {
+        "season": 2019,
+        "fixture": "PBKS vs MI",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 24
+      }
+    ],
+    "rank": 51
+  },
+  {
+    "name": "Imran Tahir",
+    "team": "RPS / DC",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2016,
+        "fixture": "MI vs DC",
+        "runs": 59,
+        "overs": 4,
+        "matchNumber": 47
+      },
+      {
+        "season": 2017,
+        "fixture": "GL vs RPS",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 13
+      }
+    ],
+    "rank": 52
+  },
+  {
+    "name": "AN Ahmed",
+    "team": "MI / RCB",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2015,
+        "fixture": "RCB vs MI",
+        "runs": 59,
+        "overs": 4,
+        "matchNumber": 16
+      },
+      {
+        "season": 2011,
+        "fixture": "RCB vs MI",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": ""
+      }
+    ],
+    "rank": 53
+  },
+  {
+    "name": "SL Malinga",
+    "team": "MI",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2017,
+        "fixture": "PBKS vs MI",
+        "runs": 58,
+        "overs": 4,
+        "matchNumber": 22
+      },
+      {
+        "season": 2017,
+        "fixture": "MI vs GL",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 16
+      }
+    ],
+    "rank": 54
+  },
+  {
+    "name": "Shivam Mavi",
+    "team": "KKR",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2018,
+        "fixture": "DC vs KKR",
+        "runs": 58,
+        "overs": 4,
+        "matchNumber": 26
+      },
+      {
+        "season": 2022,
+        "fixture": "LSG vs KKR",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 53
+      }
+    ],
+    "rank": 55
+  },
+  {
+    "name": "RA Jadeja",
+    "team": "GL / CSK",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2017,
+        "fixture": "GL vs RCB",
+        "runs": 57,
+        "overs": 4,
+        "matchNumber": 20
+      },
+      {
+        "season": 2023,
+        "fixture": "CSK vs DC",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 67
+      }
+    ],
+    "rank": 56
+  },
+  {
+    "name": "PP Chawla",
+    "team": "KKR / CSK",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2019,
+        "fixture": "KKR vs MI",
+        "runs": 57,
+        "overs": 4,
+        "matchNumber": 47
+      },
+      {
+        "season": 2020,
+        "fixture": "RR vs CSK",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 4
+      }
+    ],
+    "rank": 57
+  },
+  {
+    "name": "DR Sams",
+    "team": "MI",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2022,
+        "fixture": "MI vs DC",
+        "runs": 57,
+        "overs": 4,
+        "matchNumber": 2
+      },
+      {
+        "season": 2022,
+        "fixture": "MI vs KKR",
+        "runs": 50,
+        "overs": 3,
+        "matchNumber": 14
+      }
+    ],
+    "rank": 58
+  },
+  {
+    "name": "G Coetzee",
+    "team": "MI / GT",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "SRH vs MI",
+        "runs": 57,
+        "overs": 4,
+        "matchNumber": 8
+      },
+      {
+        "season": 2025,
+        "fixture": "MI vs GT",
+        "runs": 51,
+        "overs": 3,
+        "matchNumber": ""
+      }
+    ],
+    "rank": 59
+  },
+  {
+    "name": "KV Sharma",
+    "team": "SRH",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2016,
+        "fixture": "RCB vs SRH",
+        "runs": 57,
+        "overs": 4,
+        "matchNumber": 4
+      },
+      {
+        "season": 2015,
+        "fixture": "CSK vs SRH",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 4
+      }
+    ],
+    "rank": 60
+  },
+  {
+    "name": "MR Marsh",
+    "team": "DC / PWI",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2013,
+        "fixture": "RCB vs PWI",
+        "runs": 56,
+        "overs": 3,
+        "matchNumber": 31
+      },
+      {
+        "season": 2024,
+        "fixture": "DC vs PBKS",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 2
+      }
+    ],
+    "rank": 61
+  },
+  {
+    "name": "CV Varun",
+    "team": "KKR",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "KKR vs SRH",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 3
+      },
+      {
+        "season": 2025,
+        "fixture": "SRH vs KKR",
+        "runs": 54,
+        "overs": 3,
+        "matchNumber": 68
+      }
+    ],
+    "rank": 62
+  },
+  {
+    "name": "JP Faulkner",
+    "team": "RR",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2015,
+        "fixture": "DC vs RR",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 6
+      },
+      {
+        "season": 2014,
+        "fixture": "MI vs RR",
+        "runs": 54,
+        "overs": 3.4,
+        "matchNumber": 56
+      }
+    ],
+    "rank": 63
+  },
+  {
+    "name": "JD Unadkat",
+    "team": "RR",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2019,
+        "fixture": "CSK vs RR",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 12
+      },
+      {
+        "season": 2019,
+        "fixture": "KKR vs RR",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 43
+      }
+    ],
+    "rank": 64
+  },
+  {
+    "name": "PVD Chameera",
+    "team": "LSG / DC",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2022,
+        "fixture": "RCB vs LSG",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": ""
+      },
+      {
+        "season": 2025,
+        "fixture": "MI vs DC",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 63
+      }
+    ],
+    "rank": 65
+  },
+  {
+    "name": "R Shepherd",
+    "team": "MI / RCB",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "MI vs DC",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 20
+      },
+      {
+        "season": 2025,
+        "fixture": "LSG vs RCB",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 70
+      }
+    ],
+    "rank": 66
+  },
+  {
+    "name": "M Theekshana",
+    "team": "RR",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2025,
+        "fixture": "GT vs RR",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 23
+      },
+      {
+        "season": 2025,
+        "fixture": "SRH vs RR",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 2
+      }
+    ],
+    "rank": 67
+  },
+  {
+    "name": "A Nehra",
+    "team": "PWI / CSK",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2012,
+        "fixture": "RCB vs PWI",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 21
+      },
+      {
+        "season": 2014,
+        "fixture": "CSK vs PBKS",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": ""
+      }
+    ],
+    "rank": 68
+  },
+  {
+    "name": "AS Joseph",
+    "team": "MI / GT",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2019,
+        "fixture": "MI vs RR",
+        "runs": 53,
+        "overs": 3,
+        "matchNumber": 27
+      },
+      {
+        "season": 2023,
+        "fixture": "MI vs GT",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 57
+      }
+    ],
+    "rank": 69
+  },
+  {
+    "name": "Z Khan",
+    "team": "RCB / DC",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2011,
+        "fixture": "KKR vs RCB",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 24
+      },
+      {
+        "season": 2016,
+        "fixture": "RCB vs DC",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 11
+      }
+    ],
+    "rank": 70
+  },
+  {
+    "name": "R Vinay Kumar",
+    "team": "RCB",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2012,
+        "fixture": "CSK vs RCB",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 13
+      },
+      {
+        "season": 2012,
+        "fixture": "RCB vs RR",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 18
+      }
+    ],
+    "rank": 71
+  },
+  {
+    "name": "DJ Bravo",
+    "team": "CSK",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2018,
+        "fixture": "DC vs CSK",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 52
+      },
+      {
+        "season": 2018,
+        "fixture": "KKR vs CSK",
+        "runs": 50,
+        "overs": 3,
+        "matchNumber": 5
+      }
+    ],
+    "rank": 72
+  },
+  {
+    "name": "Mukesh Choudhary",
+    "team": "CSK",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2022,
+        "fixture": "PBKS vs CSK",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 11
+      },
+      {
+        "season": 2025,
+        "fixture": "DC vs CSK",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 17
+      }
+    ],
+    "rank": 73
+  },
+  {
+    "name": "M Markande",
+    "team": "SRH",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "SRH vs MI",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 8
+      },
+      {
+        "season": 2023,
+        "fixture": "RR vs SRH",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 52
+      }
+    ],
+    "rank": 74
+  },
+  {
+    "name": "Mohsin Khan",
+    "team": "LSG",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "LSG vs RR",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 44
+      },
+      {
+        "season": 2024,
+        "fixture": "CSK vs LSG",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 39
+      }
+    ],
+    "rank": 75
+  },
+  {
+    "name": "DS Kulkarni",
+    "team": "RR",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2019,
+        "fixture": "RR vs DC",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 40
+      },
+      {
+        "season": 2014,
+        "fixture": "RR vs PBKS",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 7
+      }
+    ],
+    "rank": 76
+  },
+  {
+    "name": "Naveen-ul-Haq",
+    "team": "LSG",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "DC vs LSG",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 64
+      },
+      {
+        "season": 2024,
+        "fixture": "LSG vs MI",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 67
+      }
+    ],
+    "rank": 77
+  },
+  {
+    "name": "JH Kallis",
+    "team": "RCB / KKR",
+    "totalSpells": 2,
+    "innings": [
+      {
+        "season": 2009,
+        "fixture": "RCB vs PBKS",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 11
+      },
+      {
+        "season": 2013,
+        "fixture": "CSK vs KKR",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 38
+      }
+    ],
+    "rank": 78
+  },
+  {
+    "name": "W O'Rourke",
+    "team": "LSG",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2025,
+        "fixture": "LSG vs RCB",
+        "runs": 74,
+        "overs": 4,
+        "matchNumber": 70
+      }
+    ],
+    "rank": 79
+  },
+  {
+    "name": "Basil Thampi",
+    "team": "SRH",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2018,
+        "fixture": "RCB vs SRH",
+        "runs": 70,
+        "overs": 4,
+        "matchNumber": 51
+      }
+    ],
+    "rank": 80
+  },
+  {
+    "name": "RJW Topley",
+    "team": "RCB",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "SRH vs RCB",
+        "runs": 68,
+        "overs": 4,
+        "matchNumber": 30
+      }
+    ],
+    "rank": 81
+  },
+  {
+    "name": "L Wood",
+    "team": "MI",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "DC vs MI",
+        "runs": 68,
+        "overs": 4,
+        "matchNumber": 43
+      }
+    ],
+    "rank": 82
+  },
+  {
+    "name": "Mujeeb Ur Rahman",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2019,
+        "fixture": "SRH vs PBKS",
+        "runs": 66,
+        "overs": 4,
+        "matchNumber": 48
+      }
+    ],
+    "rank": 83
+  },
+  {
+    "name": "KT Maphaka",
+    "team": "MI",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "SRH vs MI",
+        "runs": 66,
+        "overs": 4,
+        "matchNumber": 8
+      }
+    ],
+    "rank": 84
+  },
+  {
+    "name": "M Jansen",
+    "team": "SRH",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2022,
+        "fixture": "SRH vs GT",
+        "runs": 63,
+        "overs": 4,
+        "matchNumber": 40
+      }
+    ],
+    "rank": 85
+  },
+  {
+    "name": "MG Neser",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2013,
+        "fixture": "PBKS vs RCB",
+        "runs": 62,
+        "overs": 4,
+        "matchNumber": 51
+      }
+    ],
+    "rank": 86
+  },
+  {
+    "name": "SR Watson",
+    "team": "RCB",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2016,
+        "fixture": "RCB vs SRH",
+        "runs": 61,
+        "overs": 4,
+        "matchNumber": ""
+      }
+    ],
+    "rank": 87
+  },
+  {
+    "name": "Simarjeet Singh",
+    "team": "CSK",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "GT vs CSK",
+        "runs": 60,
+        "overs": 4,
+        "matchNumber": 59
+      }
+    ],
+    "rank": 88
+  },
+  {
+    "name": "MP Yadav",
+    "team": "LSG",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2025,
+        "fixture": "PBKS vs LSG",
+        "runs": 60,
+        "overs": 4,
+        "matchNumber": 54
+      }
+    ],
+    "rank": 89
+  },
+  {
+    "name": "R McLaren",
+    "team": "KKR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2013,
+        "fixture": "MI vs KKR",
+        "runs": 60,
+        "overs": 4,
+        "matchNumber": 53
+      }
+    ],
+    "rank": 90
+  },
+  {
+    "name": "SK Trivedi",
+    "team": "RR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2011,
+        "fixture": "PBKS vs RR",
+        "runs": 59,
+        "overs": 4,
+        "matchNumber": 23
+      }
+    ],
+    "rank": 91
+  },
+  {
+    "name": "P Awana",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2014,
+        "fixture": "CSK vs PBKS",
+        "runs": 59,
+        "overs": 4,
+        "matchNumber": ""
+      }
+    ],
+    "rank": 92
+  },
+  {
+    "name": "CJ Anderson",
+    "team": "RCB",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2018,
+        "fixture": "RCB vs CSK",
+        "runs": 58,
+        "overs": 3.4,
+        "matchNumber": 24
+      }
+    ],
+    "rank": 93
+  },
+  {
+    "name": "Mashrafe Mortaza",
+    "team": "KKR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2009,
+        "fixture": "SRH vs KKR",
+        "runs": 58,
+        "overs": 4,
+        "matchNumber": 48
+      }
+    ],
+    "rank": 94
+  },
+  {
+    "name": "Harbhajan Singh",
+    "team": "CSK",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2019,
+        "fixture": "CSK vs PBKS",
+        "runs": 57,
+        "overs": 4,
+        "matchNumber": 55
+      }
+    ],
+    "rank": 95
+  },
+  {
+    "name": "P Amarnath",
+    "team": "CSK",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2007,
+        "fixture": "CSK vs MI",
+        "runs": 57,
+        "overs": 4,
+        "matchNumber": 8
+      }
+    ],
+    "rank": 96
+  },
+  {
+    "name": "BE Hendricks",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2014,
+        "fixture": "PBKS vs RR",
+        "runs": 57,
+        "overs": 4,
+        "matchNumber": 52
+      }
+    ],
+    "rank": 97
+  },
+  {
+    "name": "P Ray Barman",
+    "team": "RCB",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2019,
+        "fixture": "SRH vs RCB",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": 11
+      }
+    ],
+    "rank": 98
+  },
+  {
+    "name": "N Thushara",
+    "team": "MI",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "DC vs MI",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": 43
+      }
+    ],
+    "rank": 99
+  },
+  {
+    "name": "VRV Singh",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2007,
+        "fixture": "MI vs PBKS",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": 45
+      }
+    ],
+    "rank": 100
+  },
+  {
+    "name": "JA Morkel",
+    "team": "CSK",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2009,
+        "fixture": "CSK vs RR",
+        "runs": 56,
+        "overs": 4,
+        "matchNumber": 32
+      }
+    ],
+    "rank": 101
+  },
+  {
+    "name": "Anureet Singh",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2015,
+        "fixture": "KKR vs PBKS",
+        "runs": 56,
+        "overs": 3.5,
+        "matchNumber": 44
+      }
+    ],
+    "rank": 102
+  },
+  {
+    "name": "A Choudhary",
+    "team": "RCB",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2017,
+        "fixture": "SRH vs RCB",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 1
+      }
+    ],
+    "rank": 103
+  },
+  {
+    "name": "JA Richardson",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2021,
+        "fixture": "PBKS vs RR",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 4
+      }
+    ],
+    "rank": 104
+  },
+  {
+    "name": "DL Chahar",
+    "team": "CSK",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2023,
+        "fixture": "CSK vs LSG",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 6
+      }
+    ],
+    "rank": 105
+  },
+  {
+    "name": "Ashwani Kumar",
+    "team": "MI",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2025,
+        "fixture": "MI vs PBKS",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": ""
+      }
+    ],
+    "rank": 106
+  },
+  {
+    "name": "A Singh",
+    "team": "RR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2012,
+        "fixture": "RR vs SRH",
+        "runs": 55,
+        "overs": 4,
+        "matchNumber": 20
+      }
+    ],
+    "rank": 107
+  },
+  {
+    "name": "NLTC Perera",
+    "team": "SRH",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2013,
+        "fixture": "MI vs SRH",
+        "runs": 55,
+        "overs": 3.3,
+        "matchNumber": 62
+      }
+    ],
+    "rank": 108
+  },
+  {
+    "name": "KC Cariappa",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2016,
+        "fixture": "RCB vs PBKS",
+        "runs": 55,
+        "overs": 3,
+        "matchNumber": 50
+      }
+    ],
+    "rank": 109
+  },
+  {
+    "name": "RD Chahar",
+    "team": "MI",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2019,
+        "fixture": "KKR vs MI",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 47
+      }
+    ],
+    "rank": 110
+  },
+  {
+    "name": "TK Curran",
+    "team": "RR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2020,
+        "fixture": "RR vs CSK",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 4
+      }
+    ],
+    "rank": 111
+  },
+  {
+    "name": "TS Mills",
+    "team": "MI",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2022,
+        "fixture": "LSG vs MI",
+        "runs": 54,
+        "overs": 3,
+        "matchNumber": 26
+      }
+    ],
+    "rank": 112
+  },
+  {
+    "name": "KM Asif",
+    "team": "RR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2023,
+        "fixture": "PBKS vs RR",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 8
+      }
+    ],
+    "rank": 113
+  },
+  {
+    "name": "Nithish Kumar Reddy",
+    "team": "SRH",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "PBKS vs SRH",
+        "runs": 54,
+        "overs": 3,
+        "matchNumber": 69
+      }
+    ],
+    "rank": 114
+  },
+  {
+    "name": "Fazalhaq Farooqi",
+    "team": "RR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2025,
+        "fixture": "MI vs RR",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 50
+      }
+    ],
+    "rank": 115
+  },
+  {
+    "name": "Pankaj Singh",
+    "team": "RCB",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2009,
+        "fixture": "RCB vs MI",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 52
+      }
+    ],
+    "rank": 116
+  },
+  {
+    "name": "MS Gony",
+    "team": "SRH",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2012,
+        "fixture": "SRH vs CSK",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": 6
+      }
+    ],
+    "rank": 117
+  },
+  {
+    "name": "Karanveer Singh",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2014,
+        "fixture": "KKR vs PBKS",
+        "runs": 54,
+        "overs": 4,
+        "matchNumber": ""
+      }
+    ],
+    "rank": 118
+  },
+  {
+    "name": "S Aravind",
+    "team": "RCB",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2017,
+        "fixture": "GL vs RCB",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 20
+      }
+    ],
+    "rank": 119
+  },
+  {
+    "name": "R Ashwin",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2018,
+        "fixture": "PBKS vs SRH",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 16
+      }
+    ],
+    "rank": 120
+  },
+  {
+    "name": "A Zampa",
+    "team": "RCB",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2020,
+        "fixture": "RCB vs MI",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 10
+      }
+    ],
+    "rank": 121
+  },
+  {
+    "name": "C Sakariya",
+    "team": "DC",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2023,
+        "fixture": "LSG vs DC",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 3
+      }
+    ],
+    "rank": 122
+  },
+  {
+    "name": "D Jansen",
+    "team": "MI",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2023,
+        "fixture": "KKR vs MI",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 22
+      }
+    ],
+    "rank": 123
+  },
+  {
+    "name": "PWH de Silva",
+    "team": "RCB",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2023,
+        "fixture": "RCB vs MI",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 54
+      }
+    ],
+    "rank": 124
+  },
+  {
+    "name": "Ravi Bishnoi",
+    "team": "LSG",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2025,
+        "fixture": "LSG vs DC",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 4
+      }
+    ],
+    "rank": 125
+  },
+  {
+    "name": "JR Hopes",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2007,
+        "fixture": "PBKS vs CSK",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 2
+      }
+    ],
+    "rank": 126
+  },
+  {
+    "name": "JDP Oram",
+    "team": "CSK",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2007,
+        "fixture": "CSK vs MI",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 8
+      }
+    ],
+    "rank": 127
+  },
+  {
+    "name": "SW Tait",
+    "team": "RR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2009,
+        "fixture": "DC vs RR",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 29
+      }
+    ],
+    "rank": 128
+  },
+  {
+    "name": "AC Thomas",
+    "team": "PWI",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2011,
+        "fixture": "PWI vs MI",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 44
+      }
+    ],
+    "rank": 129
+  },
+  {
+    "name": "KW Richardson",
+    "team": "RCB",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2016,
+        "fixture": "GL vs RCB",
+        "runs": 53,
+        "overs": 4,
+        "matchNumber": 19
+      }
+    ],
+    "rank": 130
+  },
+  {
+    "name": "LE Plunkett",
+    "team": "DC",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2018,
+        "fixture": "CSK vs DC",
+        "runs": 52,
+        "overs": 3,
+        "matchNumber": 30
+      }
+    ],
+    "rank": 131
+  },
+  {
+    "name": "JPR Scantlebury-Searles",
+    "team": "KKR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2018,
+        "fixture": "KKR vs PBKS",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 44
+      }
+    ],
+    "rank": 132
+  },
+  {
+    "name": "JDS Neesham",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2020,
+        "fixture": "MI vs PBKS",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 13
+      }
+    ],
+    "rank": 133
+  },
+  {
+    "name": "SS Cottrell",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2020,
+        "fixture": "PBKS vs RR",
+        "runs": 52,
+        "overs": 3,
+        "matchNumber": 9
+      }
+    ],
+    "rank": 134
+  },
+  {
+    "name": "OF Smith",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2022,
+        "fixture": "RCB vs PBKS",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 3
+      }
+    ],
+    "rank": 135
+  },
+  {
+    "name": "OC McCoy",
+    "team": "RR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2022,
+        "fixture": "RR vs DC",
+        "runs": 52,
+        "overs": 3,
+        "matchNumber": 34
+      }
+    ],
+    "rank": 136
+  },
+  {
+    "name": "Umran Malik",
+    "team": "SRH",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2022,
+        "fixture": "DC vs SRH",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 50
+      }
+    ],
+    "rank": 137
+  },
+  {
+    "name": "DJ Mitchell",
+    "team": "CSK",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "GT vs CSK",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 59
+      }
+    ],
+    "rank": 138
+  },
+  {
+    "name": "M Pathirana",
+    "team": "CSK",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2025,
+        "fixture": "PBKS vs CSK",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 22
+      }
+    ],
+    "rank": 139
+  },
+  {
+    "name": "WPUJC Vaas",
+    "team": "SRH",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2009,
+        "fixture": "SRH vs DC",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 43
+      }
+    ],
+    "rank": 140
+  },
+  {
+    "name": "M Muralitharan",
+    "team": "CSK",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2009,
+        "fixture": "CSK vs RR",
+        "runs": 52,
+        "overs": 4,
+        "matchNumber": 32
+      }
+    ],
+    "rank": 141
+  },
+  {
+    "name": "P Kumar",
+    "team": "GL",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2017,
+        "fixture": "GL vs RPS",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 13
+      }
+    ],
+    "rank": 142
+  },
+  {
+    "name": "MG Johnson",
+    "team": "KKR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2018,
+        "fixture": "CSK vs KKR",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 33
+      }
+    ],
+    "rank": 143
+  },
+  {
+    "name": "GC Viljoen",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2019,
+        "fixture": "RCB vs PBKS",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 42
+      }
+    ],
+    "rank": 144
+  },
+  {
+    "name": "NM Coulter-Nile",
+    "team": "MI",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2020,
+        "fixture": "KKR vs MI",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 32
+      }
+    ],
+    "rank": 145
+  },
+  {
+    "name": "JL Pattinson",
+    "team": "MI",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2020,
+        "fixture": "RCB vs MI",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 10
+      }
+    ],
+    "rank": 146
+  },
+  {
+    "name": "KR Sen",
+    "team": "RR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2022,
+        "fixture": "GT vs RR",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 24
+      }
+    ],
+    "rank": 147
+  },
+  {
+    "name": "RP Meredith",
+    "team": "MI",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2023,
+        "fixture": "RR vs MI",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 42
+      }
+    ],
+    "rank": 148
+  },
+  {
+    "name": "Kartik Tyagi",
     "team": "GT",
-    "totalSpells": 2,
+    "totalSpells": 1,
     "innings": [
-      { "season": 2023, "fixture": "GT vs KKR", "runs": 69, "overs": 4 },
-      { "season": 2024, "fixture": "GT vs RR", "runs": 50, "overs": 4 }
-    ]
+      {
+        "season": 2024,
+        "fixture": "GT vs CSK",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 59
+      }
+    ],
+    "rank": 149
   },
   {
-    "rank": 13,
-    "name": "Varun Aaron",
-    "team": "DC / RR",
-    "totalSpells": 2,
+    "name": "Mohammad Asif",
+    "team": "DC",
+    "totalSpells": 1,
     "innings": [
-      { "season": 2012, "fixture": "DD vs CSK", "runs": 63, "overs": 4 },
-      { "season": 2014, "fixture": "RCB vs CSK", "runs": 50, "overs": 4 }
-    ]
+      {
+        "season": 2007,
+        "fixture": "DC vs SRH",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 37
+      }
+    ],
+    "rank": 150
   },
   {
-    "rank": 14,
-    "name": "Ishant Sharma",
-    "team": "SRH / DC",
-    "totalSpells": 2,
+    "name": "PJ Sangwan",
+    "team": "DC",
+    "totalSpells": 1,
     "innings": [
-      { "season": 2013, "fixture": "SRH vs CSK", "runs": 66, "overs": 4 },
-      { "season": 2019, "fixture": "DC vs MI", "runs": 51, "overs": 4 }
-    ]
+      {
+        "season": 2007,
+        "fixture": "RCB vs DC",
+        "runs": 51,
+        "overs": 3,
+        "matchNumber": 43
+      }
+    ],
+    "rank": 151
+  },
+  {
+    "name": "R Sathish",
+    "team": "MI",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2009,
+        "fixture": "MI vs RR",
+        "runs": 51,
+        "overs": 3,
+        "matchNumber": 2
+      }
+    ],
+    "rank": 152
+  },
+  {
+    "name": "S Sreesanth",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2009,
+        "fixture": "SRH vs PBKS",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 12
+      }
+    ],
+    "rank": 153
+  },
+  {
+    "name": "L Balaji",
+    "team": "KKR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2011,
+        "fixture": "KKR vs MI",
+        "runs": 51,
+        "overs": 3,
+        "matchNumber": 70
+      }
+    ],
+    "rank": 154
+  },
+  {
+    "name": "M Kartik",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2014,
+        "fixture": "RR vs PBKS",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 7
+      }
+    ],
+    "rank": 155
+  },
+  {
+    "name": "T Shamsi",
+    "team": "RCB",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2016,
+        "fixture": "RCB vs KKR",
+        "runs": 51,
+        "overs": 4,
+        "matchNumber": 30
+      }
+    ],
+    "rank": 156
+  },
+  {
+    "name": "BB Sran",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2018,
+        "fixture": "KKR vs PBKS",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 18
+      }
+    ],
+    "rank": 157
+  },
+  {
+    "name": "AJ Tye",
+    "team": "RR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2020,
+        "fixture": "DC vs RR",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 23
+      }
+    ],
+    "rank": 158
+  },
+  {
+    "name": "CH Morris",
+    "team": "RR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2021,
+        "fixture": "RR vs RCB",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 43
+      }
+    ],
+    "rank": 159
+  },
+  {
+    "name": "D Pretorius",
+    "team": "CSK",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2022,
+        "fixture": "PBKS vs CSK",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 38
+      }
+    ],
+    "rank": 160
+  },
+  {
+    "name": "K Yadav",
+    "team": "RR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2023,
+        "fixture": "RR vs SRH",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 52
+      }
+    ],
+    "rank": 161
+  },
+  {
+    "name": "Yash Thakur",
+    "team": "LSG",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2024,
+        "fixture": "LSG vs RR",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 44
+      }
+    ],
+    "rank": 162
+  },
+  {
+    "name": "VG Arora",
+    "team": "KKR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2025,
+        "fixture": "KKR vs RR",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 53
+      }
+    ],
+    "rank": 163
+  },
+  {
+    "name": "B Geeves",
+    "team": "DC",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2007,
+        "fixture": "DC vs MI",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 50
+      }
+    ],
+    "rank": 164
+  },
+  {
+    "name": "VY Mahesh",
+    "team": "DC",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2007,
+        "fixture": "DC vs RR",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": ""
+      }
+    ],
+    "rank": 165
+  },
+  {
+    "name": "A Flintoff",
+    "team": "CSK",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2009,
+        "fixture": "CSK vs DC",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 9
+      }
+    ],
+    "rank": 166
+  },
+  {
+    "name": "MF Maharoof",
+    "team": "DC",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2009,
+        "fixture": "DC vs MI",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 9
+      }
+    ],
+    "rank": 167
+  },
+  {
+    "name": "SK Warne",
+    "team": "RR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2011,
+        "fixture": "PBKS vs RR",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 23
+      }
+    ],
+    "rank": 168
+  },
+  {
+    "name": "JJ van der Wath",
+    "team": "RCB",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2011,
+        "fixture": "PBKS vs RCB",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 63
+      }
+    ],
+    "rank": 169
+  },
+  {
+    "name": "M Morkel",
+    "team": "DC",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2012,
+        "fixture": "DC vs PWI",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 27
+      }
+    ],
+    "rank": 170
+  },
+  {
+    "name": "SMSM Senanayake",
+    "team": "KKR",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2013,
+        "fixture": "KKR vs MI",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 33
+      }
+    ],
+    "rank": 171
+  },
+  {
+    "name": "DP Nannes",
+    "team": "CSK",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2013,
+        "fixture": "CSK vs KKR",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 38
+      }
+    ],
+    "rank": 172
+  },
+  {
+    "name": "K Santokie",
+    "team": "MI",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2014,
+        "fixture": "RR vs MI",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 44
+      }
+    ],
+    "rank": 173
+  },
+  {
+    "name": "R Dhawan",
+    "team": "PBKS",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2015,
+        "fixture": "MI vs PBKS",
+        "runs": 50,
+        "overs": 4,
+        "matchNumber": 7
+      }
+    ],
+    "rank": 174
+  },
+  {
+    "name": "S Kaushik",
+    "team": "GL",
+    "totalSpells": 1,
+    "innings": [
+      {
+        "season": 2016,
+        "fixture": "RCB vs GL",
+        "runs": 50,
+        "overs": 3,
+        "matchNumber": 44
+      }
+    ],
+    "rank": 175
   }
 ]
