@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import { useEffect, useState } from 'react';
 import styles from './LiveDroughtTracker.module.css';
 
@@ -11,7 +11,7 @@ interface LiveBatter {
   matchId: string;
 }
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://tukweb-production.up.railway.app';
 
 export default function LiveDroughtTracker() {
   const [batters, setBatters] = useState<LiveBatter[]>([]);
@@ -53,7 +53,7 @@ export default function LiveDroughtTracker() {
               <span className={styles.playerName}>{b.playerName}</span>
               ({b.team}) is batting at
               <span className={styles.droughtBalls}>SR {b.strikeRate}</span>
-              — {b.runs}({b.balls}) 🐢
+              â€” {b.runs}({b.balls}) ðŸ¢
             </span>
           ))}
         </div>

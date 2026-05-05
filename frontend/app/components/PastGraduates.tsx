@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import { useState, useEffect } from 'react';
 import LeaderboardTable from './LeaderboardTable';
 import styles from './PastGraduates.module.css';

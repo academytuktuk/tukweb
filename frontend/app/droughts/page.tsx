@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -87,8 +87,8 @@ export default function DroughtsPage() {
                   {team.trophies === 0 && (
                     <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
                       Trophyless Lmao 
-                      <img src="https://em-content.zobj.net/source/apple/391/index-pointing-at-the-viewer_1faf5.png" alt="🫵" width="16" height="16" />
-                      <img src="https://em-content.zobj.net/source/apple/391/rolling-on-the-floor-laughing_1f923.png" alt="🤣" width="16" height="16" />
+                      <img src="https://em-content.zobj.net/source/apple/391/index-pointing-at-the-viewer_1faf5.png" alt="ðŸ«µ" width="16" height="16" />
+                      <img src="https://em-content.zobj.net/source/apple/391/rolling-on-the-floor-laughing_1f923.png" alt="ðŸ¤£" width="16" height="16" />
                     </span>
                   )}
                   {team.id === 'RR' && '1 time Champions from dinosaur era'}

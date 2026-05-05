@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import { useState, useRef, useEffect } from 'react';
 import html2canvas from 'html2canvas';
 import styles from './page.module.css';
@@ -7,7 +7,7 @@ const roastDb = {
   batter: {
       "0-50": ["Legendary commitment to the dot ball strategy.", "Gavaskar is crying tears of joy at this masterpiece.", "Saving the test match spirit in a T20 game.", "Absolute wall. No runs, no risks, just pure meditation."],
       "50-55": ["Exhibiting the movement speed of a majestic statue.", "Respecting the red ball in a white ball world.", "Mastering the art of making the crowd fall asleep."],
-      "55-60": ["The TukTuk academy's valedictorian has arrived.", "A performance so slow, it’s legally considered art.", "Blocking like his life depends on the zero boundary count."],
+      "55-60": ["The TukTuk academy's valedictorian has arrived.", "A performance so slow, itâ€™s legally considered art.", "Blocking like his life depends on the zero boundary count."],
       "60-65": ["Solid contribution to the opposition's winning chances.", "Modern day wall, though cement seems to be missing.", "Wait, is this a highlight reel in 0.25x speed?"],
       "65-70": ["Elite concentration on strictly avoiding any risk.", "Classical era 1975 cricket is back, thanks to you.", "Perfectly preserving the pitch for the next generation."],
       "70-75": ["A bit too aggressive for a burial ground, isn't it?", "Taking 'Playing for the draw' to a whole new level.", "The bowlers are thanking you for the extra rest."],
@@ -61,7 +61,7 @@ export default function AdminGenerator() {
 
   const fetchSuggestions = async (pwd: string) => {
     try {
-      const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+      const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://tukweb-production.up.railway.app';
       const res = await fetch(`${API_BASE}/api/suggest/admin`, { headers: { 'x-admin-password': pwd }});
       if (res.ok) {
         const data = await res.json();
@@ -73,7 +73,7 @@ export default function AdminGenerator() {
   const handleUnlock = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+      const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://tukweb-production.up.railway.app';
       const res = await fetch(`${API_BASE}/api/potd/verify`, {
         method: 'POST',
         headers: { 'x-admin-password': adminPwd }

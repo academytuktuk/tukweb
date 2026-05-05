@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import { useEffect, useState } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -8,7 +8,7 @@ import TeamPointsTable from '../components/TeamPointsTable';
 import PastGraduates from '../components/PastGraduates';
 import styles from './page.module.css';
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://tukweb-production.up.railway.app';
 
 export default function DindaPage() {
   const [potd, setPotd] = useState(null);
@@ -71,17 +71,17 @@ export default function DindaPage() {
             <p className="section-label">Individual Rankings</p>
             <h2 className="section-title dinda"><span>Run Machine</span> Leaderboard</h2>
             <p className="section-subtitle">
-              Run Machine Score = Economy Impact + Wicket Drought · Highest = most Run Machine
+              Run Machine Score = Economy Impact + Wicket Drought Â· Highest = most Run Machine
             </p>
             <div className={`${styles.formulaBox} ${styles.formulaBoxDinda}`}>
               <div className={styles.fItem}>
                 <span className={`${styles.fKey} ${styles.fKeyDinda}`}>Economy Impact</span>
-                <span className={styles.fVal}>avg_runs_per_over − 8.5</span>
+                <span className={styles.fVal}>avg_runs_per_over âˆ’ 8.5</span>
               </div>
               <div className={styles.fDiv} />
               <div className={styles.fItem}>
                 <span className={`${styles.fKey} ${styles.fKeyDinda}`}>Wicket Drought</span>
-                <span className={styles.fVal}>(0.25 − wkts/over) × 10</span>
+                <span className={styles.fVal}>(0.25 âˆ’ wkts/over) Ã— 10</span>
               </div>
               <div className={styles.fDiv} />
               <div className={styles.fItem}>
@@ -100,7 +100,7 @@ export default function DindaPage() {
             <p className="section-label">Team Rankings</p>
             <h2 className="section-title dinda"><span>Team</span> Run Machine Table</h2>
             <p className="section-subtitle">
-              Team Run Machine Score = Economy + (0.25 − Wkts/Over) × 10 · Rank #1 = most Run Machine bowling team
+              Team Run Machine Score = Economy + (0.25 âˆ’ Wkts/Over) Ã— 10 Â· Rank #1 = most Run Machine bowling team
             </p>
             {loading ? <div className={styles.loadingDinda}><div className={styles.dotDinda} /><div className={styles.dotDinda} /><div className={styles.dotDinda} /></div>
               : <TeamPointsTable type="run-machine" rows={teams} />}

@@ -1,10 +1,10 @@
-'use client';
+﻿'use client';
 import { useState } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import styles from './page.module.css';
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://tukweb-production.up.railway.app';
 
 export default function SuggestPage() {
   const [form, setForm] = useState({ username: '', message: '' });
@@ -49,7 +49,7 @@ export default function SuggestPage() {
             <div className={styles.formCard}>
               {status === 'success' ? (
                 <div className={styles.success}>
-                  <div className={styles.successIcon}>✓</div>
+                  <div className={styles.successIcon}>âœ“</div>
                   <h3 className={styles.successTitle}>Suggestion Received!</h3>
                   <p className={styles.successSub}>Thanks. We'll review it.</p>
                   <button className="btn btn-tuktuk" onClick={() => setStatus('idle')}>Submit Another</button>

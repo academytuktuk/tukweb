@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import { useState, useEffect, useRef } from 'react';
 import styles from './TrophyDrought.module.css';
 
@@ -85,7 +85,7 @@ export default function TrophyDroughtDropdown() {
         onClick={() => setIsOpen(!isOpen)}
         aria-expanded={isOpen}
       >
-        <span>🏆 Trophy Droughts</span>
+        <span>ðŸ† Trophy Droughts</span>
       </button>
 
       <div className={`${styles.dropdown} ${isOpen ? styles.open : ''}`}>

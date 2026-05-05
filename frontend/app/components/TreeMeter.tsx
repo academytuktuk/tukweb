@@ -1,8 +1,8 @@
-'use client';
+﻿'use client';
 import { useEffect, useRef, useState } from 'react';
 import styles from './TreeMeter.module.css';
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://tukweb-production.up.railway.app';
 
 interface TreeData {
   totalDotBalls: number;
@@ -70,9 +70,9 @@ export default function TreeMeter() {
     <section className={styles.section} id="tree-meter">
       <div className={styles.inner}>
 
-        {/* ── LEFT COLUMN ── */}
+        {/* â”€â”€ LEFT COLUMN â”€â”€ */}
         <div className={styles.leftCol}>
-          {/* FIX 5 — TUKTUKFORNATURE one line */}
+          {/* FIX 5 â€” TUKTUKFORNATURE one line */}
           <h2 className={styles.natureHeading}>
             <span className={styles.natureMain}>TUKTUKFOR</span>
             <span className={styles.natureAccent}>NATURE</span>
@@ -87,17 +87,17 @@ export default function TreeMeter() {
           </div>
         </div>
 
-        {/* ── RIGHT COLUMN ── */}
+        {/* â”€â”€ RIGHT COLUMN â”€â”€ */}
         <div className={styles.rightCol}>
 
-          {/* FIX 6 — premium stat boxes */}
+          {/* FIX 6 â€” premium stat boxes */}
           <div className={styles.statBoxRow}>
 
-            {/* Dot Balls — with live dot */}
+            {/* Dot Balls â€” with live dot */}
             <div className={styles.statBox}>
               <span className={styles.statValue}>
                 <span className={styles.liveDotInline} />
-                {error ? '—' : fmt(dots)}
+                {error ? 'â€”' : fmt(dots)}
               </span>
               <span className={styles.statLabel}>
                 Dot Balls Recorded
@@ -110,7 +110,7 @@ export default function TreeMeter() {
             {/* Trees Planted */}
             <div className={styles.statBox}>
               <span className={styles.statValue}>
-                {error ? '—' : fmt(trees)}
+                {error ? 'â€”' : fmt(trees)}
               </span>
               <span className={styles.statLabel}>Trees Planted</span>
               {data && data.trees > 0 && (
@@ -123,7 +123,7 @@ export default function TreeMeter() {
 
           </div>
 
-          {/* FIX 6 — premium progress bar */}
+          {/* FIX 6 â€” premium progress bar */}
           <div className={styles.progressTrack}>
             <div
               className={styles.progressFill}

@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import styles from './Footer.module.css';
 
 export default function Footer() {
@@ -53,8 +53,8 @@ export default function Footer() {
 
       <div className={styles.bottom}>
         <div className={styles.copyright}>
-          <span className={styles.copyrightFull}>© {new Date().getFullYear()} TukTuk &amp; Run Machine Academy. Satire/Parody- just for fun</span>
-          <span className={styles.copyrightShort}>© {new Date().getFullYear()} TukTuk Academy · Satire/Parody</span>
+          <span className={styles.copyrightFull}>Â© {new Date().getFullYear()} TukTuk &amp; Run Machine Academy. Satire/Parody- just for fun</span>
+          <span className={styles.copyrightShort}>Â© {new Date().getFullYear()} TukTuk Academy Â· Satire/Parody</span>
         </div>
         <span className={styles.dataTag}>IPL 2026</span>
       </div>

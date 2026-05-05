@@ -1,4 +1,4 @@
-import styles from './PlayerCard.module.css';
+﻿import styles from './PlayerCard.module.css';
 
 interface POTD {
   id: number;
@@ -14,7 +14,7 @@ interface Props {
   type: 'tuktuk' | 'run-machine';
 }
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://tukweb-production.up.railway.app';
 
 export default function PlayerCard({ potd, type }: Props) {
   const isTuktuk = type === 'tuktuk';
@@ -23,7 +23,7 @@ export default function PlayerCard({ potd, type }: Props) {
   if (!potd) {
     return (
       <div className={`${styles.placeholder} ${isTuktuk ? styles.tukPlaceholder : styles.dinPlaceholder}`}>
-        <div className={styles.placeholderIcon}>{isTuktuk ? '🏏' : '🎳'}</div>
+        <div className={styles.placeholderIcon}>{isTuktuk ? 'ðŸ' : 'ðŸŽ³'}</div>
         <p className={styles.placeholderTitle}>{label}</p>
         <p className={styles.placeholderSub}>Card will appear here once uploaded</p>
       </div>
@@ -44,7 +44,7 @@ export default function PlayerCard({ potd, type }: Props) {
       <div className={styles.cardOuter}>
         <img
           src={imageUrl}
-          alt={`${potd.playerName} — ${label}`}
+          alt={`${potd.playerName} â€” ${label}`}
           className={`${styles.cardImg} float-anim`}
         />
       </div>

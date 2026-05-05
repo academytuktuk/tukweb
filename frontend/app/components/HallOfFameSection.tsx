@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import { useState, useEffect, useMemo } from 'react';
 import styles from '../hall-of-fame/page.module.css';
 import { formatPlayerName } from './LeaderboardTable';
@@ -262,7 +262,7 @@ export default function HallOfFameSection() {
       <section className="section">
         <div className="section-label tuktuk">TukTuk Academy</div>
         <h1 className="section-title tuktuk"><span>DUCK</span> MASTERS</h1>
-        <p className="section-subtitle">IPL's most prolific golden goose merchants — dismissed for zero, again and again.</p>
+        <p className="section-subtitle">IPL's most prolific golden goose merchants â€” dismissed for zero, again and again.</p>
 
         <div style={{ maxWidth: '800px', display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '16px' }}>
           
@@ -286,7 +286,7 @@ export default function HallOfFameSection() {
                 <span style={{ fontFamily: 'var(--font-mono)', fontWeight: 'bold', color: 'var(--text-muted)', minWidth: '32px' }}>#{player.rank}</span>
                 <span style={{ fontWeight: 700, color: 'var(--text-primary)', flex: 1, fontSize: '15px' }}>{formatPlayerName(player.name)}</span>
                 <span style={{ background: '#ff4757', color: '#fff', borderRadius: '20px', padding: '4px 14px', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-mono)' }}>{player.totalDucks} ducks</span>
-                <span style={{ color: 'var(--text-muted)', fontSize: '18px', transition: 'transform 0.2s', transform: expandedDuck === player.name ? 'rotate(180deg)' : 'rotate(0deg)' }}>▾</span>
+                <span style={{ color: 'var(--text-muted)', fontSize: '18px', transition: 'transform 0.2s', transform: expandedDuck === player.name ? 'rotate(180deg)' : 'rotate(0deg)' }}>â–¾</span>
               </button>
 
               {expandedDuck === player.name && (
@@ -364,7 +364,7 @@ export default function HallOfFameSection() {
                 <span style={{ fontFamily: 'var(--font-mono)', fontWeight: 'bold', color: 'var(--text-muted)', minWidth: '32px' }}>#{player.rank}</span>
                 <span style={{ fontWeight: 700, color: 'var(--text-primary)', flex: 1, fontSize: '15px' }}>{formatPlayerName(player.name)}</span>
                 <span style={{ background: 'var(--din-accent)', color: '#000', borderRadius: '20px', padding: '4px 14px', fontWeight: 700, fontSize: '14px', fontFamily: 'var(--font-mono)' }}>{player.totalSpells} spells</span>
-                <span style={{ color: 'var(--text-muted)', fontSize: '18px', transition: 'transform 0.2s', transform: expandedFiftyPlus === player.name ? 'rotate(180deg)' : 'rotate(0deg)' }}>▾</span>
+                <span style={{ color: 'var(--text-muted)', fontSize: '18px', transition: 'transform 0.2s', transform: expandedFiftyPlus === player.name ? 'rotate(180deg)' : 'rotate(0deg)' }}>â–¾</span>
               </button>
 
               {expandedFiftyPlus === player.name && (

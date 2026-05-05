@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 import { useState } from 'react';
 import styles from './LeaderboardTable.module.css';
 
@@ -94,7 +94,7 @@ export default function LeaderboardTable({ type, top10, full }: Props) {
                   <th className="text-right">Inn</th>
                   <th className="text-right">Runs(Balls)</th>
                   <th className="text-right">SR</th>
-                  <th className={`text-right ${styles.scoreHead}`}>TukTuk ↓</th>
+                  <th className={`text-right ${styles.scoreHead}`}>TukTuk â†“</th>
                 </>
               ) : (
                 <>
@@ -104,7 +104,7 @@ export default function LeaderboardTable({ type, top10, full }: Props) {
                   <th className="text-right">Wkts</th>
                   <th className="text-right">Econ</th>
                   <th className="text-right">W.Drought</th>
-                  <th className={`text-right ${styles.scoreHead}`}>Score ↓</th>
+                  <th className={`text-right ${styles.scoreHead}`}>Score â†“</th>
                 </>
               )}
             </tr>
@@ -163,7 +163,7 @@ export default function LeaderboardTable({ type, top10, full }: Props) {
             className={`btn ${isTuktuk ? 'btn-tuktuk' : 'btn-dinda'} ${styles.toggleBtn}`}
             onClick={() => setShowAll((v) => !v)}
           >
-            {showAll ? '▲ Show Less' : `▼ Show All (${full.length})`}
+            {showAll ? 'â–² Show Less' : `â–¼ Show All (${full.length})`}
           </button>
           <span className={styles.totalCount}>
             {full.length} qualifying players
