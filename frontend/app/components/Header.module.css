@@ -290,11 +290,11 @@
 
 /* ── RESPONSIVE ─────────────────────────────────────────────────────────── */
 @media (max-width: 900px) {
-  .logoAcademy, .logoDivider { display: none; }
   .navLink { padding: 6px 10px; font-size: 12px; }
 }
 
 @media (max-width: 640px) {
   .iplBadge { display: none; }
   .nav { display: none; }
+  .logo { font-size: 14px; }
 }
