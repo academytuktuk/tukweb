@@ -536,8 +536,8 @@ h1, h2, h3, h4, h5, h6 {
   .lb-table .score-col { font-size: 11px; }
 
   /* Compact sticky columns to save screen width */
-  .rank-col { min-width: 36px; max-width: 36px; }
-  .player-col { left: 36px; min-width: 110px; max-width: 110px; }
+  .rank-col { min-width: 30px; max-width: 30px; }
+  .player-col { left: 30px; min-width: 95px; max-width: 95px; }
 
   /* Points table */
   .pts-table thead th,
@@ -551,8 +551,8 @@ h1, h2, h3, h4, h5, h6 {
   .lb-table tbody td { padding: 6px 3px; font-size: 9px; }
   .section { padding: 32px 12px; }
   .section-title { font-size: 28px; }
-  .rank-col { min-width: 32px; max-width: 32px; }
-  .player-col { left: 32px; min-width: 95px; max-width: 95px; }
+  .rank-col { min-width: 28px; max-width: 28px; }
+  .player-col { left: 28px; min-width: 85px; max-width: 85px; }
 }
 
 /* iPhone SE / standard (376px–430px) — already handled by 600px block */
