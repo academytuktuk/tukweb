@@ -38,6 +38,7 @@ app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
 
 // Routes
 app.use('/api/rankings', leaderboardRouter);
+app.use('/api/leaderboard', leaderboardRouter); // Backward compatibility for cached mobile clients
 app.use('/api/teams', teamsRouter);
 app.use('/api/potd', potdRouter);
 app.use('/api/trees', treesRouter);
