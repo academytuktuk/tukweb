@@ -179,7 +179,7 @@
   top: var(--header-h);
   left: -280px;
   width: 280px;
-  height: calc(100vh - var(--header-h));
+  height: calc(100dvh - var(--header-h));
   background: var(--bg-card);
   border-right: 1px solid var(--border);
   z-index: 999;
@@ -188,6 +188,7 @@
   display: flex;
   flex-direction: column;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 .sidePanelOpen { left: 0; }
 

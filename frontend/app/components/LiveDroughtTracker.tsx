@@ -11,7 +11,7 @@ interface LiveBatter {
   matchId: string;
 }
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://tukweb-production.up.railway.app';
+const API_BASE = (typeof window !== 'undefined' && window.location.hostname === 'localhost') ? 'http://localhost:4000' : '';
 
 export default function LiveDroughtTracker() {
   const [batters, setBatters] = useState<LiveBatter[]>([]);

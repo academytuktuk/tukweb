@@ -61,7 +61,7 @@ export default function AdminGenerator() {
 
   const fetchSuggestions = async (pwd: string) => {
     try {
-      const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://tukweb-production.up.railway.app';
+      const API_BASE = (typeof window !== 'undefined' && window.location.hostname === 'localhost') ? 'http://localhost:4000' : '';
       const res = await fetch(`${API_BASE}/api/suggest/admin`, { headers: { 'x-admin-password': pwd }});
       if (res.ok) {
         const data = await res.json();
@@ -73,7 +73,7 @@ export default function AdminGenerator() {
   const handleUnlock = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://tukweb-production.up.railway.app';
+      const API_BASE = (typeof window !== 'undefined' && window.location.hostname === 'localhost') ? 'http://localhost:4000' : '';
       const res = await fetch(`${API_BASE}/api/potd/verify`, {
         method: 'POST',
         headers: { 'x-admin-password': adminPwd }
