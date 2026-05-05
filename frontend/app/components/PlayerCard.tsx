@@ -1,4 +1,4 @@
-﻿import styles from './PlayerCard.module.css';
+import styles from './PlayerCard.module.css';
 
 interface POTD {
   id: number;
@@ -23,7 +23,7 @@ export default function PlayerCard({ potd, type }: Props) {
   if (!potd) {
     return (
       <div className={`${styles.placeholder} ${isTuktuk ? styles.tukPlaceholder : styles.dinPlaceholder}`}>
-        <div className={styles.placeholderIcon}>{isTuktuk ? 'ðŸ' : 'ðŸŽ³'}</div>
+        <div className={styles.placeholderIcon}>{isTuktuk ? '🏏' : '🎳'}</div>
         <p className={styles.placeholderTitle}>{label}</p>
         <p className={styles.placeholderSub}>Card will appear here once uploaded</p>
       </div>
@@ -44,7 +44,7 @@ export default function PlayerCard({ potd, type }: Props) {
       <div className={styles.cardOuter}>
         <img
           src={imageUrl}
-          alt={`${potd.playerName} â€” ${label}`}
+          alt={`${potd.playerName} — ${label}`}
           className={`${styles.cardImg} float-anim`}
         />
       </div>

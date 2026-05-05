@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 import { useEffect, useState } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -48,7 +48,7 @@ export default function TukTukPage() {
               </h1>
               <p className={styles.pageSubtitle}>
                 Ranking IPL's slowest stroke-makers by TukTuk Score - the definitive metric of batting patience.
-                Minimum 6 innings - Positions 1â€“7 only - Higher score = more TukTuk.
+                Minimum 6 innings - Positions 1–7 only - Higher score = more TukTuk.
               </p>
             </div>
           </div>
@@ -71,17 +71,17 @@ export default function TukTukPage() {
             <p className="section-label">Individual Rankings</p>
             <h2 className="section-title tuktuk"><span>TukTuk</span> Leaderboard</h2>
             <p className="section-subtitle">
-              TukTuk Score = SR Impact + Volume Penalty Â· Highest = most TukTuk
+              TukTuk Score = SR Impact + Volume Penalty · Highest = most TukTuk
             </p>
             <div className={styles.formulaBox}>
               <div className={styles.fItem}>
                 <span className={styles.fKey}>SR Impact</span>
-                <span className={styles.fVal}>avg_balls Ã— (1 âˆ’ avg_SR / 140)</span>
+                <span className={styles.fVal}>avg_balls × (1 − avg_SR / 140)</span>
               </div>
               <div className={styles.fDiv} />
               <div className={styles.fItem}>
                 <span className={styles.fKey}>Volume Penalty</span>
-                <span className={styles.fVal}>max(0, (posExpected âˆ’ avg_runs) / 10)</span>
+                <span className={styles.fVal}>max(0, (posExpected − avg_runs) / 10)</span>
               </div>
               <div className={styles.fDiv} />
               <div className={styles.fItem}>
@@ -100,7 +100,7 @@ export default function TukTukPage() {
             <p className="section-label">Team Rankings</p>
             <h2 className="section-title tuktuk"><span>Team</span> TukTuk Table</h2>
             <p className="section-subtitle">
-              Team TukTuk Score = (190 - Team SR) / Matches Â· Rank #1 = most TukTuk batting team
+              Team TukTuk Score = (190 - Team SR) / Matches · Rank #1 = most TukTuk batting team
             </p>
             {loading ? <div className={styles.loading}><div className={styles.dot} /><div className={styles.dot} /><div className={styles.dot} /></div>
               : <TeamPointsTable type="tuktuk" rows={teams} />}

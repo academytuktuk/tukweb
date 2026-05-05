@@ -1,4 +1,4 @@
-﻿import styles from './TeamPointsTable.module.css';
+import styles from './TeamPointsTable.module.css';
 
 const TEAM_COLORS: Record<string, { bg: string; text: string }> = {
   MI:   { bg: '#005DA0', text: '#FFFFFF' },
@@ -68,7 +68,7 @@ export default function TeamPointsTable({ type, rows }: Props) {
                 <th>Total Runs</th>
                 <th>Balls Faced</th>
                 <th>Team SR</th>
-                <th className={styles.scoreHead}>TukTuk Score â†“</th>
+                <th className={styles.scoreHead}>TukTuk Score ↓</th>
               </>
             ) : (
               <>
@@ -78,7 +78,7 @@ export default function TeamPointsTable({ type, rows }: Props) {
                 <th>Wkts</th>
                 <th>Economy</th>
                 <th>Wkts/Over</th>
-                <th className={styles.scoreHead}>Run Machine Score â†“</th>
+                <th className={styles.scoreHead}>Run Machine Score ↓</th>
               </>
             )}
           </tr>
@@ -87,7 +87,7 @@ export default function TeamPointsTable({ type, rows }: Props) {
           {rows.length === 0 ? (
             <tr>
               <td colSpan={isTuktuk ? 7 : 9} className={styles.emptyCell}>
-                No team data yet â€” matches will appear after sync
+                No team data yet — matches will appear after sync
               </td>
             </tr>
           ) : isTuktuk ? (

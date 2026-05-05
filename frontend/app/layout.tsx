@@ -1,10 +1,10 @@
-﻿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import './globals.css';
 import { ThemeProvider } from './components/ThemeProvider';
 
 export const metadata: Metadata = {
   title: 'TukTuk & Run Machine Academy | IPL 2026 The Pavilion of Patience',
-  description: 'The official home of cricket\'s slowest batters and most expensive bowlers. TukTuk Academy & Run Machine Academy â€” celebrating bad cricket since 2024.',
+  description: 'The official home of cricket\'s slowest batters and most expensive bowlers. TukTuk Academy & Run Machine Academy — celebrating bad cricket since 2024.',
   keywords: ['TukTuk Academy', 'Run Machine Academy', 'IPL cricket', 'cricket stats', 'strike rate', 'economy rate', 'IPL 2026'],
   openGraph: {
     title: 'TukTuk & Run Machine Academy',

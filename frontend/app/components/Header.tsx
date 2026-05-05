@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
@@ -139,7 +139,7 @@ export default function Header() {
             aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}
           >
             <span className={styles.themeIcon}>
-              {theme === 'dark' ? 'â˜€' : 'â˜½'}
+              {theme === 'dark' ? '☀' : '☽'}
             </span>
             <span className={styles.themeText}>
               {theme === 'dark' ? 'Light mode' : 'Dark mode'}

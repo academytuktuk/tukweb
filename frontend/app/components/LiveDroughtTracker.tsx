@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 import { useEffect, useState } from 'react';
 import styles from './LiveDroughtTracker.module.css';
 
@@ -53,7 +53,7 @@ export default function LiveDroughtTracker() {
               <span className={styles.playerName}>{b.playerName}</span>
               ({b.team}) is batting at
               <span className={styles.droughtBalls}>SR {b.strikeRate}</span>
-              â€” {b.runs}({b.balls}) ðŸ¢
+              — {b.runs}({b.balls}) 🐢
             </span>
           ))}
         </div>
