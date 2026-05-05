@@ -64,7 +64,7 @@ export default function Header() {
 
           {/* Logo */}
           <Link href="/" className={styles.logo}>
-            <img src="/images/logo.jpg" alt="TukTuk Academy" className={styles.logoImg} />
+            <img src="/images/logo.png" alt="TukTuk Academy" className={styles.logoImg} />
             <div className={styles.logoTextContainer}>
               <span className={styles.logoTuk}>TUK</span>
               <span className={styles.logoTuk2}>TUK</span>
