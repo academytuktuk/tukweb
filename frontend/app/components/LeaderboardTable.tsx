@@ -68,12 +68,7 @@ function RankBadge({ rank }: { rank: number }) {
 }
 
 export function formatPlayerName(name: string): string {
-  if (!name) return '';
-  const parts = name.split(' ');
-  if (parts.length > 1) {
-    return `${parts[0].charAt(0)} ${parts.slice(1).join(' ')}`;
-  }
-  return name;
+  return name || '';
 }
 
 export default function LeaderboardTable({ type, top10, full }: Props) {
