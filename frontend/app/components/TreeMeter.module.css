@@ -32,8 +32,8 @@
   letter-spacing: 0.01em;
 }
 
-.natureMain   { color: var(--success); }
-.natureAccent { color: var(--tuk-accent); }
+.natureMain   { color: var(--tuk-accent); }
+.natureAccent { color: var(--success); }
 
 @media (max-width: 1200px) {
   .natureHeading { font-size: 48px; }
