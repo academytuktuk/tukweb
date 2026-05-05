@@ -64,11 +64,14 @@ export default function Header() {
 
           {/* Logo */}
           <Link href="/" className={styles.logo}>
-            <span className={styles.logoTuk}>TUK</span>
-            <span className={styles.logoTuk2}>TUK</span>
-            <span className={styles.logoDivider}>&amp;</span>
-            <span className={styles.logoDinda}>RUN MACHINE</span>
-            <span className={styles.logoAcademy}>ACADEMY</span>
+            <img src="/images/logo.jpg" alt="TukTuk Academy" className={styles.logoImg} />
+            <div className={styles.logoTextContainer}>
+              <span className={styles.logoTuk}>TUK</span>
+              <span className={styles.logoTuk2}>TUK</span>
+              <span className={styles.logoDivider}>&amp;</span>
+              <span className={styles.logoDinda}>RUN MACHINE</span>
+              <span className={styles.logoAcademy}>ACADEMY</span>
+            </div>
           </Link>
 
           {/* Nav */}
