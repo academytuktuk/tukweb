@@ -15,6 +15,7 @@ export default function TukTukPage() {
   const [lb, setLb] = useState<{ top10: any[]; full: any[] }>({ top10: [], full: [] });
   const [teams, setTeams] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
+  const [showRules, setShowRules] = useState(false);
 
   useEffect(() => {
     const cb = `?t=${new Date().getTime()}`;
@@ -73,20 +74,41 @@ export default function TukTukPage() {
             <p className="section-subtitle">
               TukTuk Score = SR Impact + Volume Penalty · Highest = most TukTuk
             </p>
-            <div className={styles.formulaBox}>
-              <div className={styles.fItem}>
-                <span className={styles.fKey}>SR Impact</span>
-                <span className={styles.fVal}>avg_balls × (1 − avg_SR / 140)</span>
-              </div>
-              <div className={styles.fDiv} />
-              <div className={styles.fItem}>
-                <span className={styles.fKey}>Volume Penalty</span>
-                <span className={styles.fVal}>max(0, (posExpected − avg_runs) / 10)</span>
-              </div>
-              <div className={styles.fDiv} />
-              <div className={styles.fItem}>
-                <span className={styles.fKey}>Score / Inn</span>
-                <span className={styles.fVal} style={{ color: 'var(--tuk-cyan)' }}>SR Impact + Volume Penalty</span>
+            <div style={{ textAlign: 'center', marginBottom: '24px' }}>
+              <button 
+                className="rules-toggle" 
+                onClick={() => setShowRules(!showRules)}
+                aria-expanded={showRules}
+              >
+                {showRules ? 'Hide Rules & Formulas' : 'View Rules & Formulas'}
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ transform: showRules ? 'rotate(180deg)' : 'rotate(0deg)', transition: 'transform 0.3s ease' }}>
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+            </div>
+            
+            <div className={`rules-wrapper ${showRules ? 'open' : ''}`}>
+              <div className={styles.formulaBox}>
+                <div className={styles.fItem}>
+                  <span className={styles.fKey}>SR Impact</span>
+                  <span className={styles.fVal}>avg_balls × (1 − avg_SR / 140)</span>
+                </div>
+                <div className={styles.fDiv} />
+                <div className={styles.fItem}>
+                  <span className={styles.fKey}>
+                    Volume Penalty
+                    <span 
+                      className="info-icon" 
+                      data-tooltip="Expected Runs (posExpected):&#10;Pos 1: 29.9&#10;Pos 2: 32.3&#10;Pos 3: 28.9&#10;Pos 4: 27.0&#10;Pos 5: 22.4&#10;Pos 6: 19.1&#10;Pos 7: 14.1"
+                    >?</span>
+                  </span>
+                  <span className={styles.fVal}>max(0, (posExpected − avg_runs) / 10)</span>
+                </div>
+                <div className={styles.fDiv} />
+                <div className={styles.fItem}>
+                  <span className={styles.fKey}>Score / Inn</span>
+                  <span className={styles.fVal} style={{ color: 'var(--tuk-cyan)' }}>SR Impact + Volume Penalty</span>
+                </div>
               </div>
             </div>
             {loading ? <div className={styles.loading}><div className={styles.dot} /><div className={styles.dot} /><div className={styles.dot} /></div>

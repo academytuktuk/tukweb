@@ -15,6 +15,7 @@ export default function DindaPage() {
   const [lb, setLb] = useState<{ top10: any[]; full: any[] }>({ top10: [], full: [] });
   const [teams, setTeams] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
+  const [showRules, setShowRules] = useState(false);
 
   useEffect(() => {
     const cb = `?t=${new Date().getTime()}`;
@@ -73,20 +74,35 @@ export default function DindaPage() {
             <p className="section-subtitle">
               Run Machine Score = Economy Impact + Wicket Drought · Highest = most Run Machine
             </p>
-            <div className={`${styles.formulaBox} ${styles.formulaBoxDinda}`}>
-              <div className={styles.fItem}>
-                <span className={`${styles.fKey} ${styles.fKeyDinda}`}>Economy Impact</span>
-                <span className={styles.fVal}>avg_runs_per_over − 8.5</span>
-              </div>
-              <div className={styles.fDiv} />
-              <div className={styles.fItem}>
-                <span className={`${styles.fKey} ${styles.fKeyDinda}`}>Wicket Drought</span>
-                <span className={styles.fVal}>(0.25 − wkts/over) × 10</span>
-              </div>
-              <div className={styles.fDiv} />
-              <div className={styles.fItem}>
-                <span className={`${styles.fKey} ${styles.fKeyDinda}`}>Score / Over</span>
-                <span className={styles.fVal} style={{ color: 'var(--din-light)' }}>Economy Impact + Wicket Drought</span>
+            <div style={{ textAlign: 'center', marginBottom: '24px' }}>
+              <button 
+                className="rules-toggle" 
+                onClick={() => setShowRules(!showRules)}
+                aria-expanded={showRules}
+              >
+                {showRules ? 'Hide Rules & Formulas' : 'View Rules & Formulas'}
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ transform: showRules ? 'rotate(180deg)' : 'rotate(0deg)', transition: 'transform 0.3s ease' }}>
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+            </div>
+            
+            <div className={`rules-wrapper ${showRules ? 'open' : ''}`}>
+              <div className={`${styles.formulaBox} ${styles.formulaBoxDinda}`}>
+                <div className={styles.fItem}>
+                  <span className={`${styles.fKey} ${styles.fKeyDinda}`}>Economy Impact</span>
+                  <span className={styles.fVal}>avg_runs_per_over − 8.5</span>
+                </div>
+                <div className={styles.fDiv} />
+                <div className={styles.fItem}>
+                  <span className={`${styles.fKey} ${styles.fKeyDinda}`}>Wicket Drought</span>
+                  <span className={styles.fVal}>(0.25 − wkts/over) × 10</span>
+                </div>
+                <div className={styles.fDiv} />
+                <div className={styles.fItem}>
+                  <span className={`${styles.fKey} ${styles.fKeyDinda}`}>Score / Over</span>
+                  <span className={styles.fVal} style={{ color: 'var(--din-light)' }}>Economy Impact + Wicket Drought</span>
+                </div>
               </div>
             </div>
             {loading ? <div className={styles.loadingDinda}><div className={styles.dotDinda} /><div className={styles.dotDinda} /><div className={styles.dotDinda} /></div>
