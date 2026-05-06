@@ -1,7 +1,13 @@
 .wrapper { display: flex; flex-direction: column; gap: 16px; }
 
-.tukBorder { border-color: var(--tuk-accent); }
-.dinBorder { border-color: var(--din-accent); }
+.tukBorder { 
+  border: 1px solid rgba(56, 189, 248, 0.2); 
+  box-shadow: 0 4px 30px rgba(56, 189, 248, 0.05);
+}
+.dinBorder { 
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  box-shadow: 0 4px 30px rgba(167, 139, 250, 0.05);
+}
 
 .teamPill {
   display: inline-block;
