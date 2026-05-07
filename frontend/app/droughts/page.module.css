@@ -105,17 +105,25 @@
 }
 
 @media (max-width: 768px) {
-  .title { font-size: 36px; }
+  .page { padding: 100px 16px 60px; }
+  .title { font-size: 32px; }
+  .subtitle { font-size: 15px; margin-bottom: 32px; }
   
   .listItem {
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
+    gap: 16px;
+    padding: 16px 16px;
   }
 
   .timer {
     width: 100%;
     justify-content: space-between;
-    gap: 8px;
+    gap: 4px;
+    padding: 12px 8px;
   }
+
+  .timeBlock { min-width: 0; flex: 1; }
+  .value { font-size: 20px; }
+  .label { font-size: 9px; }
 }
