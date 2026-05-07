@@ -25,46 +25,46 @@ function calculateDrought(dateStr: string) {
   const now = new Date();
 
   let seasons = now.getFullYear() - past.getFullYear();
-  let months = now.getMonth() - past.getMonth();
-  let days = now.getDate() - past.getDate();
-  let hours = now.getHours() - past.getHours();
-  let minutes = now.getMinutes() - past.getMinutes();
-  let seconds = now.getSeconds() - past.getSeconds();
-
-  if (seconds < 0) {
-    minutes -= 1;
-    seconds += 60;
+  let anniversary = new Date(past.getTime());
+  anniversary.setFullYear(now.getFullYear());
+  
+  if (now < anniversary) {
+    seasons--;
+    anniversary.setFullYear(now.getFullYear() - 1);
   }
-  if (minutes < 0) {
-    hours -= 1;
-    minutes += 60;
+  
+  let months = 0;
+  while (true) {
+    const nextMonth = new Date(anniversary.getTime());
+    nextMonth.setMonth(anniversary.getMonth() + 1);
+    if (nextMonth > now) break;
+    months++;
+    anniversary = nextMonth;
   }
-  if (hours < 0) {
-    days -= 1;
-    hours += 24;
-  }
-  if (days < 0) {
-    months -= 1;
-    const prevMonth = new Date(now.getFullYear(), now.getMonth(), 0);
-    days += prevMonth.getDate();
-  }
-  if (months < 0) {
-    seasons -= 1;
-    months += 12;
-  }
+  
+  const diffMs = now.getTime() - anniversary.getTime();
+  
+  const days = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((diffMs / (1000 * 60 * 60)) % 24);
+  const minutes = Math.floor((diffMs / 1000 / 60) % 60);
+  const seconds = Math.floor((diffMs / 1000) % 60);
 
   return { seasons, months, days, hours, minutes, seconds };
 }
 
 export default function DroughtsPage() {
   const [tick, setTick] = useState(0);
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
+    setIsMounted(true);
     const timer = setInterval(() => {
       setTick(t => t + 1);
     }, 1000);
     return () => clearInterval(timer);
   }, []);
+
+  if (!isMounted) return null;
 
   return (
     <>

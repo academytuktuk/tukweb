@@ -73,7 +73,6 @@
   letter-spacing: 0.05em;
   margin: 0;
   line-height: 1;
-  text-shadow: 0 2px 16px color-mix(in srgb, var(--team-color) 30%, transparent);
 }
 
 .trophyCount {
