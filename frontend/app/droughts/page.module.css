@@ -29,35 +29,51 @@
 }
 
 .listItem {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
+  position: relative;
+  background: linear-gradient(145deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-left: 4px solid var(--team-color);
   border-radius: var(--radius-md);
-  padding: 20px 24px;
+  padding: 24px 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: transform var(--transition), box-shadow var(--transition);
+  overflow: hidden;
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+}
+
+.listItem::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: radial-gradient(600px circle at left center, color-mix(in srgb, var(--team-color) 12%, transparent), transparent);
+  pointer-events: none;
+  z-index: 0;
 }
 
 .listItem:hover {
   transform: translateX(4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-  border-color: var(--border-strong);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4), 0 0 20px color-mix(in srgb, var(--team-color) 10%, transparent);
+  border-color: rgba(255, 255, 255, 0.1);
+  border-left-width: 6px;
 }
 
 .teamInfo {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 8px;
+  z-index: 1;
 }
 
 .teamName {
   font-family: var(--font-display);
-  font-size: 28px;
-  color: var(--text-primary);
+  font-size: 32px;
+  color: var(--team-color);
   letter-spacing: 0.05em;
   margin: 0;
   line-height: 1;
+  text-shadow: 0 2px 16px color-mix(in srgb, var(--team-color) 30%, transparent);
 }
 
 .trophyCount {
@@ -71,12 +87,15 @@
 }
 
 .timer {
+  position: relative;
   display: flex;
   gap: 16px;
-  background: var(--bg-elevated);
-  padding: 12px 20px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 14px 24px;
   border-radius: var(--radius-sm);
-  border: 1px solid var(--border-light);
+  border: 1px solid rgba(255,255,255,0.04);
+  box-shadow: inset 0 2px 10px rgba(0,0,0,0.5);
+  z-index: 1;
 }
 
 .timeBlock {
@@ -88,11 +107,12 @@
 
 .value {
   font-family: var(--font-mono);
-  color: #ff2a2a;
-  font-size: 24px;
+  color: var(--team-color);
+  font-size: 26px;
   font-weight: 700;
   line-height: 1;
   margin-bottom: 4px;
+  text-shadow: 0 0 12px color-mix(in srgb, var(--team-color) 40%, transparent);
 }
 
 .label {

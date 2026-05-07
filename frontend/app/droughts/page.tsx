@@ -80,9 +80,13 @@ export default function DroughtsPage() {
         {SORTED_TEAMS.map(team => {
           const d = calculateDrought(team.date);
           return (
-            <div key={team.id} className={styles.listItem} style={{ borderLeft: `6px solid ${team.color}` }}>
+            <div 
+              key={team.id} 
+              className={styles.listItem} 
+              style={{ '--team-color': team.color } as React.CSSProperties}
+            >
               <div className={styles.teamInfo}>
-                <h2 className={styles.teamName} style={{ color: team.color }}>{team.name}</h2>
+                <h2 className={styles.teamName}>{team.name}</h2>
                 <div className={styles.trophyCount}>
                   {team.trophies === 0 && (
                     <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
