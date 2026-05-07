@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import styles from './page.module.css';
 
 const TEAMS = [
-  { id: 'RCB', name: 'Royal Challengers Bengaluru', date: '2025-05-25T23:00:00+05:30', color: '#ec1c24', trophies: 1 },
+  { id: 'RCB', name: 'Royal Challengers Bengaluru', date: '2025-06-03T23:00:00+05:30', color: '#ec1c24', trophies: 1 },
   { id: 'DC', name: 'Delhi Capitals', date: '2008-04-18T00:00:00+05:30', color: '#2561e8', trophies: 0 },
   { id: 'PBKS', name: 'Punjab Kings', date: '2008-04-18T00:00:00+05:30', color: '#ed1b24', trophies: 0 },
   { id: 'RR', name: 'Rajasthan Royals', date: '2008-06-01T23:00:00+05:30', color: '#ea1a85', trophies: 1 },
