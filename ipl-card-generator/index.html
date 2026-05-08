@@ -203,6 +203,22 @@
             z-index: 3;
             mask-image: linear-gradient(to right, transparent 5%, black 45%);
             -webkit-mask-image: linear-gradient(to right, transparent 5%, black 45%);
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 80px;
+        }
+
+        .auto-initials {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 35rem;
+            line-height: 0.8;
+            color: white;
+            opacity: 0.12;
+            text-shadow: 0 0 100px var(--team-color);
+            transform: scaleY(1.2);
+            pointer-events: none;
+            display: none;
         }
 
         .card-fade {
@@ -211,6 +227,7 @@
             background: 
                 linear-gradient(to right, var(--dark-bg) 35%, rgba(var(--dark-bg-rgb), 0.9) 50%, rgba(var(--dark-bg-rgb), 0) 100%);
             z-index: 4;
+            pointer-events: none;
         }
 
         .card-body {
@@ -375,12 +392,8 @@
             </div>
 
             <div class="input-group">
-                <label>Player Photo</label>
-                <div class="drop-zone" id="drop-zone" onclick="document.getElementById('file-input').click()">
-                    <b>Upload Image</b>
-                    <p>Drag, Paste, or Click</p>
-                    <input type="file" id="file-input" style="display:none" accept="image/*">
-                </div>
+                <label>Player Photo URL (Optional)</label>
+                <input type="text" id="in-photo-url" placeholder="Paste image URL or leave blank for Auto-Initials" oninput="updateCard()" autocomplete="off">
             </div>
 
             <button class="export-btn" id="export-trigger" onclick="exportCard()">EXPORT PNG</button>
@@ -410,7 +423,9 @@
                         </svg>
                     </div>
 
-                    <div class="player-photo" id="card-photo" style="background-image:url('https://via.placeholder.com/800x800?text=Player+Photo')"></div>
+                    <div class="player-photo" id="card-photo">
+                        <div class="auto-initials" id="auto-initials">PN</div>
+                    </div>
                     <div class="card-fade"></div>
                     
                     <div class="card-body">
@@ -445,8 +460,6 @@
 
     <script>
         let currentMode = 'batter';
-        const fileInput = document.getElementById('file-input');
-        const dropZone = document.getElementById('drop-zone');
 
         const roastDb = {
             batter: {
@@ -536,6 +549,28 @@
             const prog = document.getElementById('side-progress');
             const customRoast = document.getElementById('in-custom-roast').value;
 
+            const photoUrl = document.getElementById('in-photo-url').value.trim();
+            const photoDiv = document.getElementById('card-photo');
+            const initialsDiv = document.getElementById('auto-initials');
+
+            if (photoUrl) {
+                photoDiv.style.backgroundImage = `url(${photoUrl})`;
+                initialsDiv.style.display = 'none';
+            } else {
+                photoDiv.style.backgroundImage = 'none';
+                initialsDiv.style.display = 'block';
+                
+                // Calculate initials
+                const nameParts = document.getElementById('in-name').value.trim().split(' ');
+                let initials = 'PN';
+                if (nameParts.length >= 2) {
+                    initials = (nameParts[0][0] + nameParts[nameParts.length-1][0]).toUpperCase();
+                } else if (nameParts.length === 1 && nameParts[0]) {
+                    initials = nameParts[0].substring(0, 2).toUpperCase();
+                }
+                initialsDiv.innerText = initials;
+            }
+
             if (currentMode === 'batter') {
                 const runs = parseInt(document.getElementById('in-runs').value) || 0;
                 const balls = parseInt(document.getElementById('in-balls').value) || 0;
@@ -586,18 +621,6 @@
             scoreRow.classList.toggle('bowler-spell', mode === 'bowler');
             updateCard();
         }
-
-        function processFile(file) {
-            if (!file || !file.type.startsWith('image/')) return;
-            const reader = new FileReader();
-            reader.onload = (e) => document.getElementById('card-photo').style.backgroundImage = `url(${e.target.result})`;
-            reader.readAsDataURL(file);
-        }
-
-        fileInput.addEventListener('change', (e) => processFile(e.target.files[0]));
-        dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.style.borderColor = "var(--neon-blue)"; });
-        dropZone.addEventListener('dragleave', () => { dropZone.style.borderColor = "#2a2c3d"; });
-        dropZone.addEventListener('drop', (e) => { e.preventDefault(); processFile(e.dataTransfer.files[0]); });
 
         async function exportCard() {
             const btn = document.getElementById('export-trigger');
