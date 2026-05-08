@@ -96,8 +96,8 @@ async function processMatch(matchId: string, matchInfo: any): Promise<void> {
       // inningBallsFaced += balls;
       // inningRunsBatted += runs;
 
-      // Only record positions 1–7 for leaderboard
-      if (position >= 1 && position <= 7) {
+      // Record all positions
+      {
         // Upsert player
         const player = await prisma.player.upsert({
           where: { name },

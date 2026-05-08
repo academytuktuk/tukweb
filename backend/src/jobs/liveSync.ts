@@ -42,14 +42,12 @@ async function syncLiveMatch(matchId: string, matchInfo: any) {
         const fours: number = parseInt(batter?.fours) || 0;
         const sixes: number = parseInt(batter?.sixes) || 0;
 
-        // Skip if no name, no balls faced, or if dismissed (outdec contains wicket keywords)
-        const isDismissed = outdec && outdec !== 'batting' && outdec !== 'yet to bat';
-        if (!name || balls === 0 || isDismissed) continue;
+        // Skip if no name or no balls faced
+        if (!name || balls === 0) continue;
 
         const sr = balls > 0 ? (runs / balls) * 100 : 0;
         const currentBoundaries = fours + sixes;
 
-        // Upsert player to ensure they exist
         const player = await prisma.player.upsert({
           where: { name },
           create: { name, team: battingTeam, role: 'batter' },

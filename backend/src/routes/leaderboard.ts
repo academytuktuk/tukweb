@@ -16,27 +16,38 @@ const POS_BENCHMARKS: Record<number, number> = {
 router.get('/tuktuk', async (_req, res) => {
   try {
     // Aggregate per player
-    const innings = await prisma.battingInnings.findMany({
-      where: { position: { gte: 1, lte: 7 } },
+    const allInnings = await prisma.battingInnings.findMany({
       include: { player: true },
     });
 
     // Group by player
     const playerMap = new Map<number, {
       player: any;
-      innings: any[];
+      allInnings: any[];
     }>();
 
-    for (const inning of innings) {
+    for (const inning of allInnings) {
       if (!playerMap.has(inning.playerId)) {
-        playerMap.set(inning.playerId, { player: inning.player, innings: [] });
+        playerMap.set(inning.playerId, { player: inning.player, allInnings: [] });
       }
-      playerMap.get(inning.playerId)!.innings.push(inning);
+      playerMap.get(inning.playerId)!.allInnings.push(inning);
     }
 
     const rows = [];
     for (const [, data] of playerMap) {
-      const { player, innings: playerInnings } = data;
+      const { player, allInnings: playerAllInnings } = data;
+      
+      const totalCount = playerAllInnings.length;
+      const top7Innings = playerAllInnings.filter((i: any) => i.position >= 1 && i.position <= 7);
+      const top7Count = top7Innings.length;
+      
+      let playerInnings = top7Innings;
+      
+      // If a batter plays mostly top order (>= 85% in top 7), include all their innings (even >= 8)
+      if (totalCount > 0 && (top7Count / totalCount) >= 0.85) {
+        playerInnings = playerAllInnings;
+      }
+      
       const count = playerInnings.length;
       
       // Filter: Minimum 6 innings required for the leaderboard
