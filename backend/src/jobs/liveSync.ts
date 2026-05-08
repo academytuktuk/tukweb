@@ -140,8 +140,8 @@ export async function processLiveMatches() {
             const isIpl = seriesName.toLowerCase().includes('indian premier league') || 
                           seriesName.toLowerCase().includes('ipl');
             
-            // State-aware polling: Only poll if exactly "In Progress"
-            if (isIpl && matchInfo.state === 'In Progress') {
+            // State-aware polling: Only poll if match is active
+            if (isIpl && (matchInfo.state === 'In Progress' || matchInfo.state === 'Innings Break')) {
               liveMatchFound = true;
               await syncLiveMatch(String(matchInfo.matchId), matchInfo);
             }
