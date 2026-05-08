@@ -15,9 +15,9 @@ const POS_BENCHMARKS: Record<number, number> = {
 // Volume Penalty = max(0, (posExpected − avg_runs) / 10)
 router.get('/tuktuk', async (_req, res) => {
   try {
-    // Aggregate per player (qualified only)
+    // Aggregate per player
     const innings = await prisma.battingInnings.findMany({
-      where: { isQualified: true, position: { gte: 1, lte: 7 } },
+      where: { position: { gte: 1, lte: 7 } },
       include: { player: true },
     });
 
