@@ -20,13 +20,39 @@ const storage = multer.diskStorage({
 const upload = multer({ storage, limits: { fileSize: 5 * 1024 * 1024 } }); // 5MB limit
 
 // GET /api/potd/tuktuk — latest TukTuk POTD card
+// Priority: 1) Admin card from today  2) Auto card from today  3) Most recent admin card  4) Most recent any
 router.get('/tuktuk', async (_req, res) => {
   try {
-    const potd = await prisma.playerOfDay.findFirst({
+    const todayStart = new Date();
+    todayStart.setUTCHours(0, 0, 0, 0);
+
+    // 1. Admin-uploaded card from today
+    const todayAdmin = await prisma.playerOfDay.findFirst({
+      where: { type: 'tuktuk', date: { gte: todayStart }, NOT: { imageUrl: 'auto' } },
+      orderBy: { date: 'desc' },
+    });
+    if (todayAdmin) return res.json(todayAdmin);
+
+    // 2. Auto card from today
+    const todayAuto = await prisma.playerOfDay.findFirst({
+      where: { type: 'tuktuk', date: { gte: todayStart }, imageUrl: 'auto' },
+      orderBy: { date: 'desc' },
+    });
+    if (todayAuto) return res.json(todayAuto);
+
+    // 3. Most recent admin card ever (staleness note: imageUrl != 'auto')
+    const latestAdmin = await prisma.playerOfDay.findFirst({
+      where: { type: 'tuktuk', NOT: { imageUrl: 'auto' } },
+      orderBy: { date: 'desc' },
+    });
+    if (latestAdmin) return res.json(latestAdmin);
+
+    // 4. Anything at all
+    const latest = await prisma.playerOfDay.findFirst({
       where: { type: 'tuktuk' },
       orderBy: { date: 'desc' },
     });
-    res.json(potd || null);
+    res.json(latest || null);
   } catch (err) {
     res.status(500).json({ error: 'Failed to fetch TukTuk POTD' });
   }
@@ -35,15 +61,37 @@ router.get('/tuktuk', async (_req, res) => {
 // GET /api/potd/run-machine — latest Run Machine POTD card
 router.get('/run-machine', async (_req, res) => {
   try {
-    const potd = await prisma.playerOfDay.findFirst({
+    const todayStart = new Date();
+    todayStart.setUTCHours(0, 0, 0, 0);
+
+    const todayAdmin = await prisma.playerOfDay.findFirst({
+      where: { type: 'run-machine', date: { gte: todayStart }, NOT: { imageUrl: 'auto' } },
+      orderBy: { date: 'desc' },
+    });
+    if (todayAdmin) return res.json(todayAdmin);
+
+    const todayAuto = await prisma.playerOfDay.findFirst({
+      where: { type: 'run-machine', date: { gte: todayStart }, imageUrl: 'auto' },
+      orderBy: { date: 'desc' },
+    });
+    if (todayAuto) return res.json(todayAuto);
+
+    const latestAdmin = await prisma.playerOfDay.findFirst({
+      where: { type: 'run-machine', NOT: { imageUrl: 'auto' } },
+      orderBy: { date: 'desc' },
+    });
+    if (latestAdmin) return res.json(latestAdmin);
+
+    const latest = await prisma.playerOfDay.findFirst({
       where: { type: 'run-machine' },
       orderBy: { date: 'desc' },
     });
-    res.json(potd || null);
+    res.json(latest || null);
   } catch (err) {
     res.status(500).json({ error: 'Failed to fetch Run Machine POTD' });
   }
 });
+
 
 // POST /api/potd/verify — verifies admin password without uploading
 router.post('/verify', async (req: Request, res: Response): Promise<void> => {

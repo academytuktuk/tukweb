@@ -10,6 +10,7 @@ import suggestRouter from './routes/suggest';
 import { startMatchSyncJob } from './jobs/matchSync';
 import { startCricsheetSyncJob } from './jobs/cricsheetSync';
 import { startLiveSyncJob } from './jobs/liveSync';
+import { startAutoPotdJob } from './jobs/autoPotd';
 import liveDroughtsRouter from './routes/liveDroughts';
 
 const app = express();
@@ -57,6 +58,7 @@ app.listen(PORT, () => {
   startMatchSyncJob();
   startCricsheetSyncJob();
   startLiveSyncJob();
+  startAutoPotdJob();
 });
 
 export default app;

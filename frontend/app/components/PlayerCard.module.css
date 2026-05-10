@@ -98,3 +98,164 @@
   font-size: 12px;
   color: var(--text-muted);
 }
+
+/* ── AUTO-GENERATED POTD CARD ─────────────────────────────────────────────── */
+.autoCard {
+  width: 100%;
+  max-width: 560px;
+  margin: 0 auto;
+  border-radius: var(--radius-md);
+  padding: 28px 28px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 1.5px solid var(--border);
+  background: var(--bg-card);
+  position: relative;
+  overflow: hidden;
+}
+
+.autoCardTuk {
+  border-color: rgba(0, 229, 255, 0.25);
+  box-shadow: 0 0 40px rgba(0, 229, 255, 0.06);
+}
+
+.autoCardDin {
+  border-color: rgba(155, 93, 229, 0.25);
+  box-shadow: 0 0 40px rgba(155, 93, 229, 0.06);
+}
+
+.autoBadge {
+  display: inline-block;
+  align-self: flex-start;
+  font-family: var(--font-heading);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  background: var(--tuk-accent);
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 3px;
+}
+
+.autoBadgeDin {
+  background: var(--din-purple);
+}
+
+.autoNote {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+  font-style: italic;
+}
+
+.autoPlayerName {
+  font-family: var(--font-heading);
+  font-size: 36px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.autoTeam {
+  font-family: var(--font-heading);
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--tuk-cyan);
+  font-weight: 700;
+}
+
+.autoTeamDin { color: var(--din-light); }
+
+.autoStatRow {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-top: 4px;
+}
+
+.autoMainStat {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.autoRunsNum {
+  font-family: var(--font-heading);
+  font-size: 72px;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.autoSpellNum {
+  font-size: 36px;
+  letter-spacing: 0;
+}
+
+.autoBallsNum {
+  font-family: var(--font-heading);
+  font-size: 22px;
+  color: var(--text-muted);
+  line-height: 1;
+}
+
+.autoSrBlock {
+  flex: 1;
+}
+
+.autoSrLabel {
+  font-family: var(--font-heading);
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 2px;
+}
+
+.autoSrValue {
+  font-family: var(--font-heading);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.5px;
+}
+
+.autoBar {
+  height: 5px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 2px;
+  margin-top: 6px;
+  overflow: hidden;
+}
+
+.autoBarFill {
+  height: 100%;
+  border-radius: 2px;
+  transition: none;
+}
+
+.autoFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.autoScore {
+  font-size: 12px;
+  color: var(--text-secondary);
+  letter-spacing: 0.03em;
+}
+
+.autoScore strong {
+  color: var(--text-primary);
+  font-weight: 700;
+}
