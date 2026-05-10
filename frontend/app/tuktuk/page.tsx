@@ -56,7 +56,7 @@ export default function TukTukPage() {
 
           <div className="section-divider" />
 
-          {/* POTD */}
+          {/* POTD — temporarily hidden
           <section className={`section ${styles.potdSection}`}>
             <div className={styles.potdHeader}>
               <p className="section-label">Today's graduate</p>
@@ -66,6 +66,7 @@ export default function TukTukPage() {
           </section>
 
           <div className="section-divider" />
+          POTD end */}
 
           {/* Leaderboard */}
           <section className="section">
