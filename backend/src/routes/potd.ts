@@ -3,6 +3,7 @@ import multer from 'multer';
 import path from 'path';
 import fs from 'fs';
 import { prisma } from '../lib/prisma';
+import { generateAutoPotdForMatch } from '../jobs/autoPotd';
 
 const router = Router();
 
@@ -138,6 +139,67 @@ router.post('/upload', upload.single('card'), async (req: Request, res: Response
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: 'Upload failed' });
+  }
+});
+
+// POST /api/potd/force-auto — admin triggers auto-POTD for a specific match or most recent
+router.post('/force-auto', async (req: Request, res: Response): Promise<void> => {
+  try {
+    const adminPwd = req.headers['x-admin-password'];
+    if (adminPwd !== process.env.ADMIN_PASSWORD?.trim()) {
+      res.status(401).json({ error: 'Unauthorized' });
+      return;
+    }
+
+    let matchId: string | null = req.body.matchId || null;
+
+    // If no matchId supplied, find the most recent match from last 24h
+    if (!matchId) {
+      const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000);
+      const groups = await prisma.battingInnings.groupBy({
+        by: ['matchId'],
+        where: { createdAt: { gte: oneDayAgo } },
+        _max: { createdAt: true },
+        orderBy: { _max: { createdAt: 'desc' } },
+      });
+      if (groups.length === 0) {
+        res.status(404).json({ error: 'No recent match innings found in last 24h' });
+        return;
+      }
+      matchId = groups[0].matchId;
+    }
+
+    const result = await generateAutoPotdForMatch(matchId);
+    res.json({ success: true, matchId, result });
+  } catch (err: any) {
+    console.error(err);
+    res.status(500).json({ error: err.message || 'Force auto failed' });
+  }
+});
+
+// GET /api/potd/recent-matches — debug: list recent matchIds with innings in last 48h
+router.get('/recent-matches', async (req: Request, res: Response): Promise<void> => {
+  try {
+    const adminPwd = req.headers['x-admin-password'];
+    if (adminPwd !== process.env.ADMIN_PASSWORD?.trim()) {
+      res.status(401).json({ error: 'Unauthorized' });
+      return;
+    }
+    const twoDaysAgo = new Date(Date.now() - 48 * 60 * 60 * 1000);
+    const groups = await prisma.battingInnings.groupBy({
+      by: ['matchId'],
+      where: { createdAt: { gte: twoDaysAgo } },
+      _max: { createdAt: true },
+      orderBy: { _max: { createdAt: 'desc' } },
+    });
+    const todayPotds = await prisma.playerOfDay.findMany({
+      where: { date: { gte: new Date(Date.now() - 24 * 60 * 60 * 1000) } },
+      orderBy: { date: 'desc' },
+      select: { id: true, type: true, imageUrl: true, playerName: true, date: true, stats: true },
+    });
+    res.json({ recentMatches: groups, todayPotds });
+  } catch (err: any) {
+    res.status(500).json({ error: err.message });
   }
 });
 

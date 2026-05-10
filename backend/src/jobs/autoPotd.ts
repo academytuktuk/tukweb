@@ -6,14 +6,10 @@ const POS_BENCHMARKS: Record<number, number> = {
   1: 29.9, 2: 32.3, 3: 28.9, 4: 27.0, 5: 22.4, 6: 19.1, 7: 14.1,
 };
 
-const AUTO_POTD_DELAY_MS = 15 * 60 * 1000; // 15 minutes after match processes
+const AUTO_POTD_DELAY_MS = 15 * 60 * 1000; // 15 minutes
 
-// ── Compute per-innings TukTuk score (same formula as leaderboard) ───────────
-function tukTukScoreForInning(
-  runs: number,
-  balls: number,
-  position: number
-): number {
+// ── Scoring formulas ─────────────────────────────────────────────────────────
+function tukTukScoreForInning(runs: number, balls: number, position: number): number {
   const sr = balls > 0 ? (runs / balls) * 100 : 0;
   const posExpected = POS_BENCHMARKS[Math.min(position, 7)] ?? 20;
   const srImpact = balls * (1 - sr / 140);
@@ -21,107 +17,69 @@ function tukTukScoreForInning(
   return srImpact + volumePenalty;
 }
 
-// ── Compute per-spell Run Machine score (same formula as leaderboard) ────────
-function runMachineScoreForSpell(
-  overs: number,
-  runsConceded: number,
-  wickets: number
-): number {
+function runMachineScoreForSpell(overs: number, runsConceded: number, wickets: number): number {
   const totalBalls = Math.floor(overs) * 6 + Math.round((overs % 1) * 10);
   const economy = totalBalls > 0 ? (runsConceded / totalBalls) * 6 : 0;
   const wktsPerOver = totalBalls > 0 ? (wickets / totalBalls) * 6 : 0;
-  const economyImpact = economy - 8.5;
-  const wicketDrought = (0.25 - wktsPerOver) * 10;
-  return economyImpact + wicketDrought;
+  return (economy - 8.5) + (0.25 - wktsPerOver) * 10;
 }
 
-// ── Midnight UTC for comparing "today" ──────────────────────────────────────
+// ── Today boundary (UTC midnight) ────────────────────────────────────────────
 function todayStart(): Date {
-  // Use IST midnight-ish — IPL matches are in IST, use UTC+5:30
-  // But simpler: just compare by UTC date of the POTD creation
   const d = new Date();
   d.setUTCHours(0, 0, 0, 0);
   return d;
 }
 
-// ── Check if admin has already posted a POTD for today ──────────────────────
+// ── Guard checks ─────────────────────────────────────────────────────────────
 async function adminPostedTodayFor(type: string): Promise<boolean> {
-  const today = todayStart();
   const record = await prisma.playerOfDay.findFirst({
-    where: {
-      type,
-      date: { gte: today },
-      // Admin cards have a real image path; auto cards have imageUrl = 'auto'
-      NOT: { imageUrl: 'auto' },
-    },
+    where: { type, date: { gte: todayStart() }, NOT: { imageUrl: 'auto' } },
     orderBy: { date: 'desc' },
   });
   return record !== null;
 }
 
-// ── Check if auto-POTD was already created today for this match ──────────────
-async function autoPotdCreatedTodayFor(type: string, matchId: string): Promise<boolean> {
-  const today = todayStart();
+async function autoPotdExistsFor(type: string, matchId: string): Promise<boolean> {
   const all = await prisma.playerOfDay.findMany({
-    where: { type, date: { gte: today }, imageUrl: 'auto' },
+    where: { type, date: { gte: todayStart() }, imageUrl: 'auto' },
   });
   for (const r of all) {
     try {
-      const parsed = JSON.parse(r.stats);
-      if (parsed.matchId === matchId) return true;
+      if (JSON.parse(r.stats).matchId === matchId) return true;
     } catch {}
   }
   return false;
 }
 
-// ── Main auto-POTD logic ─────────────────────────────────────────────────────
-async function runAutoPotd(): Promise<void> {
-  try {
-    // Discover recently-processed matches by looking at BattingInnings.createdAt.
-    // We want innings created between 3 hours ago and 15 minutes ago so we give
-    // admins 15 minutes to upload a card before the auto-card kicks in.
-    const threeHoursAgo = new Date(Date.now() - 3 * 60 * 60 * 1000);
-    const delayThreshold = new Date(Date.now() - AUTO_POTD_DELAY_MS);
+// ── Core: generate auto-POTD for a specific matchId ─────────────────────────
+export async function generateAutoPotdForMatch(matchId: string): Promise<{
+  tuktuk: string | null;
+  runMachine: string | null;
+}> {
+  const result = { tuktuk: null as string | null, runMachine: null as string | null };
 
-    const recentBattingGroups = await prisma.battingInnings.groupBy({
-      by: ['matchId'],
-      where: {
-        createdAt: {
-          gte: threeHoursAgo,
-          lte: delayThreshold,
-        },
-      },
+  // ── TukTuk (batter) ─────────────────────────────────────────────────────
+  if (!(await adminPostedTodayFor('tuktuk')) && !(await autoPotdExistsFor('tuktuk', matchId))) {
+    const innings = await prisma.battingInnings.findMany({
+      where: { matchId, balls: { gt: 0 }, position: { lte: 7 } },
+      include: { player: true },
     });
 
-    if (recentBattingGroups.length === 0) return;
+    if (innings.length > 0) {
+      const scored = innings
+        .map((i) => ({ innings: i, score: tukTukScoreForInning(i.runs, i.balls, i.position) }))
+        .sort((a, b) => b.score - a.score);
 
-    for (const group of recentBattingGroups) {
-      const matchId = group.matchId;
+      const { innings: wi, score } = scored[0];
+      const sr = wi.balls > 0 ? ((wi.runs / wi.balls) * 100).toFixed(1) : '0.0';
 
-      // ── TukTuk (batter) POTD ──────────────────────────────────────────────
-      const adminHasTuktuk = await adminPostedTodayFor('tuktuk');
-      const autoTuktukDone = await autoPotdCreatedTodayFor('tuktuk', matchId);
-
-      if (!adminHasTuktuk && !autoTuktukDone) {
-        // Find all batting innings from this match (top 7 positions, min 1 ball)
-        const innings = await prisma.battingInnings.findMany({
-          where: { matchId, balls: { gt: 0 }, position: { lte: 7 } },
-          include: { player: true },
-        });
-
-        if (innings.length > 0) {
-          // Score each innings and pick the worst (highest TukTuk score)
-          const scored = innings.map((i) => ({
-            innings: i,
-            score: tukTukScoreForInning(i.runs, i.balls, i.position),
-          }));
-          scored.sort((a, b) => b.score - a.score);
-
-          const worst = scored[0];
-          const { innings: wi, score } = worst;
-          const sr = wi.balls > 0 ? ((wi.runs / wi.balls) * 100).toFixed(1) : '0.0';
-
-          const statsJson = JSON.stringify({
+      await prisma.playerOfDay.create({
+        data: {
+          type: 'tuktuk',
+          imageUrl: 'auto',
+          playerName: wi.player.name,
+          stats: JSON.stringify({
             matchId,
             runs: wi.runs,
             balls: wi.balls,
@@ -130,56 +88,41 @@ async function runAutoPotd(): Promise<void> {
             tuktukScore: Math.round(score * 100) / 100,
             team: wi.player.team,
             source: 'auto',
-          });
+          }),
+        },
+      });
+      result.tuktuk = wi.player.name;
+      console.log(`🤖 [Auto POTD] TukTuk: ${wi.player.name} — ${wi.runs}(${wi.balls}) SR ${sr}`);
+    }
+  } else {
+    result.tuktuk = 'skipped'; // admin uploaded or already exists
+  }
 
-          await prisma.playerOfDay.create({
-            data: {
-              type: 'tuktuk',
-              imageUrl: 'auto',
-              playerName: wi.player.name,
-              stats: statsJson,
-            },
-          });
+  // ── Run Machine (bowler) ─────────────────────────────────────────────────
+  if (!(await adminPostedTodayFor('run-machine')) && !(await autoPotdExistsFor('run-machine', matchId))) {
+    const spells = await prisma.bowlingSpell.findMany({
+      where: { matchId, overs: { gt: 0 } },
+      include: { player: true },
+    });
 
-          console.log(
-            `🤖 [Auto POTD] TukTuk: ${wi.player.name} (${wi.runs}(${wi.balls}), SR ${sr}) — match ${matchId}`
-          );
-        }
-      }
+    if (spells.length > 0) {
+      const scored = spells
+        .map((s) => ({ spell: s, score: runMachineScoreForSpell(s.overs, s.runsConceded, s.wickets) }))
+        .sort((a, b) => b.score - a.score);
 
-      // ── Run Machine (bowler) POTD ─────────────────────────────────────────
-      const adminHasRunMachine = await adminPostedTodayFor('run-machine');
-      const autoRunMachineDone = await autoPotdCreatedTodayFor('run-machine', matchId);
+      const { spell: ws, score } = scored[0];
+      const totalBalls = Math.floor(ws.overs) * 6 + Math.round((ws.overs % 1) * 10);
+      const economy = totalBalls > 0 ? ((ws.runsConceded / totalBalls) * 6).toFixed(2) : '0.00';
+      const fullOvers = Math.floor(ws.overs);
+      const partBalls = Math.round((ws.overs % 1) * 10);
+      const spellStr = `${fullOvers}.${partBalls}-0-${ws.runsConceded}-${ws.wickets}`;
 
-      if (!adminHasRunMachine && !autoRunMachineDone) {
-        // Find all bowling spells from this match
-        const spells = await prisma.bowlingSpell.findMany({
-          where: { matchId, overs: { gt: 0 } },
-          include: { player: true },
-        });
-
-        if (spells.length > 0) {
-          const scored = spells.map((s) => ({
-            spell: s,
-            score: runMachineScoreForSpell(s.overs, s.runsConceded, s.wickets),
-          }));
-          scored.sort((a, b) => b.score - a.score);
-
-          const worst = scored[0];
-          const { spell: ws, score } = worst;
-          const totalBalls =
-            Math.floor(ws.overs) * 6 + Math.round((ws.overs % 1) * 10);
-          const economy =
-            totalBalls > 0
-              ? ((ws.runsConceded / totalBalls) * 6).toFixed(2)
-              : '0.00';
-
-          // Format spell as "4.0-0-52-1"
-          const fullOvers = Math.floor(ws.overs);
-          const partBalls = Math.round((ws.overs % 1) * 10);
-          const spellStr = `${fullOvers}.${partBalls}-0-${ws.runsConceded}-${ws.wickets}`;
-
-          const statsJson = JSON.stringify({
+      await prisma.playerOfDay.create({
+        data: {
+          type: 'run-machine',
+          imageUrl: 'auto',
+          playerName: ws.player.name,
+          stats: JSON.stringify({
             matchId,
             overs: ws.overs,
             runsConceded: ws.runsConceded,
@@ -189,35 +132,85 @@ async function runAutoPotd(): Promise<void> {
             runMachineScore: Math.round(score * 100) / 100,
             team: ws.player.team,
             source: 'auto',
-          });
+          }),
+        },
+      });
+      result.runMachine = ws.player.name;
+      console.log(`🤖 [Auto POTD] Run Machine: ${ws.player.name} — ${spellStr} Eco ${economy}`);
+    }
+  } else {
+    result.runMachine = 'skipped';
+  }
 
-          await prisma.playerOfDay.create({
-            data: {
-              type: 'run-machine',
-              imageUrl: 'auto',
-              playerName: ws.player.name,
-              stats: statsJson,
-            },
-          });
+  return result;
+}
 
-          console.log(
-            `🤖 [Auto POTD] Run Machine: ${ws.player.name} (${spellStr}, Eco ${economy}) — match ${matchId}`
-          );
-        }
-      }
+// ── Scheduled check: look at innings created in the last 3h (post 15-min delay)
+async function runAutoPotdCron(): Promise<void> {
+  try {
+    const threeHoursAgo = new Date(Date.now() - 3 * 60 * 60 * 1000);
+    const delayThreshold = new Date(Date.now() - AUTO_POTD_DELAY_MS);
+
+    const groups = await prisma.battingInnings.groupBy({
+      by: ['matchId'],
+      where: { createdAt: { gte: threeHoursAgo, lte: delayThreshold } },
+    });
+
+    for (const { matchId } of groups) {
+      await generateAutoPotdForMatch(matchId);
     }
   } catch (err) {
-    console.error('❌ [Auto POTD] Error:', err);
+    console.error('❌ [Auto POTD Cron] Error:', err);
   }
 }
 
-// ── Cron: check every 5 minutes ──────────────────────────────────────────────
+// ── Startup backfill: find the most recent processed match today
+// (catches matches processed before this code was deployed, or after a restart)
+async function runStartupBackfill(): Promise<void> {
+  try {
+    // Find the most recent matchId that has innings from today (IST = UTC+5:30)
+    // Use a 24-hour window to be safe
+    const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000);
+
+    const groups = await prisma.battingInnings.groupBy({
+      by: ['matchId'],
+      where: { createdAt: { gte: oneDayAgo } },
+      _max: { createdAt: true },
+      orderBy: { _max: { createdAt: 'desc' } },
+    });
+
+    if (groups.length === 0) {
+      console.log('🤖 [Auto POTD Backfill] No recent match innings found.');
+      return;
+    }
+
+    // Only process the most recent match (top of list)
+    const mostRecentMatchId = groups[0].matchId;
+    const lastCreatedAt = groups[0]._max.createdAt!;
+
+    // Only fire if the match was processed at least 15 min ago
+    if (Date.now() - lastCreatedAt.getTime() < AUTO_POTD_DELAY_MS) {
+      console.log(`🤖 [Auto POTD Backfill] Match ${mostRecentMatchId} processed < 15 min ago, waiting...`);
+      return;
+    }
+
+    console.log(`🤖 [Auto POTD Backfill] Checking match ${mostRecentMatchId}...`);
+    const result = await generateAutoPotdForMatch(mostRecentMatchId);
+    console.log(`🤖 [Auto POTD Backfill] Done. TukTuk: ${result.tuktuk}, RunMachine: ${result.runMachine}`);
+  } catch (err) {
+    console.error('❌ [Auto POTD Backfill] Error:', err);
+  }
+}
+
+// ── Start both jobs ──────────────────────────────────────────────────────────
 export function startAutoPotdJob(): void {
+  // Every 5 minutes: check for recent matches
   cron.schedule('*/5 * * * *', () => {
-    runAutoPotd();
+    runAutoPotdCron();
   });
 
-  // Also run once immediately on startup (handles restarts after a match)
-  runAutoPotd();
-  console.log('🤖  Auto POTD cron started (checks every 5 minutes, fires 15 min after match)');
+  // Run backfill immediately on startup (catches missed matches after deploy/restart)
+  setTimeout(() => runStartupBackfill(), 5000); // 5s delay to let DB connect
+
+  console.log('🤖  Auto POTD cron started (every 5 min + startup backfill)');
 }
