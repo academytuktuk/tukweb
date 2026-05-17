@@ -214,12 +214,10 @@ async function processMatch(matchId: string, matchInfo: any): Promise<void> {
     }
   }
 
-  // ── UPDATE TREE TRACKER ──────────────────────────────────────────────────
-  await prisma.treeTracker.upsert({
-    where: { id: 1 },
-    create: { id: 1, totalDotBalls: matchDotBalls },
-    update: { totalDotBalls: { increment: matchDotBalls } },
-  });
+  // ── TREE TRACKER ─────────────────────────────────────────────────────────
+  // Dot balls are tracked exclusively by cricsheetSync (ball-by-ball Cricsheet
+  // data with the correct definition). matchSync does NOT touch the tree count
+  // to avoid double-counting.
 
   // ── MARK MATCH AS PROCESSED ──────────────────────────────────────────────
   await prisma.processedMatch.create({ data: { matchId } });
@@ -227,7 +225,7 @@ async function processMatch(matchId: string, matchInfo: any): Promise<void> {
   // ── UPDATE isQualified FLAGS ─────────────────────────────────────────────
   await recomputeQualifiedPlayers();
 
-  console.log(`✅ Processed match ${matchId} — ${matchDotBalls} dot balls added`);
+  console.log(`✅ Processed match ${matchId}`);
 }
 
 // ─── RECOMPUTE isQualified ───────────────────────────────────────────────────
